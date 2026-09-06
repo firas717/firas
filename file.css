@@ -1,0 +1,79 @@
+/* Page settings */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+
+/* Header */
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+/* Navigation */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+
+/* Main section */
+
+.hero {
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 35px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+
+/* Button */
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
