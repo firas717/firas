@@ -19,3 +19,4 @@ tools/render/test/
 brand/templates/grain/
 __pycache__/
 *.log
+*.err

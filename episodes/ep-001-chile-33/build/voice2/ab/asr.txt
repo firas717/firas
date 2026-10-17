@@ -1,0 +1,6 @@
+voice_cut.wav                CER  5.39%  WER  7.38%  conf 0.979
+res_full.wav                 CER  5.70%  WER  8.05%  conf 0.978
+sidon_full.wav               CER  4.70%  WER  6.04%  conf 0.981
+nar_sid.wav                  CER  5.62%  WER  8.39%  conf 0.980
+nar_res.wav                  CER  5.16%  WER  7.05%  conf 0.979
+done
