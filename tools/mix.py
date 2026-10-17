@@ -10,6 +10,10 @@ import numpy as np
 from scipy.signal import butter, sosfilt
 
 EP, OUT = sys.argv[1], sys.argv[2]
+# optional: --music-db <dB offset> (e.g. -12 for a faint bed, or 'off' for no music), --music-lp <Hz> (soften/dull the music)
+_a = sys.argv[3:]
+MUSIC_DB = _a[_a.index('--music-db') + 1] if '--music-db' in _a else '0'
+MUSIC_LP = float(_a[_a.index('--music-lp') + 1]) if '--music-lp' in _a else None
 SR = 48000
 plan = json.load(open(f'{EP}/build/audio_plan.json'))
 N = int(plan['duration'] * SR)
@@ -141,6 +145,11 @@ for i, c in enumerate(ctrl):
 red = np.repeat(out, hop)[:N]
 music_bus *= (10 ** (-red / 20))[:, None]
 
+if MUSIC_DB == 'off':
+    music_bus[:] = 0
+else:
+    music_bus *= 10 ** (float(MUSIC_DB) / 20)
+    if MUSIC_LP: music_bus = lowpass(music_bus, MUSIC_LP)
 mix = music_bus + sfx_bus + np.stack([v, v], 1)
 import soundfile as sf
 sf.write('/tmp/_premix.wav', mix, SR, subtype='FLOAT')
