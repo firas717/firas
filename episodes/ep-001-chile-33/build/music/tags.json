@@ -1,0 +1,492 @@
+[
+ {
+  "id": "Eternal Hope",
+  "group": "music",
+  "path": "tracks/Eternal Hope.mp3",
+  "dur": 284.1,
+  "top": [
+   [
+    "Music",
+    0.825
+   ],
+   [
+    "Piano",
+    0.248
+   ],
+   [
+    "Keyboard (musical)",
+    0.185
+   ],
+   [
+    "Electric piano",
+    0.164
+   ],
+   [
+    "New-age music",
+    0.149
+   ],
+   [
+    "Musical instrument",
+    0.125
+   ],
+   [
+    "Tender music",
+    0.094
+   ],
+   [
+    "Sad music",
+    0.07
+   ]
+  ],
+  "peak_t": 196.44,
+  "attack_s": 196.42,
+  "active_s": 252.8,
+  "peak_db": -15.6,
+  "centroid_start": 861,
+  "centroid_end": 691,
+  "level_start_db": -35.9,
+  "level_end_db": -24.9,
+  "flatness": 0.046
+ },
+ {
+  "id": "Lost Time",
+  "group": "music",
+  "path": "tracks/Lost Time.mp3",
+  "dur": 227.4,
+  "top": [
+   [
+    "Music",
+    0.811
+   ],
+   [
+    "Sad music",
+    0.141
+   ],
+   [
+    "New-age music",
+    0.126
+   ],
+   [
+    "Ambient music",
+    0.08
+   ],
+   [
+    "Background music",
+    0.075
+   ],
+   [
+    "Silence",
+    0.073
+   ],
+   [
+    "Theme music",
+    0.054
+   ],
+   [
+    "Soundtrack music",
+    0.05
+   ]
+  ],
+  "peak_t": 103.26,
+  "attack_s": 102.6,
+  "active_s": 211.72,
+  "peak_db": -11.3,
+  "centroid_start": 600,
+  "centroid_end": 577,
+  "level_start_db": -19.9,
+  "level_end_db": -21.3,
+  "flatness": 0.064
+ },
+ {
+  "id": "Man Down",
+  "group": "music",
+  "path": "tracks/Man Down.mp3",
+  "dur": 198.6,
+  "top": [
+   [
+    "Music",
+    0.832
+   ],
+   [
+    "New-age music",
+    0.468
+   ],
+   [
+    "Sad music",
+    0.133
+   ],
+   [
+    "Electric piano",
+    0.079
+   ],
+   [
+    "Keyboard (musical)",
+    0.078
+   ],
+   [
+    "Background music",
+    0.073
+   ],
+   [
+    "Ambient music",
+    0.069
+   ],
+   [
+    "Piano",
+    0.066
+   ]
+  ],
+  "peak_t": 109.4,
+  "attack_s": 109.1,
+  "active_s": 191.62,
+  "peak_db": -6.7,
+  "centroid_start": 327,
+  "centroid_end": 302,
+  "level_start_db": -11.7,
+  "level_end_db": -11.9,
+  "flatness": 0.034
+ },
+ {
+  "id": "Metaphysik",
+  "group": "music",
+  "path": "tracks/Metaphysik.mp3",
+  "dur": 277.9,
+  "top": [
+   [
+    "Music",
+    0.832
+   ],
+   [
+    "Scary music",
+    0.209
+   ],
+   [
+    "Ambient music",
+    0.099
+   ],
+   [
+    "Sad music",
+    0.087
+   ],
+   [
+    "Soundtrack music",
+    0.083
+   ],
+   [
+    "Musical instrument",
+    0.069
+   ],
+   [
+    "New-age music",
+    0.061
+   ],
+   [
+    "Background music",
+    0.056
+   ]
+  ],
+  "peak_t": 190.7,
+  "attack_s": 190.58,
+  "active_s": 273.52,
+  "peak_db": -8.6,
+  "centroid_start": 903,
+  "centroid_end": 694,
+  "level_start_db": -20.3,
+  "level_end_db": -17.9,
+  "flatness": 0.108
+ },
+ {
+  "id": "Promises to Keep",
+  "group": "music",
+  "path": "tracks/Promises to Keep.mp3",
+  "dur": 304.1,
+  "top": [
+   [
+    "Music",
+    0.709
+   ],
+   [
+    "Piano",
+    0.271
+   ],
+   [
+    "Keyboard (musical)",
+    0.21
+   ],
+   [
+    "Musical instrument",
+    0.153
+   ],
+   [
+    "Electric piano",
+    0.15
+   ],
+   [
+    "Vibraphone",
+    0.051
+   ],
+   [
+    "Sad music",
+    0.042
+   ],
+   [
+    "Lullaby",
+    0.034
+   ]
+  ],
+  "peak_t": 105.16,
+  "attack_s": 104.24,
+  "active_s": 136.82,
+  "peak_db": -6.4,
+  "centroid_start": 752,
+  "centroid_end": 655,
+  "level_start_db": -28.3,
+  "level_end_db": -29.2,
+  "flatness": 0.024
+ },
+ {
+  "id": "Reawakening",
+  "group": "music",
+  "path": "tracks/Reawakening.mp3",
+  "dur": 214.1,
+  "top": [
+   [
+    "Music",
+    0.759
+   ],
+   [
+    "Piano",
+    0.335
+   ],
+   [
+    "Keyboard (musical)",
+    0.261
+   ],
+   [
+    "Electric piano",
+    0.228
+   ],
+   [
+    "Musical instrument",
+    0.183
+   ],
+   [
+    "Sad music",
+    0.14
+   ],
+   [
+    "New-age music",
+    0.077
+   ],
+   [
+    "Tender music",
+    0.048
+   ]
+  ],
+  "peak_t": 146.9,
+  "attack_s": 146.24,
+  "active_s": 165.38,
+  "peak_db": -24.3,
+  "centroid_start": 426,
+  "centroid_end": 559,
+  "level_start_db": -45.5,
+  "level_end_db": -42.8,
+  "flatness": 0.028
+ },
+ {
+  "id": "Satiate Strings",
+  "group": "music",
+  "path": "tracks/Satiate Strings.mp3",
+  "dur": 192.1,
+  "top": [
+   [
+    "Music",
+    0.892
+   ],
+   [
+    "Sad music",
+    0.178
+   ],
+   [
+    "Background music",
+    0.129
+   ],
+   [
+    "Theme music",
+    0.117
+   ],
+   [
+    "New-age music",
+    0.091
+   ],
+   [
+    "Scary music",
+    0.083
+   ],
+   [
+    "Musical instrument",
+    0.063
+   ],
+   [
+    "Soundtrack music",
+    0.055
+   ]
+  ],
+  "peak_t": 116.02,
+  "attack_s": 115.4,
+  "active_s": 183.76,
+  "peak_db": -11.3,
+  "centroid_start": 1047,
+  "centroid_end": 1094,
+  "level_start_db": -21.1,
+  "level_end_db": -21.8,
+  "flatness": 0.164
+ },
+ {
+  "id": "Second Coming - no percussion",
+  "group": "music",
+  "path": "tracks/Second Coming - no percussion.mp3",
+  "dur": 131.8,
+  "top": [
+   [
+    "Music",
+    0.788
+   ],
+   [
+    "Sad music",
+    0.147
+   ],
+   [
+    "Musical instrument",
+    0.116
+   ],
+   [
+    "Theme music",
+    0.116
+   ],
+   [
+    "Background music",
+    0.089
+   ],
+   [
+    "Keyboard (musical)",
+    0.051
+   ],
+   [
+    "Trombone",
+    0.05
+   ],
+   [
+    "Organ",
+    0.049
+   ]
+  ],
+  "peak_t": 116.14,
+  "attack_s": 115.08,
+  "active_s": 124.72,
+  "peak_db": -4.6,
+  "centroid_start": 1197,
+  "centroid_end": 1083,
+  "level_start_db": -26.4,
+  "level_end_db": -12.3,
+  "flatness": 0.169
+ },
+ {
+  "id": "Thaxted",
+  "group": "music",
+  "path": "tracks/Thaxted.mp3",
+  "dur": 152.8,
+  "top": [
+   [
+    "Music",
+    0.678
+   ],
+   [
+    "Brass instrument",
+    0.251
+   ],
+   [
+    "Trumpet",
+    0.179
+   ],
+   [
+    "Trombone",
+    0.146
+   ],
+   [
+    "Clarinet",
+    0.141
+   ],
+   [
+    "Musical instrument",
+    0.125
+   ],
+   [
+    "French horn",
+    0.096
+   ],
+   [
+    "Theme music",
+    0.06
+   ]
+  ],
+  "peak_t": 109.22,
+  "attack_s": 109.18,
+  "active_s": 141.78,
+  "peak_db": -8.0,
+  "centroid_start": 821,
+  "centroid_end": 939,
+  "level_start_db": -21.6,
+  "level_end_db": -15.7,
+  "flatness": 0.108
+ },
+ {
+  "id": "Thunder Dreams",
+  "group": "music",
+  "path": "tracks/Thunder Dreams.mp3",
+  "dur": 230.4,
+  "top": [
+   [
+    "Music",
+    0.868
+   ],
+   [
+    "Ambient music",
+    0.648
+   ],
+   [
+    "New-age music",
+    0.2
+   ],
+   [
+    "Electronic music",
+    0.087
+   ],
+   [
+    "Soundtrack music",
+    0.054
+   ],
+   [
+    "Scary music",
+    0.053
+   ],
+   [
+    "Sonar",
+    0.028
+   ],
+   [
+    "Background music",
+    0.017
+   ]
+  ],
+  "peak_t": 163.38,
+  "attack_s": 158.88,
+  "active_s": 206.64,
+  "peak_db": -4.9,
+  "centroid_start": 503,
+  "centroid_end": 461,
+  "level_start_db": -24.1,
+  "level_end_db": -22.7,
+  "flatness": 0.028
+ }
+]

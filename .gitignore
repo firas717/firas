@@ -1,0 +1,20 @@
+# heavy media stays out of git (kept on disk / delivered separately)
+*.mp4
+*.mov
+*.wav
+*.m4a
+*.mp3
+*.ogg
+*.opus
+episodes/*/footage/
+episodes/*/build/frames/
+episodes/*/build/commons/thumbs/
+episodes/*/build/commons/sheets/
+episodes/*/build/music/tracks/
+episodes/*/build/review*/
+episodes/*/build/_page.html
+episodes/*/build/transcript/*.wav
+tools/.commons-cache/
+tools/render/test/
+brand/templates/grain/
+__pycache__/

@@ -1,0 +1,413 @@
+[
+ {
+  "src": "footage/inbox/2894897-hd_1920_1080_24fps.mp4 (2.6-6.9s)",
+  "in": 0.0,
+  "out": 3.95,
+  "motion": "video",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "NASA GIBS Blue Marble/MODIS + EO-1 ALI (build/frames/mapzoom)",
+  "in": 3.95,
+  "out": 7.28,
+  "motion": "video",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "graphic:depthSection",
+  "in": 7.28,
+  "out": 13.02,
+  "motion": "motion-graphic",
+  "grade": "none",
+  "layout": "graphic"
+ },
+ {
+  "src": "footage/commons/c273.jpg",
+  "cid": "c273",
+  "in": 13.02,
+  "out": 17.98,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c287.jpg",
+  "cid": "c287",
+  "in": 17.98,
+  "out": 19.8,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "framed"
+ },
+ {
+  "src": "graphic:mineSpiral",
+  "in": 19.8,
+  "out": 25.85,
+  "motion": "motion-graphic",
+  "grade": "none",
+  "layout": "graphic"
+ },
+ {
+  "src": "footage/commons/c072.jpg",
+  "cid": "c072",
+  "in": 25.85,
+  "out": 28.62,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c073.jpg",
+  "cid": "c073",
+  "in": 28.62,
+  "out": 31.4,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c077.jpg",
+  "cid": "c077",
+  "in": 31.4,
+  "out": 35.3,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "framed"
+ },
+ {
+  "src": "footage/commons/c135.jpg",
+  "cid": "c135",
+  "in": 35.3,
+  "out": 36.55,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c079.jpg",
+  "cid": "c079",
+  "in": 36.55,
+  "out": 37.8,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c075.jpg",
+  "cid": "c075",
+  "in": 37.8,
+  "out": 39.0,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c080.jpg",
+  "cid": "c080",
+  "in": 39.0,
+  "out": 43.98,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "graphic:noteReveal",
+  "in": 44.33,
+  "out": 48.45,
+  "motion": "motion-graphic",
+  "grade": "none",
+  "layout": "graphic"
+ },
+ {
+  "src": "footage/commons/c285.jpg",
+  "cid": "c285",
+  "in": 48.45,
+  "out": 50.72,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "framed"
+ },
+ {
+  "src": "footage/commons/c289.jpg",
+  "cid": "c289",
+  "in": 50.72,
+  "out": 52.75,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "framed"
+ },
+ {
+  "src": "footage/commons/c138.jpg",
+  "cid": "c138",
+  "in": 52.75,
+  "out": 56.22,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "graphic:depthSection",
+  "in": 56.22,
+  "out": 62.05,
+  "motion": "motion-graphic",
+  "grade": "none",
+  "layout": "graphic"
+ },
+ {
+  "src": "graphic:holeCompare",
+  "in": 62.05,
+  "out": 66.18,
+  "motion": "motion-graphic",
+  "grade": "none",
+  "layout": "graphic"
+ },
+ {
+  "src": "footage/commons/c043.jpg",
+  "cid": "c043",
+  "in": 66.18,
+  "out": 69.4,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "framed"
+ },
+ {
+  "src": "footage/inbox/6686925-hd_1920_1080_25fps.mp4 (1.0-3.4s)",
+  "in": 69.4,
+  "out": 71.42,
+  "motion": "video",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c303.jpg",
+  "cid": "c303",
+  "in": 71.42,
+  "out": 74.75,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/inbox/11800598-hd_1920_1080_30fps.mp4 (2.0-5.4s)",
+  "in": 74.75,
+  "out": 77.88,
+  "motion": "video",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c330.jpg",
+  "cid": "c330",
+  "in": 77.88,
+  "out": 82.45,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "framed"
+ },
+ {
+  "src": "graphic:capsuleSchematic",
+  "in": 82.45,
+  "out": 87.18,
+  "motion": "motion-graphic",
+  "grade": "none",
+  "layout": "graphic"
+ },
+ {
+  "src": "footage/inbox/17034343_1920_1080_30fps.mp4 (1.5-4.9s)",
+  "in": 87.18,
+  "out": 90.28,
+  "motion": "video",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c361.jpg",
+  "cid": "c361",
+  "in": 90.28,
+  "out": 93.0,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "framed"
+ },
+ {
+  "src": "footage/commons/c092.jpg",
+  "cid": "c092",
+  "in": 93.0,
+  "out": 96.7,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c007.jpg",
+  "cid": "c007",
+  "in": 96.7,
+  "out": 100.7,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c251.jpg",
+  "cid": "c251",
+  "in": 100.7,
+  "out": 103.0,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c177.jpg",
+  "cid": "c177",
+  "in": 103.0,
+  "out": 105.45,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c234.jpg",
+  "cid": "c234",
+  "in": 105.45,
+  "out": 107.1,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c217.jpg",
+  "cid": "c217",
+  "in": 107.1,
+  "out": 109.0,
+  "motion": "kenburns",
+  "grade": "night",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c178.jpg",
+  "cid": "c178",
+  "in": 109.0,
+  "out": 112.42,
+  "motion": "kenburns",
+  "grade": "day",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c298.jpg",
+  "cid": "c298",
+  "in": 112.42,
+  "out": 113.62,
+  "motion": "kenburns",
+  "grade": "day",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c281.jpg",
+  "cid": "c281",
+  "in": 113.62,
+  "out": 114.82,
+  "motion": "kenburns",
+  "grade": "day",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c053.jpg",
+  "cid": "c053",
+  "in": 114.82,
+  "out": 116.02,
+  "motion": "kenburns",
+  "grade": "day",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c153.jpg",
+  "cid": "c153",
+  "in": 116.02,
+  "out": 117.22,
+  "motion": "kenburns",
+  "grade": "day",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c144.jpg",
+  "cid": "c144",
+  "in": 117.22,
+  "out": 118.42,
+  "motion": "kenburns",
+  "grade": "day",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c159.jpg",
+  "cid": "c159",
+  "in": 118.42,
+  "out": 119.4,
+  "motion": "kenburns",
+  "grade": "day",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c279.jpg",
+  "cid": "c279",
+  "in": 119.4,
+  "out": 123.3,
+  "motion": "kenburns",
+  "grade": "day",
+  "layout": "full"
+ },
+ {
+  "src": "graphic:timelineV",
+  "in": 123.3,
+  "out": 128.68,
+  "motion": "motion-graphic",
+  "grade": "none",
+  "layout": "graphic"
+ },
+ {
+  "src": "footage/commons/c074.jpg",
+  "cid": "c074",
+  "in": 128.68,
+  "out": 131.25,
+  "motion": "kenburns",
+  "grade": "day",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c012.jpg",
+  "cid": "c012",
+  "in": 131.25,
+  "out": 134.45,
+  "motion": "kenburns",
+  "grade": "day",
+  "layout": "framed"
+ },
+ {
+  "src": "footage/commons/c371.jpg",
+  "cid": "c371",
+  "in": 134.45,
+  "out": 136.92,
+  "motion": "kenburns",
+  "grade": "day",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c081.jpg",
+  "cid": "c081",
+  "in": 136.92,
+  "out": 139.3,
+  "motion": "kenburns",
+  "grade": "day",
+  "layout": "full"
+ },
+ {
+  "src": "footage/commons/c277.jpg",
+  "cid": "c277",
+  "in": 139.3,
+  "out": 142.45,
+  "motion": "kenburns",
+  "grade": "day",
+  "layout": "framed"
+ }
+]

@@ -1,0 +1,336 @@
+  1/336 A-5               2.51s  Music:0.49, Television:0.33, Bang:0.08, Sound effect:0.08
+  2/336 A-6               2.74s  Music:0.74, Television:0.63, Sound effect:0.03, Soundtrack music:0.02
+  3/336 A-1               7.47s  Explosion:0.55, Burst, pop:0.15, Bang:0.08, Sound effect:0.07
+  4/336 A-13              6.06s  Explosion:0.45, Burst, pop:0.26, Bang:0.19, Sound effect:0.16
+  5/336 A-14              6.55s  Explosion:0.76, Burst, pop:0.45, Bang:0.11, Sound effect:0.07
+  6/336 A-10              6.06s  Sound effect:0.24, Bang:0.18, Explosion:0.18, Burst, pop:0.09
+  7/336 A-2               8.85s  Explosion:0.49, Burst, pop:0.21, Bang:0.09, Sound effect:0.03
+  8/336 A-11              3.79s  Explosion:0.83, Burst, pop:0.55, Bang:0.17, Sound effect:0.05
+  9/336 A-12              5.07s  Explosion:0.59, Bang:0.41, Burst, pop:0.33, Sound effect:0.18
+ 10/336 A-15              5.07s  Explosion:0.60, Burst, pop:0.27, Bang:0.20, Sound effect:0.10
+ 11/336 A-16              4.80s  Explosion:0.52, Bang:0.25, Burst, pop:0.17, Sound effect:0.14
+ 12/336 A-3              11.69s  Whoosh, swoosh, swish:0.29, Music:0.12, Sound effect:0.11, Rumble:0.10
+ 13/336 A-4              18.37s  Whoosh, swoosh, swish:0.56, Music:0.22, Silence:0.07, Sound effect:0.04
+ 14/336 B-9               1.10s  Whoosh, swoosh, swish:0.38, Sound effect:0.10, Bang:0.09, Whack, thwack:0.04
+ 15/336 B-5               1.60s  Tearing:0.26, Scrape:0.09, Crackle:0.06, Zipper (clothing):0.06
+ 16/336 B-1               0.71s  Crack:0.10, Sound effect:0.08, Breaking:0.05, Door:0.05
+ 17/336 B-6               1.21s  Scrape:0.05, Whoosh, swoosh, swish:0.03, Bang:0.03, Whack, thwack:0.03
+ 18/336 B-2               0.61s  Sound effect:0.06, Ding:0.04, Chink, clink:0.03, Clang:0.03
+ 19/336 B-11              0.40s  Crack:0.08, Sound effect:0.08, Crunch:0.08, Single-lens reflex camera:0.06
+ 20/336 B-8               1.41s  Crunch:0.21, Tearing:0.16, Biting:0.08, Scrape:0.06
+ 21/336 B-4               0.74s  Whack, thwack:0.07, Sound effect:0.06, Bang:0.04, Creak:0.04
+ 22/336 B-3               0.45s  Chop:0.06, Whack, thwack:0.05, Slap, smack:0.04, Sound effect:0.04
+ 23/336 B-7               0.94s  Crack:0.05, Whack, thwack:0.02, Shuffling cards:0.02, Sound effect:0.02
+ 24/336 Camera_Flash      9.86s  Door:0.17, Sound effect:0.08, Sliding door:0.05, Thunk:0.03
+ 25/336 B-10              0.84s  Crack:0.16, Breaking:0.11, Sound effect:0.09, Bang:0.07
+ 26/336 C-16              1.62s  Whoosh, swoosh, swish:0.87, Sound effect:0.13, Whip:0.05, Bang:0.03
+ 27/336 C-17              2.80s  Whoosh, swoosh, swish:0.29, Sound effect:0.19, Explosion:0.18, Bang:0.12
+ 28/336 C-12              3.06s  Whoosh, swoosh, swish:0.65, Sound effect:0.23, Bang:0.09, Explosion:0.06
+ 29/336 C-14              3.06s  Whoosh, swoosh, swish:0.53, Sound effect:0.16, Music:0.08, Bang:0.04
+ 30/336 C-1              10.05s  Music:0.21, Whoosh, swoosh, swish:0.15, Sonar:0.10, Sound effect:0.08
+ 31/336 C-10              3.55s  Whoosh, swoosh, swish:0.55, Sound effect:0.18, Music:0.09, Bang:0.08
+ 32/336 C-11              4.07s  Whoosh, swoosh, swish:0.50, Sound effect:0.18, Explosion:0.17, Burst, pop:0.05
+ 33/336 C-15              1.18s  Whoosh, swoosh, swish:0.55, Sound effect:0.11, Bang:0.09, Whack, thwack:0.04
+ 34/336 C-13              0.76s  Whoosh, swoosh, swish:0.32, Sneeze:0.04, Sound effect:0.04, Bang:0.01
+ 35/336 C-19             10.41s  Music:0.23, Sonar:0.10, Sound effect:0.05, Gong:0.03
+ 36/336 C-18              4.99s  Whoosh, swoosh, swish:0.62, Sound effect:0.19, Music:0.04, Explosion:0.04
+ 37/336 C-2              10.62s  Whoosh, swoosh, swish:0.84, Music:0.26, Sound effect:0.12, Silence:0.09
+ 38/336 C-21              1.07s  Whoosh, swoosh, swish:0.66, Zipper (clothing):0.11, Sound effect:0.06, Whack, thwack:0.04
+ 39/336 C-31              0.94s  Whoosh, swoosh, swish:0.39, Sound effect:0.26, Zipper (clothing):0.05, Bang:0.04
+ 40/336 C-33              0.87s  Whoosh, swoosh, swish:0.48, Bang:0.10, Sound effect:0.06, Scrape:0.02
+ 41/336 C-23              4.99s  Whoosh, swoosh, swish:0.75, Sound effect:0.20, Bang:0.05, Music:0.05
+ 42/336 C-22              1.07s  Zipper (clothing):0.38, Whoosh, swoosh, swish:0.30, Scrape:0.07, Sound effect:0.04
+ 43/336 C-30              2.30s  Whoosh, swoosh, swish:0.52, Sound effect:0.27, Bang:0.12, Music:0.07
+ 44/336 C-28              1.07s  Sound effect:0.21, Whack, thwack:0.13, Bang:0.12, Whoosh, swoosh, swish:0.08
+ 45/336 C-34              2.54s  Heart murmur:0.18, Explosion:0.09, Sound effect:0.04, Whoosh, swoosh, swish:0.04
+ 46/336 C-29              1.07s  Sound effect:0.18, Whoosh, swoosh, swish:0.10, Whack, thwack:0.05, Bang:0.04
+ 47/336 C-26              3.94s  Whoosh, swoosh, swish:0.45, Explosion:0.41, Sound effect:0.14, Burst, pop:0.11
+ 48/336 C-24              6.92s  Whoosh, swoosh, swish:0.33, Sound effect:0.22, Rumble:0.02, Sonar:0.02
+ 49/336 C-25              3.55s  Whoosh, swoosh, swish:0.50, Sound effect:0.22, Bang:0.09, Music:0.08
+ 50/336 C-20              2.56s  Whoosh, swoosh, swish:0.71, Sound effect:0.09, Sigh:0.02, Zipper (clothing):0.01
+ 51/336 C-32              1.07s  Bang:0.21, Sound effect:0.18, Whoosh, swoosh, swish:0.13, Grunt:0.04
+ 52/336 C-27              3.55s  Whoosh, swoosh, swish:0.86, Sound effect:0.17, Music:0.04, Bang:0.02
+ 53/336 C-3               1.62s  Whoosh, swoosh, swish:0.61, Sound effect:0.08, Zipper (clothing):0.06, Sigh:0.03
+ 54/336 C-38              2.30s  Whoosh, swoosh, swish:0.64, Sound effect:0.07, Explosion:0.02, Slam:0.01
+ 55/336 C-37              3.34s  Whoosh, swoosh, swish:0.50, Sound effect:0.19, Explosion:0.18, Bang:0.06
+ 56/336 C-35              4.44s  Explosion:0.63, Burst, pop:0.27, Eruption:0.08, Sound effect:0.03
+ 57/336 C-36              3.14s  Whoosh, swoosh, swish:0.60, Sound effect:0.08, Explosion:0.02, Silence:0.01
+ 58/336 C-4               3.55s  Whoosh, swoosh, swish:0.66, Sound effect:0.25, Bang:0.06, Explosion:0.04
+ 59/336 C-47              5.40s  Whoosh, swoosh, swish:0.50, Sound effect:0.10, Explosion:0.06, Bang:0.03
+ 60/336 C-43              2.30s  Whoosh, swoosh, swish:0.47, Bang:0.33, Explosion:0.22, Sound effect:0.21
+ 61/336 C-50              2.87s  Whoosh, swoosh, swish:0.34, Sound effect:0.14, Bang:0.10, Explosion:0.03
+ 62/336 C-45              2.43s  Explosion:0.26, Whoosh, swoosh, swish:0.18, Sound effect:0.10, Burst, pop:0.06
+ 63/336 C-39              3.84s  Whoosh, swoosh, swish:0.42, Explosion:0.25, Burst, pop:0.07, Sound effect:0.07
+ 64/336 C-40              2.17s  Whoosh, swoosh, swish:0.62, Sound effect:0.22, Bang:0.03, Explosion:0.03
+ 65/336 C-5               4.31s  Whoosh, swoosh, swish:0.40, Sound effect:0.21, Bang:0.13, Music:0.09
+ 66/336 C-46              2.59s  Whoosh, swoosh, swish:0.68, Sound effect:0.17, Bang:0.04, Explosion:0.02
+ 67/336 C-42              4.13s  Whoosh, swoosh, swish:0.41, Explosion:0.23, Sound effect:0.11, Burst, pop:0.05
+ 68/336 C-41              7.02s  Explosion:0.39, Eruption:0.23, Burst, pop:0.09, Sound effect:0.07
+ 69/336 C-44              3.40s  Explosion:0.57, Burst, pop:0.14, Whoosh, swoosh, swish:0.11, Sound effect:0.07
+ 70/336 C-49              5.20s  Whoosh, swoosh, swish:0.43, Sound effect:0.15, Music:0.07, Bang:0.03
+ 71/336 C-51              3.11s  Explosion:0.18, Sound effect:0.17, Whoosh, swoosh, swish:0.17, Music:0.11
+ 72/336 C-48              2.64s  Whoosh, swoosh, swish:0.83, Sound effect:0.16, Music:0.01, Slam:0.01
+ 73/336 C-56              0.63s  Whoosh, swoosh, swish:0.66, Sound effect:0.08, Bang:0.04, Zipper (clothing):0.04
+ 74/336 C-52              5.82s  Explosion:0.40, Whoosh, swoosh, swish:0.21, Sound effect:0.15, Burst, pop:0.08
+ 75/336 C-54              4.07s  Whoosh, swoosh, swish:0.34, Sound effect:0.20, Bang:0.10, Explosion:0.09
+ 76/336 C-55              5.59s  Whoosh, swoosh, swish:0.66, Sound effect:0.20, Music:0.07, Bang:0.05
+ 77/336 C-53              9.19s  Whoosh, swoosh, swish:0.41, Sound effect:0.14, Music:0.11, Musical instrument:0.02
+ 78/336 C-7               1.62s  Whoosh, swoosh, swish:0.41, Sound effect:0.06, Zipper (clothing):0.04, Static:0.03
+ 79/336 C-79              1.31s  Whoosh, swoosh, swish:0.26, Sound effect:0.18, Television:0.10, Music:0.10
+ 80/336 C-77              1.18s  Clang:0.40, Sound effect:0.13, Bang:0.05, Ding:0.04
+ 81/336 C-78              1.05s  Clang:0.22, Sound effect:0.14, Bang:0.05, Ding:0.04
+ 82/336 C-75              1.70s  Whoosh, swoosh, swish:0.09, Sound effect:0.03, Snake:0.03, Hiss:0.02
+ 83/336 C-72              4.91s  Music:0.47, Television:0.37, Whoosh, swoosh, swish:0.19, Sound effect:0.10
+ 84/336 C-74              1.62s  Whoosh, swoosh, swish:0.52, Sound effect:0.24, Bang:0.14, Music:0.03
+ 85/336 C-81              3.24s  Whoosh, swoosh, swish:0.81, Sound effect:0.36, Bang:0.04, Music:0.02
+ 86/336 C-73              1.86s  Whoosh, swoosh, swish:0.57, Sound effect:0.16, Bang:0.06, Burst, pop:0.02
+ 87/336 C-80              2.56s  Whoosh, swoosh, swish:0.20, Sound effect:0.12, Music:0.09, Television:0.08
+ 88/336 C-71              3.84s  Sound effect:0.26, Whoosh, swoosh, swish:0.18, Music:0.12, Television:0.04
+ 89/336 C-70              2.07s  Whoosh, swoosh, swish:0.69, Sound effect:0.18, Music:0.02, Shatter:0.02
+ 90/336 C-76              2.04s  Whoosh, swoosh, swish:0.61, Sound effect:0.21, Bang:0.03, Shatter:0.01
+ 91/336 C-9               1.60s  Whoosh, swoosh, swish:0.29, Zipper (clothing):0.24, Sound effect:0.04, Creak:0.02
+ 92/336 C-8               6.29s  Whoosh, swoosh, swish:0.46, Sound effect:0.13, Sonar:0.13, Rumble:0.01
+ 93/336 C-67              0.76s  Sound effect:0.25, Music:0.10, Whoosh, swoosh, swish:0.03, Scrape:0.02
+ 94/336 C-69              4.20s  Whoosh, swoosh, swish:0.60, Sound effect:0.34, Music:0.14, Bang:0.03
+ 95/336 C-66              4.49s  Whoosh, swoosh, swish:0.61, Sound effect:0.20, Music:0.05, Bang:0.04
+ 96/336 C-68              5.27s  Whoosh, swoosh, swish:0.55, Sound effect:0.17, Music:0.14, Bang:0.04
+ 97/336 Whoosh          277.82s  Whoosh, swoosh, swish:0.77, Sound effect:0.15, Music:0.10, Clang:0.05
+ 98/336 C-6               1.62s  Whoosh, swoosh, swish:0.70, Sound effect:0.05, Bang:0.04, Whip:0.02
+ 99/336 C-62              4.62s  Whoosh, swoosh, swish:0.33, Sound effect:0.23, Music:0.23, Bang:0.06
+100/336 C-61              3.50s  Whoosh, swoosh, swish:0.61, Sound effect:0.24, Music:0.10, Bang:0.08
+101/336 C-64              3.76s  Music:0.40, Whoosh, swoosh, swish:0.20, Sound effect:0.10, Television:0.07
+102/336 C-58              3.74s  Sound effect:0.25, Whoosh, swoosh, swish:0.14, Explosion:0.13, Burst, pop:0.03
+103/336 C-59              6.53s  Whoosh, swoosh, swish:0.53, Sound effect:0.16, Music:0.09, Bang:0.03
+104/336 C-60              4.34s  Whoosh, swoosh, swish:0.63, Sound effect:0.32, Bang:0.16, Music:0.05
+105/336 C-57              4.15s  Whoosh, swoosh, swish:0.57, Sound effect:0.40, Music:0.07, Bang:0.04
+106/336 C-63              4.02s  Whoosh, swoosh, swish:0.65, Sound effect:0.21, Music:0.04, Bang:0.04
+107/336 D-2               1.62s  Plop:0.89, Speech:0.03, Music:0.02, Sound effect:0.01
+108/336 D-3               1.62s  Plop:0.69, Sound effect:0.04, Speech:0.03, Knock:0.01
+109/336 D-4               1.62s  Plop:0.83, Sound effect:0.05, Music:0.02, Speech:0.01
+110/336 pop               8.07s  Plop:0.96, Music:0.02, Sound effect:0.01, Speech:0.01
+111/336 D-5               1.62s  Plop:0.89, Sound effect:0.02, Speech:0.02, Music:0.02
+112/336 D-1               1.62s  Plop:0.40, Sound effect:0.14, Speech:0.03, Grunt:0.01
+113/336 E-16              0.97s  Explosion:0.35, Burst, pop:0.27, Bang:0.12, Sound effect:0.04
+114/336 E-1               1.21s  Music:0.57, Sound effect:0.05, Electronic music:0.05, Cacophony:0.03
+115/336 E-2               0.63s  Sound effect:0.09, Music:0.08, Scratch:0.04, Plop:0.02
+116/336 E-11              3.16s  Music:0.37, Sound effect:0.25, Bang:0.07, Electronic music:0.03
+117/336 E-22              1.26s  Sound effect:0.22, Scrape:0.11, Bang:0.08, Explosion:0.05
+118/336 E-21              1.05s  Sound effect:0.28, Static:0.16, Burst, pop:0.06, Explosion:0.05
+119/336 E-20              2.22s  Car alarm:0.23, Music:0.12, Boing:0.05, Sound effect:0.04
+120/336 E-19              0.50s  Sound effect:0.38, Music:0.12, Bang:0.04, Drum machine:0.04
+121/336 E-14              0.40s  Single-lens reflex camera:0.68, Camera:0.17, Coin (dropping):0.03, Speech:0.02
+122/336 E-10              1.31s  Explosion:0.37, Burst, pop:0.28, Bang:0.14, Sound effect:0.12
+123/336 E-15              1.18s  Music:0.37, Sound effect:0.08, Electronic music:0.04, Drum machine:0.04
+124/336 E-23              2.43s  Sound effect:0.20, Grunt:0.14, Coin (dropping):0.06, Speech:0.04
+125/336 E-12              0.63s  Music:0.18, Sound effect:0.12, Beep, bleep:0.10, Scratch:0.07
+126/336 E-17              0.53s  Coin (dropping):0.07, Sound effect:0.06, Plop:0.04, Speech:0.02
+127/336 E-18              0.76s  Scrape:0.39, Zipper (clothing):0.04, Scratch:0.04, Music:0.04
+128/336 E-13              1.94s  Sound effect:0.43, Music:0.14, Boing:0.05, Cacophony:0.04
+129/336 E-25              1.21s  Sound effect:0.15, Scrape:0.15, Scratch:0.08, Coin (dropping):0.03
+130/336 E-26              2.40s  Music:0.09, Scratch:0.05, Speech:0.04, Single-lens reflex camera:0.04
+131/336 E-24              3.74s  Whoosh, swoosh, swish:0.45, Sound effect:0.33, Music:0.09, Rumble:0.05
+132/336 E-27              2.27s  Sound effect:0.13, Scratch:0.07, Bang:0.06, Flap:0.05
+133/336 E-28              2.20s  Mechanisms:0.17, Music:0.04, Ratchet, pawl:0.03, Sound effect:0.03
+134/336 E-41              4.44s  Sound effect:0.35, Scratch:0.07, Scrape:0.04, Cacophony:0.04
+135/336 E-40              3.74s  Static:0.10, Sound effect:0.04, White noise:0.02, Hum:0.02
+136/336 E-39              6.50s  Sound effect:0.19, Zipper (clothing):0.09, Whoosh, swoosh, swish:0.07, Static:0.07
+137/336 E-36              1.83s  Explosion:0.21, Music:0.07, Sound effect:0.07, Gunshot, gunfire:0.07
+138/336 E-32              2.07s  Music:0.19, Sound effect:0.12, Scratch:0.11, Whoosh, swoosh, swish:0.04
+139/336 E-34              3.74s  Static:0.09, Scrape:0.08, Zipper (clothing):0.06, Whoosh, swoosh, swish:0.05
+140/336 E-3               3.27s  Sound effect:0.13, Zipper (clothing):0.08, Music:0.04, Burst, pop:0.04
+141/336 E-30              2.40s  Scratch:0.43, Speech:0.09, Scrape:0.05, Sound effect:0.05
+142/336 E-33              2.07s  Zipper (clothing):0.59, Fart:0.07, Scrape:0.04, Sound effect:0.03
+143/336 E-31              2.38s  Music:0.06, Sound effect:0.06, Zipper (clothing):0.04, Scrape:0.02
+144/336 E-35              3.74s  Sound effect:0.13, Scrape:0.12, Whoosh, swoosh, swish:0.08, Explosion:0.04
+145/336 E-29              7.44s  Zipper (clothing):0.12, Static:0.10, Scrape:0.07, Music:0.07
+146/336 E-37              2.40s  Zipper (clothing):0.17, Scrape:0.10, Sound effect:0.07, Music:0.06
+147/336 E-38              5.59s  Music:0.68, Electronic music:0.10, Dubstep:0.10, Cacophony:0.10
+148/336 E-4               1.83s  Sound effect:0.20, Whoosh, swoosh, swish:0.09, Music:0.07, Bang:0.04
+149/336 E-7               0.37s  Crack:0.09, Sound effect:0.08, Scrape:0.04, Crunch:0.03
+150/336 E-5               0.37s  Sound effect:0.22, Music:0.21, Scratch:0.18, Speech:0.12
+151/336 E-8               0.71s  Single-lens reflex camera:0.26, Sound effect:0.11, Music:0.08, Speech:0.06
+152/336 E-6               0.37s  Music:0.54, Ringtone:0.16, Funny music:0.07, Sound effect:0.07
+153/336 E-9               3.53s  Music:0.16, Sound effect:0.16, Static:0.02, Boing:0.02
+154/336 unnamed1         89.86s  Music:0.34, Cacophony:0.16, Sound effect:0.14, Synthesizer:0.06
+155/336 F-5              16.57s  Thunder:0.89, Thunderstorm:0.89, Rain:0.65, Rain on surface:0.14
+156/336 F-1              23.66s  Thunder:0.75, Thunderstorm:0.59, Rain:0.24, Eruption:0.04
+157/336 F-3               9.63s  Thunder:0.67, Thunderstorm:0.58, Rain:0.15, Rain on surface:0.04
+158/336 F-2              26.61s  Thunder:0.69, Thunderstorm:0.50, Rain:0.18, Field recording:0.05
+159/336 F-4             179.69s  Thunder:0.63, Thunderstorm:0.57, Rain:0.46, Rain on surface:0.17
+160/336 unnamed2        256.12s  Thunder:0.39, Thunderstorm:0.32, Rain:0.26, Rain on surface:0.10
+161/336 G-12              0.47s  Single-lens reflex camera:0.06, Sound effect:0.05, Music:0.02, Speech:0.02
+162/336 G-1               0.37s  Tick:0.09, Sound effect:0.08, Tick-tock:0.04, Single-lens reflex camera:0.04
+163/336 G-11              0.63s  Finger snapping:0.33, Sound effect:0.10, Clapping:0.05, Ping:0.04
+164/336 G-5               0.27s  Finger snapping:0.05, Tick:0.04, Sound effect:0.02, Music:0.02
+165/336 G-10              1.00s  Sound effect:0.42, Plop:0.28, Beep, bleep:0.04, Boing:0.02
+166/336 G-6               0.34s  Knock:0.17, Single-lens reflex camera:0.02, Door:0.02, Chop:0.02
+167/336 G-4               0.27s  Tick:0.05, Music:0.03, Sound effect:0.03, Animal:0.03
+168/336 G-7               0.29s  Tick:0.08, Finger snapping:0.07, Tick-tock:0.04, Sound effect:0.03
+169/336 G-8               0.45s  Single-lens reflex camera:0.37, Sound effect:0.06, Camera:0.05, Music:0.02
+170/336 G-3               0.29s  Finger snapping:0.21, Tick:0.09, Tick-tock:0.03, Sound effect:0.02
+171/336 G-2               0.27s  Tick:0.04, Finger snapping:0.04, Music:0.03, Sound effect:0.03
+172/336 unnamed3          4.99s  Plop:0.22, Ping:0.16, Tick:0.14, Sound effect:0.10
+173/336 G-9               0.58s  Sound effect:0.34, Chink, clink:0.20, Ping:0.06, Ding:0.04
+174/336 H-10              2.27s  Sigh:0.24, Whoosh, swoosh, swish:0.08, Snort:0.06, Breathing:0.06
+175/336 H-18              3.16s  Explosion:0.67, Burst, pop:0.26, Whoosh, swoosh, swish:0.07, Eruption:0.06
+176/336 H-12              2.69s  Speech:0.08, Rumble:0.07, Burst, pop:0.04, Heart murmur:0.04
+177/336 H-21             10.05s  Whoosh, swoosh, swish:0.39, Silence:0.08, Rumble:0.08, Music:0.05
+178/336 H-15              2.82s  Whoosh, swoosh, swish:0.63, Sound effect:0.19, Bang:0.03, Slam:0.02
+179/336 H-16              3.53s  Whoosh, swoosh, swish:0.48, Explosion:0.14, Sound effect:0.14, Bang:0.07
+180/336 H-13              2.17s  Explosion:0.17, Sound effect:0.04, Whoosh, swoosh, swish:0.04, Burst, pop:0.03
+181/336 H-20              5.69s  Sound effect:0.37, Music:0.24, Whoosh, swoosh, swish:0.16, Rumble:0.05
+182/336 H-1               4.13s  Music:0.14, Heart murmur:0.11, Electronic music:0.08, Sound effect:0.07
+183/336 H-19              5.54s  Whoosh, swoosh, swish:0.63, Sound effect:0.22, Bang:0.10, Music:0.02
+184/336 H-2               2.98s  Explosion:0.32, Sound effect:0.15, Burst, pop:0.12, Music:0.06
+185/336 H-22              3.55s  Sound effect:0.21, Whoosh, swoosh, swish:0.18, Music:0.16, Explosion:0.15
+186/336 H-17              2.87s  Whoosh, swoosh, swish:0.56, Sound effect:0.20, Bang:0.06, Explosion:0.04
+187/336 H-14              3.63s  Explosion:0.36, Burst, pop:0.09, Music:0.07, Eruption:0.04
+188/336 H-27              1.83s  Sound effect:0.05, Whoosh, swoosh, swish:0.05, Squeak:0.04, Music:0.03
+189/336 H-24              8.07s  Music:0.32, Rumble:0.23, Sound effect:0.11, Sonar:0.06
+190/336 H-26             10.36s  Whoosh, swoosh, swish:0.11, Explosion:0.08, Burst, pop:0.06, Gunshot, gunfire:0.05
+191/336 H-23              4.99s  Whoosh, swoosh, swish:0.71, Sound effect:0.22, Explosion:0.05, Music:0.03
+192/336 H-25             12.89s  Music:0.30, Rumble:0.11, Whoosh, swoosh, swish:0.09, Silence:0.03
+193/336 H-11              1.41s  Explosion:0.57, Burst, pop:0.25, Bang:0.09, Sound effect:0.07
+194/336 H-9               2.90s  Sigh:0.55, Snort:0.10, Breathing:0.09, Gasp:0.08
+195/336 H-28             22.44s  Music:0.36, Whoosh, swoosh, swish:0.13, Scary music:0.07, Door:0.04
+196/336 H-3               2.80s  Whoosh, swoosh, swish:0.29, Sound effect:0.22, Explosion:0.05, Bang:0.03
+197/336 H-5               5.46s  Explosion:0.46, Whoosh, swoosh, swish:0.28, Burst, pop:0.21, Sound effect:0.20
+198/336 H-30              6.19s  Whoosh, swoosh, swish:0.47, Sound effect:0.22, Sigh:0.09, Music:0.08
+199/336 H-6               4.20s  Whoosh, swoosh, swish:0.73, Sound effect:0.23, Explosion:0.02, Bang:0.02
+200/336 H-4               5.46s  Explosion:0.25, Eruption:0.18, Burst, pop:0.09, Sound effect:0.05
+201/336 H-8               2.04s  Whoosh, swoosh, swish:0.13, Smash, crash:0.06, Sound effect:0.04, Speech:0.03
+202/336 H-29              8.43s  Whoosh, swoosh, swish:0.60, Sound effect:0.10, Music:0.09, Explosion:0.07
+203/336 unnamed4        160.34s  Whoosh, swoosh, swish:0.48, Music:0.25, Scary music:0.10, Sigh:0.10
+204/336 H-7               6.42s  Whoosh, swoosh, swish:0.32, Sound effect:0.16, Explosion:0.16, Burst, pop:0.06
+205/336 I-22              1.18s  Whoosh, swoosh, swish:0.36, Whip:0.18, Zipper (clothing):0.15, Sound effect:0.06
+206/336 I-18              0.76s  Whoosh, swoosh, swish:0.32, Sneeze:0.04, Sound effect:0.04, Bang:0.01
+207/336 I-7               0.66s  Sound effect:0.19, Whack, thwack:0.08, Whoosh, swoosh, swish:0.07, Grunt:0.04
+208/336 I-6               0.94s  Whoosh, swoosh, swish:0.51, Sound effect:0.10, Zipper (clothing):0.03, Whack, thwack:0.02
+209/336 I-8               0.63s  Whoosh, swoosh, swish:0.20, Sound effect:0.09, Zipper (clothing):0.07, Whip:0.06
+210/336 I-3               0.81s  Whoosh, swoosh, swish:0.30, Explosion:0.12, Sound effect:0.09, Bang:0.05
+211/336 I-21              1.18s  Whoosh, swoosh, swish:0.55, Sound effect:0.11, Bang:0.09, Whack, thwack:0.04
+212/336 I-2               1.41s  Whoosh, swoosh, swish:0.56, Sound effect:0.19, Bang:0.09, Music:0.05
+213/336 I-17              1.07s  Whoosh, swoosh, swish:0.66, Zipper (clothing):0.11, Sound effect:0.06, Whack, thwack:0.04
+214/336 I-19              0.71s  Grunt:0.21, Sound effect:0.19, Whoosh, swoosh, swish:0.13, Sigh:0.07
+215/336 I-9               1.05s  Whip:0.47, Whoosh, swoosh, swish:0.23, Whack, thwack:0.10, Slap, smack:0.04
+216/336 I-5               2.38s  Whoosh, swoosh, swish:0.84, Sound effect:0.09, Slam:0.01, Whip:0.01
+217/336 I-20              1.05s  Whoosh, swoosh, swish:0.67, Sound effect:0.10, Bang:0.03, Scrape:0.03
+218/336 I-4               2.14s  Whoosh, swoosh, swish:0.48, Sound effect:0.18, Bang:0.06, Music:0.02
+219/336 unnamed5         26.82s  Whoosh, swoosh, swish:0.79, Whack, thwack:0.10, Sound effect:0.06, Whip:0.02
+220/336 I-23              0.76s  Whoosh, swoosh, swish:0.22, Zipper (clothing):0.07, Sound effect:0.05, Whack, thwack:0.05
+221/336 I-16              1.07s  Sound effect:0.18, Whoosh, swoosh, swish:0.10, Whack, thwack:0.05, Bang:0.04
+222/336 I-14              1.05s  Whoosh, swoosh, swish:0.67, Sound effect:0.10, Bang:0.03, Scrape:0.03
+223/336 I-15              0.87s  Whoosh, swoosh, swish:0.44, Sound effect:0.10, Bang:0.06, Burst, pop:0.01
+224/336 I-13              1.62s  Explosion:0.30, Whoosh, swoosh, swish:0.14, Burst, pop:0.13, Bang:0.12
+225/336 I-10              1.31s  Heart murmur:0.06, Whoosh, swoosh, swish:0.06, Door:0.04, Slam:0.04
+226/336 I-1               1.60s  Heart murmur:0.28, Heart sounds, heartbeat:0.24, Speech:0.03, Whoosh, swoosh, swish:0.02
+227/336 I-12              1.49s  Whoosh, swoosh, swish:0.43, Slam:0.13, Sound effect:0.12, Door:0.06
+228/336 I-11              1.47s  Whoosh, swoosh, swish:0.17, Sound effect:0.16, Bang:0.12, Whack, thwack:0.10
+229/336 J-18              0.34s  Single-lens reflex camera:0.48, Crack:0.05, Sound effect:0.04, Crunch:0.03
+230/336 J-6               0.45s  Door:0.07, Breaking:0.04, Slam:0.04, Shatter:0.03
+231/336 J-5               0.58s  Scrape:0.11, Sound effect:0.05, Crunch:0.05, Zipper (clothing):0.04
+232/336 J-14              0.34s  Single-lens reflex camera:0.56, Sound effect:0.09, Camera:0.06, Crunch:0.02
+233/336 J-12              0.37s  Scrape:0.15, Scissors:0.05, Sound effect:0.05, Crunch:0.03
+234/336 J-7               1.49s  Tearing:0.12, Crunch:0.11, Sound effect:0.07, Scissors:0.05
+235/336 J-17              0.40s  Crack:0.11, Crunch:0.10, Sound effect:0.07, Single-lens reflex camera:0.03
+236/336 J-4               0.34s  Single-lens reflex camera:0.14, Sound effect:0.13, Crunch:0.09, Crack:0.03
+237/336 J-3               0.37s  Speech:0.10, Scrape:0.08, Sound effect:0.07, Rattle:0.07
+238/336 J-13              1.91s  Telephone bell ringing:0.55, Telephone:0.41, Ringtone:0.06, Single-lens reflex camera:0.06
+239/336 J-11              1.54s  Zipper (clothing):0.13, Bicycle:0.06, Speech:0.05, Single-lens reflex camera:0.03
+240/336 J-16              0.24s  Single-lens reflex camera:0.74, Camera:0.11, Sound effect:0.08, Music:0.02
+241/336 J-15              0.34s  Single-lens reflex camera:0.49, Camera:0.05, Scrape:0.04, Sound effect:0.03
+242/336 J-2               0.63s  Single-lens reflex camera:0.14, Sound effect:0.07, Scrape:0.06, Crunch:0.04
+243/336 J-1               0.37s  Crack:0.14, Sound effect:0.10, Crackle:0.04, Tearing:0.03
+244/336 J-10              1.31s  Crunch:0.19, Sound effect:0.07, Single-lens reflex camera:0.05, Biting:0.03
+245/336 J-9               1.47s  Zipper (clothing):0.04, Walk, footsteps:0.03, Scrape:0.03, Speech:0.02
+246/336 J-8               1.26s  Scissors:0.06, Scrape:0.06, Single-lens reflex camera:0.06, Tearing:0.06
+247/336 unnamed6         13.44s  Single-lens reflex camera:0.41, Camera:0.37, Inside, small room:0.03, Inside, large room or hall:0.02
+248/336 K-12              0.76s  Whoosh, swoosh, swish:0.13, Whack, thwack:0.09, Sound effect:0.05, Zipper (clothing):0.05
+249/336 K-13              0.81s  Whack, thwack:0.22, Whoosh, swoosh, swish:0.13, Bang:0.07, Sound effect:0.04
+250/336 K-18              0.81s  Whoosh, swoosh, swish:0.19, Whack, thwack:0.07, Zipper (clothing):0.06, Whip:0.04
+251/336 K-20              0.71s  Whack, thwack:0.31, Slap, smack:0.13, Sound effect:0.11, Bang:0.06
+252/336 K-17              0.87s  Whack, thwack:0.28, Sound effect:0.08, Whoosh, swoosh, swish:0.08, Bang:0.05
+253/336 K-2               1.94s  Gunshot, gunfire:0.25, Bang:0.23, Sound effect:0.15, Machine gun:0.12
+254/336 K-22              0.50s  Whack, thwack:0.26, Whoosh, swoosh, swish:0.18, Bang:0.07, Sound effect:0.07
+255/336 K-16              0.71s  Whoosh, swoosh, swish:0.21, Whack, thwack:0.12, Sound effect:0.11, Slap, smack:0.09
+256/336 K-23              0.87s  Whack, thwack:0.42, Bang:0.18, Whoosh, swoosh, swish:0.16, Slap, smack:0.14
+257/336 K-1               1.67s  Crack:0.81, Breaking:0.21, Sound effect:0.06, Crackle:0.04
+258/336 K-19              0.76s  Whack, thwack:0.32, Bang:0.11, Sound effect:0.10, Whoosh, swoosh, swish:0.08
+259/336 K-14              0.76s  Whoosh, swoosh, swish:0.23, Whack, thwack:0.19, Slap, smack:0.13, Bang:0.09
+260/336 K-11              2.59s  Ding:0.62, Clang:0.58, Ping:0.07, Sound effect:0.01
+261/336 K-21              0.71s  Bang:0.29, Whack, thwack:0.24, Sound effect:0.15, Grunt:0.04
+262/336 K-15              0.61s  Whack, thwack:0.26, Sound effect:0.10, Bang:0.06, Grunt:0.04
+263/336 K-10              6.40s  Whoosh, swoosh, swish:0.70, Sound effect:0.14, Bang:0.06, Explosion:0.06
+264/336 K-25              0.61s  Whip:0.17, Whoosh, swoosh, swish:0.13, Slap, smack:0.11, Whack, thwack:0.08
+265/336 K-26              0.66s  Whack, thwack:0.21, Sound effect:0.15, Bang:0.14, Whoosh, swoosh, swish:0.07
+266/336 K-24              0.66s  Bang:0.38, Sound effect:0.12, Whack, thwack:0.07, Burst, pop:0.04
+267/336 K-27              0.66s  Whack, thwack:0.20, Whoosh, swoosh, swish:0.15, Whip:0.05, Bang:0.05
+268/336 K-34              0.61s  Whack, thwack:0.24, Bang:0.15, Door:0.07, Slam:0.06
+269/336 K-40              0.63s  Whoosh, swoosh, swish:0.28, Sound effect:0.14, Whack, thwack:0.13, Bang:0.08
+270/336 K-3               0.89s  Sound effect:0.20, Breaking:0.10, Slosh:0.07, Scrape:0.05
+271/336 K-39              0.53s  Bang:0.31, Whack, thwack:0.18, Sound effect:0.05, Slap, smack:0.04
+272/336 K-41              0.61s  Whack, thwack:0.48, Bang:0.11, Sound effect:0.11, Whoosh, swoosh, swish:0.08
+273/336 K-38              0.71s  Whack, thwack:0.16, Whoosh, swoosh, swish:0.10, Slap, smack:0.06, Sound effect:0.04
+274/336 K-36              0.76s  Whack, thwack:0.21, Whoosh, swoosh, swish:0.19, Sound effect:0.18, Bang:0.13
+275/336 K-35              0.47s  Whack, thwack:0.49, Bang:0.15, Sound effect:0.12, Grunt:0.05
+276/336 K-30              0.53s  Bang:0.19, Whack, thwack:0.15, Sound effect:0.11, Whoosh, swoosh, swish:0.04
+277/336 K-28              0.47s  Whack, thwack:0.20, Whoosh, swoosh, swish:0.14, Whip:0.09, Slap, smack:0.05
+278/336 K-33              0.94s  Whack, thwack:0.23, Whoosh, swoosh, swish:0.18, Sound effect:0.14, Bang:0.07
+279/336 K-4               0.61s  Sound effect:0.19, Bang:0.08, Scrape:0.07, Crack:0.07
+280/336 K-31              0.61s  Whoosh, swoosh, swish:0.20, Whack, thwack:0.18, Slap, smack:0.16, Whip:0.14
+281/336 K-32              0.87s  Whip:0.26, Whoosh, swoosh, swish:0.21, Whack, thwack:0.16, Slap, smack:0.09
+282/336 K-37              1.07s  Whack, thwack:0.34, Whoosh, swoosh, swish:0.14, Sound effect:0.05, Bang:0.04
+283/336 K-29              0.87s  Whack, thwack:0.22, Bang:0.16, Sound effect:0.09, Breaking:0.04
+284/336 K-42              0.84s  Whack, thwack:0.17, Whoosh, swoosh, swish:0.16, Slap, smack:0.15, Sound effect:0.08
+285/336 K-45              0.63s  Scratch:0.19, Sound effect:0.12, Music:0.11, Whoosh, swoosh, swish:0.07
+286/336 K-43              1.21s  Whack, thwack:0.55, Sound effect:0.16, Whoosh, swoosh, swish:0.10, Bang:0.04
+287/336 K-44              2.38s  Sound effect:0.21, Scratch:0.18, Music:0.12, Scratching (performance technique):0.06
+288/336 K-67              2.09s  Heart sounds, heartbeat:0.10, Explosion:0.07, Speech:0.05, Burst, pop:0.05
+289/336 K-70              1.07s  Whoosh, swoosh, swish:0.35, Bang:0.13, Sound effect:0.13, Explosion:0.11
+290/336 K-63              2.07s  Explosion:0.23, Bang:0.12, Burst, pop:0.11, Sound effect:0.08
+291/336 K-66              2.07s  Bang:0.32, Burst, pop:0.26, Explosion:0.23, Music:0.17
+292/336 K-69              2.07s  Explosion:0.79, Burst, pop:0.48, Bang:0.10, Sound effect:0.03
+293/336 K-62              1.07s  Burst, pop:0.10, Explosion:0.09, Music:0.07, Smash, crash:0.06
+294/336 K-72              1.96s  Bang:0.49, Explosion:0.39, Burst, pop:0.21, Sound effect:0.21
+295/336 K-65              1.07s  Explosion:0.36, Burst, pop:0.25, Bang:0.21, Speech:0.07
+296/336 K-68              1.07s  Explosion:0.65, Burst, pop:0.45, Bang:0.08, Whoosh, swoosh, swish:0.03
+297/336 K-71              1.10s  Shatter:0.26, Breaking:0.12, Whoosh, swoosh, swish:0.03, Scrape:0.02
+298/336 K-7               6.87s  Sound effect:0.35, Explosion:0.19, Bang:0.15, Burst, pop:0.08
+299/336 K-9               4.70s  Whoosh, swoosh, swish:0.68, Sound effect:0.10, Bang:0.06, Music:0.05
+300/336 K-73              2.01s  Breaking:0.81, Glass:0.30, Chink, clink:0.10, Shatter:0.07
+301/336 K-74             72.96s  Whoosh, swoosh, swish:0.17, Music:0.16, Rumble:0.08, Sound effect:0.06
+302/336 K-8              33.68s  Sound effect:0.24, Whoosh, swoosh, swish:0.12, Breaking:0.06, Thump, thud:0.03
+303/336 K-61              2.07s  Explosion:0.32, Bang:0.23, Burst, pop:0.14, Gunshot, gunfire:0.08
+304/336 K-60              1.07s  Explosion:0.41, Burst, pop:0.19, Bang:0.15, Music:0.04
+305/336 K-6               0.87s  Bang:0.18, Sound effect:0.10, Explosion:0.07, Burst, pop:0.06
+306/336 unnamed7        201.13s  Whack, thwack:0.16, Crack:0.15, Shatter:0.14, Sound effect:0.14
+307/336 L-2               0.61s  Single-lens reflex camera:0.16, Sound effect:0.05, Computer keyboard:0.05, Coin (dropping):0.02
+308/336 L-3               8.22s  Computer keyboard:0.84, Typing:0.75, Sound effect:0.05, Typewriter:0.01
+309/336 L-1              16.99s  Computer keyboard:0.91, Typing:0.88, Typewriter:0.02, Music:0.02
+310/336 L-4             179.56s  Computer keyboard:0.77, Typing:0.76, Coin (dropping):0.04, Inside, small room:0.02
+311/336 unnamed8        205.36s  Computer keyboard:0.76, Typing:0.74, Coin (dropping):0.04, Inside, small room:0.02
+312/336 M-1               2.20s  Music:0.32, Bang:0.19, Sound effect:0.19, Explosion:0.17
+313/336 M-14              6.06s  White noise:0.22, Explosion:0.16, Eruption:0.10, Static:0.05
+314/336 M-10              3.27s  Train:0.10, Vehicle:0.10, Sound effect:0.06, Railroad car, train wagon:0.05
+315/336 M-11              3.11s  Sound effect:0.23, Music:0.18, Whoosh, swoosh, swish:0.17, Bang:0.12
+316/336 M-16             10.54s  Whoosh, swoosh, swish:0.11, Sound effect:0.09, Silence:0.06, Music:0.06
+317/336 M-19             15.55s  Music:0.11, Sonar:0.09, Silence:0.09, Sound effect:0.06
+318/336 M-20              4.07s  Explosion:0.53, Burst, pop:0.27, Music:0.17, Bang:0.13
+319/336 M-12              8.35s  White noise:0.12, Steam:0.11, Hiss:0.10, Spray:0.03
+320/336 M-2               3.71s  Music:0.32, Sound effect:0.26, Whoosh, swoosh, swish:0.11, Television:0.04
+321/336 M-21             12.55s  Music:0.59, Whoosh, swoosh, swish:0.06, Sound effect:0.06, Electronic music:0.06
+322/336 M-15             20.04s  Music:0.92, Ambient music:0.51, Electronic music:0.18, Scary music:0.12
+323/336 M-22              9.40s  Sound effect:0.15, Sonar:0.10, White noise:0.07, Silence:0.06
+324/336 M-18              6.06s  Music:0.73, Scary music:0.14, Siren:0.06, Civil defense siren:0.06
+325/336 M-13             17.53s  White noise:0.10, Music:0.09, Sound effect:0.06, Silence:0.05
+326/336 M-17              6.42s  Sound effect:0.33, Music:0.21, Whoosh, swoosh, swish:0.17, Sonar:0.08
+327/336 M-6               1.41s  Whoosh, swoosh, swish:0.70, Sound effect:0.14, Bang:0.09, Explosion:0.06
+328/336 M-7               2.04s  Music:0.08, Whoosh, swoosh, swish:0.08, Sound effect:0.06, Television:0.05
+329/336 M-9               3.71s  Music:0.32, Sound effect:0.22, Whoosh, swoosh, swish:0.11, Television:0.04
+330/336 M-5               3.14s  Whoosh, swoosh, swish:0.16, Sound effect:0.15, Music:0.11, Static:0.10
+331/336 M-23             14.04s  Pink noise:0.49, White noise:0.14, Outside, rural or natural:0.09, Noise:0.05
+332/336 M-3              27.97s  Music:0.32, Rumble:0.19, Whale vocalization:0.06, Liquid:0.05
+333/336 M-8               2.51s  Sound effect:0.08, Explosion:0.08, Burst, pop:0.07, Music:0.05
+334/336 Risers          191.69s  Music:0.46, Scary music:0.13, White noise:0.11, Pink noise:0.06
+335/336 M-4               8.46s  White noise:0.10, Hiss:0.10, Steam:0.10, Spray:0.03
+336/336 unnamed9        371.90s  Whoosh, swoosh, swish:0.81, Music:0.17, Sound effect:0.10, Rumble:0.03

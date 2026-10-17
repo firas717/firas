@@ -1,0 +1,1 @@
+highpass=f=80:poles=2,lowshelf=g=-2:f=160:w=0.7,equalizer=f=280:t=q:w=1.0:g=-2,equalizer=f=1500:t=q:w=1.0:g=2,equalizer=f=3000:t=q:w=1.0:g=5,treble=g=5:f=5500:t=s:w=0.6,deesser=i=0.4:m=0.5:f=0.5,acompressor=threshold=0.1:ratio=3:attack=8:release=150:makeup=1.5

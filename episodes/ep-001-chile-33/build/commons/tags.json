@@ -1,0 +1,6598 @@
+[
+ {
+  "id": "c000",
+  "desc": "Wooden 'El Rescate' monument to the 33 miners on a road median, car passing, daytime",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "monument",
+   "memorial",
+   "street",
+   "day"
+  ]
+ },
+ {
+  "id": "c001",
+  "desc": "Group of officials in suits posing beside a capsule replica with Chilean flag outside glass building",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "officials",
+   "press",
+   "replica"
+  ]
+ },
+ {
+  "id": "c002",
+  "desc": "Workers in helmets drilling and fitting panels inside red-framed container being built as triage unit",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.35,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "construction",
+   "triage",
+   "workers",
+   "container"
+  ]
+ },
+ {
+  "id": "c003",
+  "desc": "Fénix capsule lying horizontally with Chilean flag paint, workers preparing it on hillside",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.65
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "capsule",
+   "fenix",
+   "workers",
+   "wide"
+  ]
+ },
+ {
+  "id": "c004",
+  "desc": "Piñera and helmeted rescuers crowd beside Fénix capsule before first rescuer descends",
+  "night": true,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "piñera",
+   "rescuer",
+   "crowd",
+   "night"
+  ]
+ },
+ {
+  "id": "c005",
+  "desc": "Man in orange vest watching TV monitor showing capsule test inside site cabin",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "monitor",
+   "control-room",
+   "test"
+  ]
+ },
+ {
+  "id": "c006",
+  "desc": "Mario Sepúlveda in red helmet and green jacket embracing President Piñera",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "piñera",
+   "miner",
+   "sepulveda",
+   "faces"
+  ]
+ },
+ {
+  "id": "c007",
+  "desc": "Fénix 2 capsule tested at night under lights, officials in red jackets watching",
+  "night": true,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.3,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "fenix",
+   "night",
+   "test",
+   "officials"
+  ]
+ },
+ {
+  "id": "c008",
+  "desc": "Officials in red jackets and helmets crouching to inspect drilling rig equipment",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.55,
+   0.65
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "drill",
+   "inspection",
+   "officials",
+   "piñera"
+  ]
+ },
+ {
+  "id": "c009",
+  "desc": "Rescue team group photo in orange suits and helmets, cranes and drill rig behind",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.7
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "rescuer",
+   "group",
+   "drill",
+   "wide"
+  ]
+ },
+ {
+  "id": "c010",
+  "desc": "Piñera speaking to seated families in a large tent",
+  "night": false,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.25,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "families",
+   "tents",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c011",
+  "desc": "Piñera with ministers in helmets and red jackets standing at mine site",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "piñera",
+   "ministers",
+   "officials"
+  ]
+ },
+ {
+  "id": "c012",
+  "desc": "Piñera and officials leaning over table reviewing rescue plan map",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.55,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "map",
+   "plan",
+   "officials"
+  ]
+ },
+ {
+  "id": "c013",
+  "desc": "Alex Vega in red helmet and 'Gracias Señor' shirt emerges beside capsule, woman crying",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "miner",
+   "vega",
+   "rescuer",
+   "tears"
+  ]
+ },
+ {
+  "id": "c014",
+  "desc": "Close-up: Ariel Ticona in sunglasses embracing a smiling man",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "ticona",
+   "faces"
+  ]
+ },
+ {
+  "id": "c015",
+  "desc": "Carlos Barrios on stretcher in sunglasses holding rosary, blue sky",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.65,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "stretcher",
+   "miner",
+   "barrios"
+  ]
+ },
+ {
+  "id": "c016",
+  "desc": "Carlos Bugueño shaking hands with woman in white, crowd around",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "bugueño",
+   "greeting",
+   "faces"
+  ]
+ },
+ {
+  "id": "c017",
+  "desc": "Carlos Mamani in green suit with Bolivian flag among orange-suited rescuers",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "mamani",
+   "rescuer",
+   "flag"
+  ]
+ },
+ {
+  "id": "c018",
+  "desc": "Piñera placing signed metal plate to seal the rescue shaft, rescuers watching",
+  "night": true,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "shaft",
+   "closure",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c019",
+  "desc": "Claudio Yáñez in sunglasses hugging woman by yellow rig leg, blue sky",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "yañez",
+   "family"
+  ]
+ },
+ {
+  "id": "c020",
+  "desc": "Daniel Herrera in red helmet embracing woman, rescuers around",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "herrera",
+   "family"
+  ]
+ },
+ {
+  "id": "c021",
+  "desc": "Edison Peña on stretcher raising fist, rescuer in green beside",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "stretcher",
+   "miner",
+   "peña",
+   "celebration"
+  ]
+ },
+ {
+  "id": "c022",
+  "desc": "Esteban Rojas kneeling in prayer, rescuers and family clapping around",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "rojas",
+   "prayer",
+   "rescuer",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c023",
+  "desc": "Florencio Ávalos hugging Piñera in red jacket, child watching at right",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "piñera",
+   "miner",
+   "avalos",
+   "first-out"
+  ]
+ },
+ {
+  "id": "c024",
+  "desc": "Jimmy Sánchez emerging with Chilean flag, rescuers in orange and helmets",
+  "night": true,
+  "emotion": 4,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "sanchez",
+   "flag",
+   "rescuer",
+   "night"
+  ]
+ },
+ {
+  "id": "c025",
+  "desc": "Johnny Barrios in blue helmet hugging woman, rescuers behind",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "barrios",
+   "family"
+  ]
+ },
+ {
+  "id": "c026",
+  "desc": "Jorge Galleguillos gives thumbs up after exiting Fénix capsule, rescuers around",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "miner",
+   "galleguillos",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c027",
+  "desc": "Juan Carlos Aguilar greeted by crowd and press at shaft, capsule behind",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "aguilar",
+   "crowd",
+   "press",
+   "night"
+  ]
+ },
+ {
+  "id": "c028",
+  "desc": "Juan Illanes hugging rescuer in yellow helmet while Piñera claps",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.3,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "illanes",
+   "piñera"
+  ]
+ },
+ {
+  "id": "c029",
+  "desc": "Omar Reygadas kneeling in green suit and blue helmet, praying",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "reygadas",
+   "prayer"
+  ]
+ },
+ {
+  "id": "c030",
+  "desc": "Osman Araya in blue helmet embracing his wife under rig lights",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "araya",
+   "family",
+   "night"
+  ]
+ },
+ {
+  "id": "c031",
+  "desc": "Pablo Rojas in green suit raising both arms in celebration, blue sky",
+  "night": false,
+  "emotion": 4,
+  "quality": 5,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "rojas",
+   "celebration",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c032",
+  "desc": "Pedro Cortés in red helmet and sunglasses flanked by rescuers",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "cortes",
+   "rescuer",
+   "faces"
+  ]
+ },
+ {
+  "id": "c033",
+  "desc": "Raúl Bustos in blue helmet hugging woman, crowd clapping",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "bustos",
+   "family"
+  ]
+ },
+ {
+  "id": "c034",
+  "desc": "Renán Ávalos lying on stretcher in sunglasses, medics tending him",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.4,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "stretcher",
+   "miner",
+   "avalos",
+   "doctor"
+  ]
+ },
+ {
+  "id": "c035",
+  "desc": "Richard Villarroel shouting in celebration beside capsule, rescuers and banner",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "villarroel",
+   "celebration",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c036",
+  "desc": "Samuel Ávalos hugging woman while officials in red jackets clap",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.3,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "avalos",
+   "family"
+  ]
+ },
+ {
+  "id": "c037",
+  "desc": "Piñera visiting Carlos Mamani in hospital bed, family with children present",
+  "night": false,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "hospital",
+   "piñera",
+   "mamani",
+   "family"
+  ]
+ },
+ {
+  "id": "c038",
+  "desc": "Evo Morales and Piñera shaking hands at mine site, desert backdrop",
+  "night": false,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "morales",
+   "handshake",
+   "officials"
+  ]
+ },
+ {
+  "id": "c039",
+  "desc": "Víctor Segovia in red helmet surrounded by orange-suited rescuers",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "segovia",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c040",
+  "desc": "Piñera in white helmet leaning over Víctor Zamora in green suit",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.55,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "miner",
+   "zamora"
+  ]
+ },
+ {
+  "id": "c041",
+  "desc": "Last rescuer Manuel González embraced by rescuers beside Fénix 2, Piñera present",
+  "night": true,
+  "emotion": 4,
+  "quality": 3,
+  "focus": [
+   0.4,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "capsule",
+   "hug",
+   "piñera",
+   "last-out"
+  ]
+ },
+ {
+  "id": "c042",
+  "desc": "Cast of film 'Los 33' posing indoors with Piñera",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "actors",
+   "film",
+   "piñera",
+   "group"
+  ]
+ },
+ {
+  "id": "c043",
+  "desc": "Rescue borehole at ground level with pipe and red hoses, site equipment behind",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.4,
+   0.7
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "shaft",
+   "borehole",
+   "drill",
+   "site"
+  ]
+ },
+ {
+  "id": "c044",
+  "desc": "Fénix capsule exhibited in scaffolding tower outside building with flags",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.4,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "exhibit",
+   "building"
+  ]
+ },
+ {
+  "id": "c045",
+  "desc": "3D diagram of San José mine ramp spiral and depth, Tagalog labels",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "diagram",
+   "mine",
+   "map"
+  ]
+ },
+ {
+  "id": "c046",
+  "desc": "Alex Vega in red helmet raising arm after exiting capsule, rescuers around",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "vega",
+   "capsule",
+   "celebration"
+  ]
+ },
+ {
+  "id": "c047",
+  "desc": "Alex Vega stepping out beside Chilean-flag capsule, rescuers assisting",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "miner",
+   "vega",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c048",
+  "desc": "Alex Vega in 'Gracias Señor' shirt by capsule, woman covering face crying",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "miner",
+   "vega",
+   "tears"
+  ]
+ },
+ {
+  "id": "c049",
+  "desc": "Alex Vega hugging wife beside capsule, onlookers in red clapping",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.25,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "vega",
+   "capsule",
+   "family"
+  ]
+ },
+ {
+  "id": "c050",
+  "desc": "Officials in helmets, one praying with hands to face, rig shadow on rock wall",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "officials",
+   "prayer",
+   "shadow"
+  ]
+ },
+ {
+  "id": "c051",
+  "desc": "Alex Vega on stretcher backlit by sun, rescuers lifting him",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "stretcher",
+   "miner",
+   "vega",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c052",
+  "desc": "Ariel Ticona in white helmet hugging wife, man watching",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "ticona",
+   "family",
+   "night"
+  ]
+ },
+ {
+  "id": "c053",
+  "desc": "Ariel Ticona in sunglasses kissing his wife",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "kiss",
+   "miner",
+   "ticona",
+   "family",
+   "faces"
+  ]
+ },
+ {
+  "id": "c054",
+  "desc": "Ariel Ticona in green ACHS jacket hugging smiling Piñera",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "piñera",
+   "miner",
+   "ticona"
+  ]
+ },
+ {
+  "id": "c056",
+  "desc": "Actors of 'Los 33' group photo in ornate palace hall",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "actors",
+   "film",
+   "group",
+   "palace"
+  ]
+ },
+ {
+  "id": "c057",
+  "desc": "Fénix 2 capsule displayed in red-walled museum room",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "fenix",
+   "museum"
+  ]
+ },
+ {
+  "id": "c058",
+  "desc": "Carlos Barrios in blue helmet seated, medics and rescuers attending him",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "barrios",
+   "doctor",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c059",
+  "desc": "Carlos Barrios waving as he exits capsule, rescuer in orange beside",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "miner",
+   "barrios",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c060",
+  "desc": "Carlos Barrios emerging beneath capsule, rescuers around, vertical shot",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "miner",
+   "barrios",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c061",
+  "desc": "Carlos Barrios steps out of the Fenix capsule with his arm raised, rescuers around him, under a blue daytime sky",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "miner",
+   "barrios",
+   "rescuer",
+   "day"
+  ]
+ },
+ {
+  "id": "c062",
+  "desc": "Carlos Barrios on a stretcher in sunglasses, holding up a rosary and smiling, rescuers and family behind",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.68,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "stretcher",
+   "miner",
+   "barrios",
+   "faces",
+   "day"
+  ]
+ },
+ {
+  "id": "c063",
+  "desc": "Fenix capsule painted with the Chilean flag, surrounded by rescuers in orange suits helping Carlos Bugueño out",
+  "night": false,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "bugueno",
+   "day"
+  ]
+ },
+ {
+  "id": "c064",
+  "desc": "Person in a red Gobierno de Chile jacket, back to camera, hugging someone; men in white helmets nearby",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "family",
+   "officials",
+   "bugueno"
+  ]
+ },
+ {
+  "id": "c065",
+  "desc": "Woman in black jacket holding a tissue, looking emotional, beside a woman in a red Gobierno de Chile jacket",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.35,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "family",
+   "tears",
+   "faces",
+   "bugueno"
+  ]
+ },
+ {
+  "id": "c066",
+  "desc": "Man in black leather jacket hugging a person in a red government jacket while an official in a white helmet watches",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "family",
+   "officials",
+   "bugueno"
+  ]
+ },
+ {
+  "id": "c067",
+  "desc": "Carlos Mamani in sunglasses and headlamp helmet, surrounded by rescuers in white helmets at night",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "mamani",
+   "rescuer",
+   "night",
+   "faces"
+  ]
+ },
+ {
+  "id": "c068",
+  "desc": "Carlos Mamani in sunglasses and headlamp helmet among rescuers reading a paper at night",
+  "night": true,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "mamani",
+   "rescuer",
+   "night"
+  ]
+ },
+ {
+  "id": "c069",
+  "desc": "Carlos Mamani lying on a stretcher beside the yellow capsule tube and caution tape, paramedic crouching next to him",
+  "night": true,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.6
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "stretcher",
+   "mamani",
+   "doctor",
+   "capsule",
+   "night"
+  ]
+ },
+ {
+  "id": "c070",
+  "desc": "Rescuers in orange and police wheel Carlos Mamani away on a stretcher at night",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.55
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "stretcher",
+   "mamani",
+   "rescuer",
+   "night",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c071",
+  "desc": "Mamani in green kneeling beside the capsule, rescuer in orange standing, press photographers behind, at night",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "mamani",
+   "capsule",
+   "rescuer",
+   "press",
+   "night"
+  ]
+ },
+ {
+  "id": "c072",
+  "desc": "Rescuer in white helmet, sunglasses and orange jacket in the foreground, drill rig and borehole cap behind on the desert slope",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.3,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "drill",
+   "wide",
+   "day"
+  ]
+ },
+ {
+  "id": "c073",
+  "desc": "Drill rig over a capped borehole, workers in orange around it, man in plaid shirt in the left foreground",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "drill",
+   "borehole",
+   "workers",
+   "day"
+  ]
+ },
+ {
+  "id": "c074",
+  "desc": "Two workers in red coveralls and white helmets fitting a yellow clamp at the borehole, drill rig behind",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "drill",
+   "borehole",
+   "workers",
+   "day"
+  ]
+ },
+ {
+  "id": "c075",
+  "desc": "Workers in red coveralls bending over the yellow clamp at the borehole mouth, drill rig behind",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.75,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "drill",
+   "borehole",
+   "workers",
+   "day"
+  ]
+ },
+ {
+  "id": "c076",
+  "desc": "Vertical shot of workers in orange at the borehole with drill pipe, light mast and capped hole",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "drill",
+   "borehole",
+   "workers",
+   "day"
+  ]
+ },
+ {
+  "id": "c077",
+  "desc": "Boy in white helmet looks down at Camp Esperanza flags and tents on the desert hillside below",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "camp",
+   "flags",
+   "wide",
+   "family",
+   "day"
+  ]
+ },
+ {
+  "id": "c078",
+  "desc": "Back of a worker's head in a CAP helmet, looking toward white prefab buildings in the desert camp",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.3,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "camp",
+   "worker",
+   "wide",
+   "day"
+  ]
+ },
+ {
+  "id": "c079",
+  "desc": "Worker in orange crouching beside the drill pipe at the borehole's wooden formwork, rig behind",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "drill",
+   "borehole",
+   "worker",
+   "day"
+  ]
+ },
+ {
+  "id": "c080",
+  "desc": "Vertical shot of a worker in orange signalling beside the drill pipe above the borehole lid",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "drill",
+   "borehole",
+   "worker",
+   "day"
+  ]
+ },
+ {
+  "id": "c081",
+  "desc": "Boy in white helmet looks out over Camp Esperanza flags on the hillside (near-duplicate of c077)",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "camp",
+   "flags",
+   "wide",
+   "day"
+  ]
+ },
+ {
+  "id": "c082",
+  "desc": "Drill rig with capped borehole lid in the foreground, worker in orange at right, rocky slope",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "drill",
+   "borehole",
+   "day"
+  ]
+ },
+ {
+  "id": "c083",
+  "desc": "Officials in red shirts and helmets walking the rescue site, crane behind, man in silver helmet in the foreground",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.55
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "officials",
+   "site",
+   "crane",
+   "day"
+  ]
+ },
+ {
+  "id": "c084",
+  "desc": "Low-angle shot of officials and engineers standing on the desert site with sun flare and blue sky",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.6
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "officials",
+   "wide",
+   "day"
+  ]
+ },
+ {
+  "id": "c085",
+  "desc": "Official in a red shirt pointing while talking with helmeted engineers on the rocky site",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.65,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "officials",
+   "site",
+   "day"
+  ]
+ },
+ {
+  "id": "c086",
+  "desc": "Capped borehole with dome lid, workers in orange around it, cranes and machinery behind",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "borehole",
+   "workers",
+   "site",
+   "day"
+  ]
+ },
+ {
+  "id": "c087",
+  "desc": "Worker in orange walks past the capped borehole, machinery and workers behind",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "borehole",
+   "workers",
+   "day"
+  ]
+ },
+ {
+  "id": "c088",
+  "desc": "Worker in orange standing by the capped borehole lid, crane and workers behind",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "borehole",
+   "worker",
+   "day"
+  ]
+ },
+ {
+  "id": "c089",
+  "desc": "Low wide-angle view of the capped borehole, drill tower and workers in orange behind under blue sky",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "borehole",
+   "drill",
+   "wide",
+   "day"
+  ]
+ },
+ {
+  "id": "c090",
+  "desc": "Helmeted officials talking; man in red shirt holding papers, worker in silver helmet at right",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "officials",
+   "faces",
+   "day"
+  ]
+ },
+ {
+  "id": "c091",
+  "desc": "Rescuers in orange and green army fatigues test the red Fenix capsule beside the headframe in daylight",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "test",
+   "day"
+  ]
+ },
+ {
+  "id": "c092",
+  "desc": "Person inside the red capsule cage during a test, rescuers in orange and green alongside",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "test",
+   "day"
+  ]
+ },
+ {
+  "id": "c093",
+  "desc": "Wider view of the capsule hanging at the platform, rescuers in orange and green gathered around",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "test",
+   "day"
+  ]
+ },
+ {
+  "id": "c094",
+  "desc": "Close shot of rescuers in orange and green fatigues handling the red capsule",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "test",
+   "day"
+  ]
+ },
+ {
+  "id": "c095",
+  "desc": "Rescuers with helmets around the red capsule during a test, man in green fatigues in the centre",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "test",
+   "day"
+  ]
+ },
+ {
+  "id": "c096",
+  "desc": "Vertical shot of the capsule hanging from the winch tower, rescuers below, rescuer in the left foreground",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "tower",
+   "rescuer",
+   "day"
+  ]
+ },
+ {
+  "id": "c097",
+  "desc": "Helmeted officials in a group conversation on site, red crane behind, man close in the left foreground",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "officials",
+   "crane",
+   "day"
+  ]
+ },
+ {
+  "id": "c098",
+  "desc": "Officials in helmets looking over papers, woman in red shirt in the centre, crane behind",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.55
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "officials",
+   "day"
+  ]
+ },
+ {
+  "id": "c099",
+  "desc": "Man in red shirt and man in plaid shirt reading papers with a woman, all in helmets",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.7,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "officials",
+   "faces",
+   "day"
+  ]
+ },
+ {
+  "id": "c100",
+  "desc": "Man in red shirt gesturing while talking with a man wearing an ID lanyard, crane behind",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "officials",
+   "faces",
+   "day"
+  ]
+ },
+ {
+  "id": "c101",
+  "desc": "Man in red shirt raising his hand mid-conversation with helmeted engineers under blue sky",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "officials",
+   "faces",
+   "day"
+  ]
+ },
+ {
+  "id": "c102",
+  "desc": "Low-angle group of officials standing on rocky ground, strong sun flare (similar to c084)",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.6
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "officials",
+   "wide",
+   "day"
+  ]
+ },
+ {
+  "id": "c103",
+  "desc": "Man in red shirt pointing toward the hillside while talking with helmeted officials",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.55
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "officials",
+   "site",
+   "day"
+  ]
+ },
+ {
+  "id": "c104",
+  "desc": "Man in red shirt and sunglasses pointing out across the site, two helmeted men beside him",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.65,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "officials",
+   "site",
+   "day"
+  ]
+ },
+ {
+  "id": "c105",
+  "desc": "Capped borehole with dome lid in the foreground, workers in orange and drill tower behind",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "borehole",
+   "drill",
+   "day"
+  ]
+ },
+ {
+  "id": "c106",
+  "desc": "Wide view of the capped borehole lid, worker in orange at left, crane behind",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "borehole",
+   "wide",
+   "day"
+  ]
+ },
+ {
+  "id": "c107",
+  "desc": "Man in red shirt and sunglasses sweeping his arm while explaining the site to helmeted men",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "officials",
+   "site",
+   "day"
+  ]
+ },
+ {
+  "id": "c108",
+  "desc": "Rescuers in orange and green fatigues gathered at the capsule beside the headframe",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "test",
+   "day"
+  ]
+ },
+ {
+  "id": "c109",
+  "desc": "Rescuer in green fatigues at the red capsule, others in orange helping, daytime",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.35,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "test",
+   "day"
+  ]
+ },
+ {
+  "id": "c110",
+  "desc": "Rescuers in orange and green securing the red capsule at the shaft",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "test",
+   "day"
+  ]
+ },
+ {
+  "id": "c111",
+  "desc": "Vertical shot of the capsule hanging at the winch tower, rescuers at its base, blue sky",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "tower",
+   "rescuer",
+   "day"
+  ]
+ },
+ {
+  "id": "c112",
+  "desc": "Rescuer in green fatigues and rescuers in orange beside the capsule at the tower",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "tower",
+   "rescuer",
+   "day"
+  ]
+ },
+ {
+  "id": "c113",
+  "desc": "Claudio Yañez in green jacket and sunglasses raises both arms in a corridor, rescuer's helmet in the foreground",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "yanez",
+   "celebration",
+   "faces"
+  ]
+ },
+ {
+  "id": "c114",
+  "desc": "Claudio Yañez on a stretcher in green and sunglasses, hand raised to rescuers, crowd and floodlight behind",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "yanez",
+   "stretcher",
+   "celebration",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c115",
+  "desc": "Woman in white jacket and helmet cheering with fist raised among family and officials",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "family",
+   "cheering",
+   "yanez",
+   "faces"
+  ]
+ },
+ {
+  "id": "c116",
+  "desc": "Officials in red government jackets beside a rescuer in orange under the yellow headframe at night",
+  "night": true,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "officials",
+   "rescuer",
+   "night",
+   "faces"
+  ]
+ },
+ {
+  "id": "c117",
+  "desc": "Rescuers in orange gathered around the borehole under the yellow headframe at night, crowd behind",
+  "night": true,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.6
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "rescuer",
+   "borehole",
+   "night",
+   "wide"
+  ]
+ },
+ {
+  "id": "c118",
+  "desc": "Small room where men in red jackets and helmets watch a TV monitor with the live feed, photographer in the foreground",
+  "night": false,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.55,
+   0.55
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "officials",
+   "monitor",
+   "press"
+  ]
+ },
+ {
+  "id": "c119",
+  "desc": "Two smiling men in red jackets and white helmets clasp hands in front of a TV monitor showing the descent feed",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "officials",
+   "handshake",
+   "monitor",
+   "faces"
+  ]
+ },
+ {
+  "id": "c120",
+  "desc": "Two men in red jackets and white helmets clasp hands, smiling, before a TV monitor in a small room",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "officials",
+   "handshake",
+   "monitor",
+   "faces"
+  ]
+ },
+ {
+  "id": "c121",
+  "desc": "Rescuer in orange talks with officials in red jackets and white helmets, Piñera at right, close group",
+  "night": true,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "rescuer",
+   "faces",
+   "press"
+  ]
+ },
+ {
+  "id": "c122",
+  "desc": "Workers in orange coveralls and green helmets hammering at base of yellow crane supports",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "crane",
+   "drill",
+   "workers"
+  ]
+ },
+ {
+  "id": "c123",
+  "desc": "Workers in orange with green helmets working at crane base on rocky site",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "crane",
+   "workers"
+  ]
+ },
+ {
+  "id": "c124",
+  "desc": "Fénix 2 capsule shown inside scaffolding in Santiago plaza, Chilean flags, government buildings behind",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.47,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "santiago",
+   "exhibit",
+   "flag"
+  ]
+ },
+ {
+  "id": "c125",
+  "desc": "Wide plaza view of scaffold display holding capsule, onlookers, tall buildings, Chilean flags",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.57,
+   0.45
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "capsule",
+   "santiago",
+   "exhibit",
+   "wide"
+  ]
+ },
+ {
+  "id": "c126",
+  "desc": "Fénix capsule in red-white-blue beside older silver rescue capsule in museum hall",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "museum",
+   "exhibit"
+  ]
+ },
+ {
+  "id": "c127",
+  "desc": "Daniel Herrera beside Fénix 2 capsule embraced by woman, rescuers in white helmets around",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "hug",
+   "miner",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c128",
+  "desc": "Daniel Herrera on stretcher in sunglasses, woman in black holds his hand, medic in white",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "stretcher",
+   "doctor",
+   "faces"
+  ]
+ },
+ {
+  "id": "c129",
+  "desc": "Daniel Herrera lying on stretcher under blue sky, clapping hands in foreground",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.65,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "stretcher"
+  ]
+ },
+ {
+  "id": "c130",
+  "desc": "Dario Segovia on stretcher giving thumbs up, rescuers and medics around, mountain behind",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "stretcher",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c131",
+  "desc": "Dario Segovia inside Fénix 2 capsule cage in sunglasses and flag shirt, rescuers around",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "miner",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c132",
+  "desc": "Dario Segovia raises arm after exiting capsule, sun flare, rescuers and crowd behind",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "capsule",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c133",
+  "desc": "Dario Segovia in blue helmet hugging woman holding Chilean flag, onlookers clapping",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.42,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "flag",
+   "capsule"
+  ]
+ },
+ {
+  "id": "c134",
+  "desc": "Wider shot of Segovia embracing woman beside capsule, rescuers in orange and officials watch",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.42
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "capsule",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c135",
+  "desc": "Worker in green helmet seen from behind, drilling rig and workers in orange beyond",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.3,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "drill",
+   "rescuer",
+   "workers"
+  ]
+ },
+ {
+  "id": "c136",
+  "desc": "Workers in orange measuring on drill pad, yellow machinery and drill rig behind",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "drill",
+   "workers"
+  ]
+ },
+ {
+  "id": "c137",
+  "desc": "Man in orange vest walking on drill site, worker in orange coverall, drilling rig",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.35,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "drill",
+   "workers"
+  ]
+ },
+ {
+  "id": "c138",
+  "desc": "Large yellow drilling rig with worker in orange coveralls and man in vest",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.75,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "drill",
+   "workers",
+   "wide"
+  ]
+ },
+ {
+  "id": "c139",
+  "desc": "Edison Peña in sunglasses holding flag shirt beside capsule, rescuer in orange, man gesturing",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "capsule",
+   "flag",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c140",
+  "desc": "Edison Peña smiling on stretcher in sunglasses, paramedic leaning over him",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "stretcher",
+   "faces"
+  ]
+ },
+ {
+  "id": "c141",
+  "desc": "Edison Peña on stretcher raising fist, medic in green jacket and white helmet",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "stretcher"
+  ]
+ },
+ {
+  "id": "c142",
+  "desc": "Woman embraces Edison Peña on stretcher, medics and officials in red around",
+  "night": false,
+  "emotion": 4,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "hug",
+   "stretcher"
+  ]
+ },
+ {
+  "id": "c143",
+  "desc": "Edison Peña raising fists on stretcher, crowd raising fists behind, blue sky",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "stretcher",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c144",
+  "desc": "Edison Peña close up, fist raised on stretcher, medic in white helmet at right",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "stretcher",
+   "faces"
+  ]
+ },
+ {
+  "id": "c145",
+  "desc": "Diagram of Fénix capsule and miner equipment with English numbered labels, white background",
+  "night": false,
+  "emotion": 0,
+  "quality": 2,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "diagram",
+   "capsule"
+  ]
+ },
+ {
+  "id": "c146",
+  "desc": "Diagram of Fénix capsule and equipped miner with numbered labels, black background",
+  "night": false,
+  "emotion": 0,
+  "quality": 2,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "diagram",
+   "capsule"
+  ]
+ },
+ {
+  "id": "c148",
+  "desc": "Diagram of Fénix 2 capsule and equipped miner, numbered labels, black background",
+  "night": false,
+  "emotion": 0,
+  "quality": 2,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "diagram",
+   "capsule"
+  ]
+ },
+ {
+  "id": "c149",
+  "desc": "Red handwritten text 'Estamos bien en el refugio los 33' on black",
+  "night": false,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "diagram",
+   "note",
+   "text"
+  ]
+ },
+ {
+  "id": "c150",
+  "desc": "Esteban Rojas in flag shirt embraced by man in red, woman watching, rescuer in orange",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "rescuer",
+   "faces"
+  ]
+ },
+ {
+  "id": "c151",
+  "desc": "Esteban Rojas kneeling and hugging woman in red, rescuers and officials circle around",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c152",
+  "desc": "Older man in red jacket clapping, emotional woman in red, medic in white coat foreground",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "faces",
+   "doctor",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c153",
+  "desc": "Vertical shot of Esteban Rojas kneeling, embracing woman in red, crowd watching",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c154",
+  "desc": "Rescuers lead Esteban Rojas toward stretcher under tents, crowd watching, sunny desert",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.6,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "stretcher",
+   "rescuer",
+   "tents",
+   "wide"
+  ]
+ },
+ {
+  "id": "c155",
+  "desc": "Older man in red clapping, woman in red looking up crying, medic in white coat",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "faces",
+   "doctor",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c156",
+  "desc": "Fénix capsule hoisted above rescuers, man raising arm in celebration",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c157",
+  "desc": "Fénix 2 replica standing outdoors in front of modern building and trees",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "exhibit"
+  ]
+ },
+ {
+  "id": "c158",
+  "desc": "Fénix 2 capsule on black display stand under building colonnade",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "exhibit"
+  ]
+ },
+ {
+  "id": "c159",
+  "desc": "Crowd of rescuers in helmets cheering around an embrace, one waves green helmet, camera raised",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "crowd",
+   "hug",
+   "rescuer",
+   "night"
+  ]
+ },
+ {
+  "id": "c160",
+  "desc": "Piñera in red jacket greets miner in green jacket, crowd of rescuers in helmets",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "miner",
+   "crowd",
+   "night"
+  ]
+ },
+ {
+  "id": "c161",
+  "desc": "Last miner in yellow helmet with Chilean flag embraced by man in white helmet",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "flag",
+   "night"
+  ]
+ },
+ {
+  "id": "c162",
+  "desc": "Miner in yellow helmet and green jacket face to face with smiling Piñera",
+  "night": true,
+  "emotion": 4,
+  "quality": 5,
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "miner",
+   "faces",
+   "night"
+  ]
+ },
+ {
+  "id": "c163",
+  "desc": "Miner in green and Piñera shaking hands, capsule and crowd behind, floodlit",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "miner",
+   "capsule",
+   "night"
+  ]
+ },
+ {
+  "id": "c164",
+  "desc": "Miner in yellow helmet and Piñera embrace close, capsule behind",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "miner",
+   "hug",
+   "night"
+  ]
+ },
+ {
+  "id": "c165",
+  "desc": "Miner in green and Piñera handshake, wide view with crowd and capsule, floodlit",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "miner",
+   "crowd",
+   "night",
+   "wide"
+  ]
+ },
+ {
+  "id": "c166",
+  "desc": "Miner with flag and Piñera holding helmet to chest, singing, crowd around",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "miner",
+   "flag",
+   "crowd",
+   "night"
+  ]
+ },
+ {
+  "id": "c167",
+  "desc": "Piñera and minister in red clap facing miner in green jacket, helmeted crowd",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "miner",
+   "crowd",
+   "night"
+  ]
+ },
+ {
+  "id": "c168",
+  "desc": "Piñera hugs miner in green jacket and yellow helmet beside capsule",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "miner",
+   "hug",
+   "night"
+  ]
+ },
+ {
+  "id": "c169",
+  "desc": "Rescuers in orange gather around shaft opening, one raising fist in celebration",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "crowd",
+   "night"
+  ]
+ },
+ {
+  "id": "c170",
+  "desc": "Wide floodlit scene: miner in green and Piñera at shaft surrounded by rescuers",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.65,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "miner",
+   "rescuer",
+   "night",
+   "wide"
+  ]
+ },
+ {
+  "id": "c171",
+  "desc": "Miner in green and Piñera embracing, close, rescuers in orange behind",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "miner",
+   "hug",
+   "night"
+  ]
+ },
+ {
+  "id": "c172",
+  "desc": "Miner in yellow helmet and smiling Piñera face to face, close",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "miner",
+   "faces",
+   "night"
+  ]
+ },
+ {
+  "id": "c173",
+  "desc": "Miner draped in Chilean flag talks with Piñera, capsule at left",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "miner",
+   "flag",
+   "capsule",
+   "night"
+  ]
+ },
+ {
+  "id": "c174",
+  "desc": "Miner in green and Piñera shaking hands, close, capsule behind",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "miner",
+   "night"
+  ]
+ },
+ {
+  "id": "c175",
+  "desc": "Miner with flag and Piñera holding white helmet, capsule at left",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.65,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "miner",
+   "flag",
+   "capsule",
+   "night"
+  ]
+ },
+ {
+  "id": "c176",
+  "desc": "Fénix 2 capsule tilted at left, officials and rescuers around shaft, floodlights",
+  "night": true,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.25,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "night"
+  ]
+ },
+ {
+  "id": "c177",
+  "desc": "Capsule top with CHILE label at shaft opening, officials and rescuers standing by",
+  "night": true,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.65
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "night"
+  ]
+ },
+ {
+  "id": "c178",
+  "desc": "Florencio Avalos hugging woman in red near capsule, boy and family watching",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "capsule",
+   "night"
+  ]
+ },
+ {
+  "id": "c179",
+  "desc": "Crying boy in helmet surrounded by officials in red jackets, rescuers behind",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "faces",
+   "night",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c180",
+  "desc": "Florencio Avalos embraced by woman, rescuers in orange and white helmets around",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "rescuer",
+   "night"
+  ]
+ },
+ {
+  "id": "c181",
+  "desc": "Florencio Avalos embracing family members, rescuers in orange around",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "rescuer",
+   "night"
+  ]
+ },
+ {
+  "id": "c182",
+  "desc": "Florencio Avalos on stretcher rushed through crowd by rescuers, uniformed officer at right; motion blur",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "stretcher",
+   "rescuer",
+   "crowd",
+   "night",
+   "avalos"
+  ]
+ },
+ {
+  "id": "c183",
+  "desc": "Close-up of woman's hand on red Gobierno de Chile jacket during embrace",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "detail",
+   "gobierno"
+  ]
+ },
+ {
+  "id": "c184",
+  "desc": "Franklin Lobos in blue helmet marked 'Atrapados el 05-08' hugging person in black Adidas jacket",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.65,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "lobos",
+   "helmet",
+   "faces"
+  ]
+ },
+ {
+  "id": "c185",
+  "desc": "Woman holds Franklin Lobos's face in both hands; he wears sunglasses, blue helmet, green suit",
+  "night": false,
+  "emotion": 5,
+  "quality": 5,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "hug",
+   "lobos",
+   "faces",
+   "family"
+  ]
+ },
+ {
+  "id": "c186",
+  "desc": "Franklin Lobos in sunglasses smiling face to face with dark-haired woman",
+  "night": false,
+  "emotion": 4,
+  "quality": 5,
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "lobos",
+   "faces",
+   "family"
+  ]
+ },
+ {
+  "id": "c187",
+  "desc": "Franklin Lobos torso in green suit carrying signed soccer ball, police tape behind; face not shown",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.7,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "lobos",
+   "football",
+   "detail"
+  ]
+ },
+ {
+  "id": "c188",
+  "desc": "Close-up signed white Adidas soccer ball pressed against Lobos's head by hands",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.35
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "lobos",
+   "football",
+   "detail"
+  ]
+ },
+ {
+  "id": "c189",
+  "desc": "Fénix-2 capsule exhibited inside scaffolding tower in Santiago street, buildings behind",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "exhibition",
+   "santiago"
+  ]
+ },
+ {
+  "id": "c190",
+  "desc": "La Moneda palace with Chilean flag, Fénix-2 display tower at right, crowd behind barriers",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "capsule",
+   "la-moneda",
+   "wide",
+   "exhibition"
+  ]
+ },
+ {
+  "id": "c191",
+  "desc": "Rescuers in orange jackets and white helmets attending Jimmy Sanchez at capsule exit",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "capsule",
+   "night",
+   "sanchez"
+  ]
+ },
+ {
+  "id": "c192",
+  "desc": "Tight crowd of rescuers and medic in teal jacket bending over emerging miner",
+  "night": true,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "night",
+   "sanchez"
+  ]
+ },
+ {
+  "id": "c193",
+  "desc": "Jimmy Sanchez in blue helmet with Chilean flag beside man in red U jersey holding blue flag, capsule",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "sanchez",
+   "flag",
+   "capsule",
+   "night"
+  ]
+ },
+ {
+  "id": "c194",
+  "desc": "Wide daylight scene: rescuers in orange and officials in red line up at rescue site, desert hillside",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.55
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "wide",
+   "rescuer",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c195",
+  "desc": "Rescuers in orange unbuckle Jorge Galleguillos as he exits capsule in daylight",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "galleguillos"
+  ]
+ },
+ {
+  "id": "c196",
+  "desc": "Bearded Jorge Galleguillos gives thumbs-up with Chilean flag at capsule, rescuers around",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "galleguillos",
+   "flag",
+   "faces"
+  ]
+ },
+ {
+  "id": "c197",
+  "desc": "Close-up bearded Galleguillos in blue helmet and headlamp as rescuer in orange unclips harness",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.65,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "galleguillos",
+   "rescuer",
+   "faces"
+  ]
+ },
+ {
+  "id": "c198",
+  "desc": "Galleguillos in cream shirt embraces man, officials in white helmets and red jackets watch",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "galleguillos"
+  ]
+ },
+ {
+  "id": "c199",
+  "desc": "Galleguillos lying on stretcher under blanket, wheeled by man in teal jacket",
+  "night": false,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.55
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "stretcher",
+   "galleguillos",
+   "doctor"
+  ]
+ },
+ {
+  "id": "c200",
+  "desc": "Galleguillos waving at capsule, rescuers in orange and dark jackets beside him",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "galleguillos",
+   "faces"
+  ]
+ },
+ {
+  "id": "c201",
+  "desc": "Wide shot of hug in center of crowd of officials in helmets; drill wheel shadow on rock",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.53,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "crowd",
+   "wide",
+   "galleguillos"
+  ]
+ },
+ {
+  "id": "c202",
+  "desc": "Galleguillos hugs man in red jacket and white helmet amid officials",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "galleguillos",
+   "piñera"
+  ]
+ },
+ {
+  "id": "c203",
+  "desc": "Jose Henriquez in blue helmet with yellow ear defenders hugging man in white shirt",
+  "night": false,
+  "emotion": 4,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "henriquez"
+  ]
+ },
+ {
+  "id": "c204",
+  "desc": "Jose Ojeda in green suit greets woman in red with white helmet; rescuers at capsule",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.6
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "ojeda",
+   "capsule",
+   "rescuer",
+   "night"
+  ]
+ },
+ {
+  "id": "c205",
+  "desc": "Fénix capsule top with mesh cage, rescuers in white helmets crowded in front",
+  "night": true,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "ojeda"
+  ]
+ },
+ {
+  "id": "c206",
+  "desc": "Jose Ojeda with Chilean flag among rescuers beside floodlit capsule",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "ojeda",
+   "capsule",
+   "flag",
+   "night"
+  ]
+ },
+ {
+  "id": "c207",
+  "desc": "Ojeda wrapped in Chilean flag embraced by rescuers next to capsule under floodlights",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "ojeda",
+   "capsule",
+   "flag",
+   "hug",
+   "night"
+  ]
+ },
+ {
+  "id": "c208",
+  "desc": "Juan Carlos Aguilar hugging rescuer, Piñera in red jacket watching, helmeted crowd",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "aguilar",
+   "piñera"
+  ]
+ },
+ {
+  "id": "c209",
+  "desc": "Aguilar lying on stretcher holding Chilean flag, rescuers in helmets leaning over him",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.4,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "stretcher",
+   "aguilar",
+   "flag",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c210",
+  "desc": "Aguilar embraces smiling Piñera in red jacket, officials in helmets behind",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "aguilar",
+   "piñera"
+  ]
+ },
+ {
+  "id": "c211",
+  "desc": "Rescuers in orange 'Rescate Minero' jackets surround Juan Illanes at capsule 'IX 2'",
+  "night": true,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "capsule",
+   "illanes",
+   "night"
+  ]
+ },
+ {
+  "id": "c212",
+  "desc": "Illanes in yellow helmet among rescuers at floodlit site, crowd behind fence",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.55,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "illanes",
+   "rescuer",
+   "night",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c213",
+  "desc": "Illanes in yellow helmet hugging someone, Piñera in red smiling at left",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "illanes",
+   "piñera",
+   "night"
+  ]
+ },
+ {
+  "id": "c214",
+  "desc": "Illanes with yellow-helmeted man in distance, photographers, blurred foreground backs",
+  "night": true,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.55,
+   0.65
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "illanes",
+   "press",
+   "night"
+  ]
+ },
+ {
+  "id": "c215",
+  "desc": "Piñera in red jacket and dark-haired man raise arms cheering under floodlights",
+  "night": true,
+  "emotion": 4,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "illanes",
+   "night"
+  ]
+ },
+ {
+  "id": "c216",
+  "desc": "Illanes greets woman in embrace at site, Piñera blurred in foreground left",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.55,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "illanes",
+   "hug",
+   "piñera",
+   "night"
+  ]
+ },
+ {
+  "id": "c217",
+  "desc": "Illanes from behind with arm raised, Piñera smiling and applauding, cameras around",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "illanes",
+   "piñera",
+   "press",
+   "night"
+  ]
+ },
+ {
+  "id": "c218",
+  "desc": "Illanes on stretcher under blanket carried by uniformed officer and rescuers",
+  "night": true,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "stretcher",
+   "illanes",
+   "rescuer",
+   "night"
+  ]
+ },
+ {
+  "id": "c219",
+  "desc": "Illanes in sunglasses and Chilean flag scarf talks face to face with gray-haired man",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.45
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "illanes",
+   "faces",
+   "flag",
+   "night"
+  ]
+ },
+ {
+  "id": "c222",
+  "desc": "Fénix capsule displayed in scaffolding outside La Moneda, crowd at barriers",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "exhibition",
+   "la-moneda"
+  ]
+ },
+ {
+  "id": "c223",
+  "desc": "Fénix capsule in scaffolding tower in leafy plaza, traffic light in foreground",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.4,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "exhibition",
+   "santiago"
+  ]
+ },
+ {
+  "id": "c224",
+  "desc": "'Los 33' film launch group photo with Piñera and cast before red backdrop and Chilean flag",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "film",
+   "piñera",
+   "press",
+   "group"
+  ]
+ },
+ {
+  "id": "c225",
+  "desc": "Juliette Binoche, men in suits, Piñera, and Antonio Banderas waving at 'Los 33' launch",
+  "night": false,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.45
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "film",
+   "piñera",
+   "banderas",
+   "binoche"
+  ]
+ },
+ {
+  "id": "c226",
+  "desc": "Binoche, Piñera, Banderas and officials posing outdoors at palace, crowd behind",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "film",
+   "piñera",
+   "banderas",
+   "binoche"
+  ]
+ },
+ {
+  "id": "c227",
+  "desc": "Smiling rescuer in orange beneath Fénix 2 capsule, greeted by man in red",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "capsule",
+   "night",
+   "faces"
+  ]
+ },
+ {
+  "id": "c228",
+  "desc": "Rescuers in orange suits and white helmets hugging at Fénix 2 capsule",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "hug",
+   "capsule",
+   "night"
+  ]
+ },
+ {
+  "id": "c229",
+  "desc": "Rescuer in orange shakes hands with Piñera in red jacket by Fénix 2",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.55
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "rescuer",
+   "piñera",
+   "capsule",
+   "night"
+  ]
+ },
+ {
+  "id": "c230",
+  "desc": "Smiling rescuer with headlamp helmet at Fénix 2, Piñera's back in foreground",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "piñera",
+   "capsule",
+   "night"
+  ]
+ },
+ {
+  "id": "c231",
+  "desc": "Rescuers in white helmets at Fénix 2, Piñera in red in foreground profile",
+  "night": true,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "piñera",
+   "capsule",
+   "night"
+  ]
+ },
+ {
+  "id": "c232",
+  "desc": "Last rescuer in GOPE uniform and lamp helmet smiles face to face with Piñera at Fénix 2",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.4
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "rescuer",
+   "piñera",
+   "capsule",
+   "faces",
+   "night"
+  ]
+ },
+ {
+  "id": "c233",
+  "desc": "Rescuer's face seen through blurred foreground crowd in helmets",
+  "night": true,
+  "emotion": 2,
+  "quality": 2,
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "crowd",
+   "night"
+  ]
+ },
+ {
+  "id": "c234",
+  "desc": "Fénix 2 capsule hanging under floodlight above crowd in white helmets",
+  "night": true,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "crowd",
+   "night",
+   "wide"
+  ]
+ },
+ {
+  "id": "c235",
+  "desc": "Grinning rescuer in orange with headlamp at Fénix 2 greeting Piñera at right edge",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "piñera",
+   "capsule",
+   "faces",
+   "night"
+  ]
+ },
+ {
+  "id": "c236",
+  "desc": "Man in green shirt speaks into cluster of microphones, reporters and cameras around",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "press",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c237",
+  "desc": "Rescuers in orange vests and helmets at press conference facing microphones (TVN)",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "press",
+   "rescuer",
+   "group"
+  ]
+ },
+ {
+  "id": "c238",
+  "desc": "Line of rescuers raising helmets in celebration under blue sky, desert hills",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.75
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "rescuer",
+   "group",
+   "wide",
+   "celebration"
+  ]
+ },
+ {
+  "id": "c239",
+  "desc": "Luis Urzua hugging rescuer beside capsule, cameras and press around",
+  "night": true,
+  "emotion": 4,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "urzua",
+   "hug",
+   "capsule",
+   "press",
+   "night"
+  ]
+ },
+ {
+  "id": "c240",
+  "desc": "Luis Urzua waving with Chilean flag over shoulder, rescuer in orange beside, floodlit",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "urzua",
+   "flag",
+   "capsule",
+   "night",
+   "faces"
+  ]
+ },
+ {
+  "id": "c241",
+  "desc": "Urzua in white helmet waving with flag next to smiling rescuer at capsule",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "urzua",
+   "flag",
+   "rescuer",
+   "night"
+  ]
+ },
+ {
+  "id": "c242",
+  "desc": "Urzua with flag reaching out to embrace person seen from behind, crowd behind",
+  "night": true,
+  "emotion": 4,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "urzua",
+   "hug",
+   "flag",
+   "night"
+  ]
+ },
+ {
+  "id": "c243",
+  "desc": "Cutaway diagram of San José mine: Cerro San Jose, spiral ramp, refuge at depth (German labels)",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "diagram",
+   "mine"
+  ]
+ },
+ {
+  "id": "c244",
+  "desc": "English 3D cutaway diagram of San José mine: spiral ramp, collapse markers, refuge at ~-120 m, black background",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "diagram",
+   "mine",
+   "english"
+  ]
+ },
+ {
+  "id": "c245",
+  "desc": "Spanish cutaway diagram of San José mine with spiral ramp, collapse stars, taller and refugio labels",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "diagram",
+   "mine",
+   "spanish"
+  ]
+ },
+ {
+  "id": "c246",
+  "desc": "Finnish cutaway diagram of San José mine, spiral ramp and collapse markers, black background",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "diagram",
+   "mine",
+   "finnish"
+  ]
+ },
+ {
+  "id": "c247",
+  "desc": "Finnish cutaway diagram of San José mine (SVG version), spiral ramp, refuge, collapse points",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "diagram",
+   "mine",
+   "finnish"
+  ]
+ },
+ {
+  "id": "c248",
+  "desc": "Hebrew cutaway diagram of San José mine on white, with legend box and depth scale",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "diagram",
+   "mine",
+   "hebrew"
+  ]
+ },
+ {
+  "id": "c249",
+  "desc": "Woman in white helmet and orange jacket talks with rescuers indoors; rescuer Manuel González in orange suit and harness behind",
+  "night": false,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "faces",
+   "helmets"
+  ]
+ },
+ {
+  "id": "c250",
+  "desc": "Rescuer Manuel González inside capsule cage seen through mesh, face lit, blurred orange foreground",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "faces",
+   "close-up"
+  ]
+ },
+ {
+  "id": "c251",
+  "desc": "Close-up of Manuel González in Codelco helmet inside capsule cage, serious face, blurred foreground",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.55,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "faces",
+   "close-up"
+  ]
+ },
+ {
+  "id": "c252",
+  "desc": "Rescuers in white helmets crowd around Fenix 2 capsule with González visible inside cage",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "helmets",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c253",
+  "desc": "Officials in red jackets and naval officer meet rescuers in orange suits, González in harness, white room",
+  "night": false,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "rescuer",
+   "officials",
+   "group"
+  ]
+ },
+ {
+  "id": "c254",
+  "desc": "Manuel González in harness and white helmet surrounded by rescuers and Gobierno de Chile red jacket",
+  "night": false,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "faces",
+   "helmets"
+  ]
+ },
+ {
+  "id": "c255",
+  "desc": "Miner Mario Gómez in sunglasses and Chile-flag shirt embraces woman in white helmet beside capsule",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "capsule",
+   "faces"
+  ]
+ },
+ {
+  "id": "c256",
+  "desc": "Mario Gómez raises fist holding Chile flag beside striped capsule, rescuers in orange around",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.3,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "capsule",
+   "cheering",
+   "flag"
+  ]
+ },
+ {
+  "id": "c257",
+  "desc": "Mario Gómez kneels in prayer by capsule as rescuers and officials stand in semicircle, helmets off",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.48,
+   0.62
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "prayer",
+   "capsule",
+   "wide"
+  ]
+ },
+ {
+  "id": "c258",
+  "desc": "Mario Gómez kneeling with flag beside capsule, circle of rescuers in orange vests watching",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.27,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "prayer",
+   "capsule",
+   "wide"
+  ]
+ },
+ {
+  "id": "c259",
+  "desc": "Mario Gómez kneels holding Chile flag while rescuers bend over him next to capsule",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "capsule",
+   "flag",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c260",
+  "desc": "Mario Gómez raises hand while embracing woman in black coat, flag, capsule and rescuers behind",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "capsule",
+   "flag"
+  ]
+ },
+ {
+  "id": "c261",
+  "desc": "Mario Gómez in green suit raises fist among white helmets, crowd behind barrier",
+  "night": false,
+  "emotion": 4,
+  "quality": 3,
+  "focus": [
+   0.62,
+   0.42
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "cheering",
+   "helmets",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c262",
+  "desc": "Close-up of woman's hand on back of red Gobierno de Chile jacket during embrace",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "detail",
+   "gobierno"
+  ]
+ },
+ {
+  "id": "c263",
+  "desc": "Mario Sepúlveda on stretcher under blanket, in sunglasses, gripping hand of official in white helmet",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "stretcher",
+   "faces"
+  ]
+ },
+ {
+  "id": "c264",
+  "desc": "Mario Sepúlveda hugs person in red next to Fenix 2 capsule, rescuers in orange, floodlit night",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "capsule",
+   "night",
+   "miner"
+  ]
+ },
+ {
+  "id": "c265",
+  "desc": "Wider view: Sepúlveda embracing beside Fenix 2 capsule, rescuers in orange around, night lights",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "capsule",
+   "night",
+   "miner"
+  ]
+ },
+ {
+  "id": "c266",
+  "desc": "Mario Sepúlveda raises arm triumphantly, backlit by floodlight, crowd behind barrier",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.35
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "cheering",
+   "night",
+   "backlit"
+  ]
+ },
+ {
+  "id": "c267",
+  "desc": "Sepúlveda in green suit on stretcher hugged by rescuer in yellow helmet, crowd in helmets",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "stretcher",
+   "night"
+  ]
+ },
+ {
+  "id": "c268",
+  "desc": "Sepúlveda on stretcher under blanket greets man in white helmet at medical unit door, cameraman",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "stretcher",
+   "press",
+   "night"
+  ]
+ },
+ {
+  "id": "c269",
+  "desc": "Sepúlveda seen from behind in miner suit hugging woman, people in white helmets around",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "night"
+  ]
+ },
+ {
+  "id": "c270",
+  "desc": "Sepúlveda in white helmet and sunglasses hugs woman in red, rescuers in orange and capsule behind",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.35,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "capsule",
+   "night"
+  ]
+ },
+ {
+  "id": "c271",
+  "desc": "Sepúlveda in red helmet faces man in red jacket and white helmet, strong floodlight backlight",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "night",
+   "backlit"
+  ]
+ },
+ {
+  "id": "c272",
+  "desc": "Smiling Sepúlveda in sunglasses clasps hands with beaming woman in white helmet, crowd behind",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "faces",
+   "joy",
+   "night"
+  ]
+ },
+ {
+  "id": "c273",
+  "desc": "Sepúlveda raises arm cheering before crowd at barrier, floodlight tower at night",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.62,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "cheering",
+   "crowd",
+   "night"
+  ]
+ },
+ {
+  "id": "c274",
+  "desc": "Sepúlveda raises arm amid rescuers, rescuer in yellow helmet foreground, cameraman, rock wall",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "cheering",
+   "rescuer",
+   "night"
+  ]
+ },
+ {
+  "id": "c275",
+  "desc": "Miner Franklin Lobos in blue helmet and sunglasses, green suit, holding signed soccer ball",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.35
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "lobos",
+   "faces",
+   "football"
+  ]
+ },
+ {
+  "id": "c276",
+  "desc": "Los 33 ceremony in La Moneda courtyard: seated rows, red carpet, speaker at podium",
+  "night": false,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "ceremony",
+   "moneda",
+   "wide",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c277",
+  "desc": "Group portrait of the 33 miners in suits with officials in La Moneda Blue Room",
+  "night": false,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "group",
+   "moneda",
+   "miners",
+   "faces"
+  ]
+ },
+ {
+  "id": "c278",
+  "desc": "Los 33 and rescuers lined up on soccer pitch in large empty stadium",
+  "night": false,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "stadium",
+   "football",
+   "wide",
+   "group"
+  ]
+ },
+ {
+  "id": "c279",
+  "desc": "Shift leader Luis Urzúa raises fist in green suit with flag beside smiling Piñera in red jacket",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "urzua",
+   "piñera",
+   "cheering",
+   "night"
+  ]
+ },
+ {
+  "id": "c280",
+  "desc": "Rescuer Manuel González at Fénix capsule surrounded by officials and rescuers in white helmets",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "helmets",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c281",
+  "desc": "Mario Gómez raises fist holding letter, Chile flag and capsule beside him, rescuers around",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "cheering",
+   "capsule",
+   "flag"
+  ]
+ },
+ {
+  "id": "c282",
+  "desc": "Mass at Campamento Esperanza: priest in white robes addresses seated families in tent",
+  "night": false,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.4
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "mass",
+   "camp",
+   "families",
+   "tents"
+  ]
+ },
+ {
+  "id": "c283",
+  "desc": "Rescuers in orange suits help man into blue mesh Fénix capsule, onlookers in vests",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c284",
+  "desc": "Piñera embraces Luis Urzúa, who holds Chile flag and miner figurine, both in suits",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "urzua",
+   "hug",
+   "flag"
+  ]
+ },
+ {
+  "id": "c285",
+  "desc": "Smiling Piñera holds bag with miners' note 'Estamos bien en el refugio los 33', people around",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "message",
+   "faces"
+  ]
+ },
+ {
+  "id": "c286",
+  "desc": "Piñera with megaphone amid cheering crowd, holding up miners' note in plastic bag",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "crowd",
+   "message",
+   "cheering"
+  ]
+ },
+ {
+  "id": "c287",
+  "desc": "Drilling rigs at San José mine in desert hills, 2010, men watching in foreground",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "drill",
+   "mine",
+   "wide"
+  ]
+ },
+ {
+  "id": "c288",
+  "desc": "French cutaway diagram of San José mine, spiral ramp, collapse markers, refuge depth",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "diagram",
+   "mine",
+   "french"
+  ]
+ },
+ {
+  "id": "c289",
+  "desc": "Crowd celebrating with Chile flags at Plaza Italia, Santiago, wide sky and hill",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.75
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "crowd",
+   "celebration",
+   "santiago",
+   "wide"
+  ]
+ },
+ {
+  "id": "c290",
+  "desc": "Monument to the 33 miners in Rancagua: tall sculpture of stacked figures",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "monument",
+   "memorial"
+  ]
+ },
+ {
+  "id": "c291",
+  "desc": "Rescue capsule displayed at Museo Regional de Atacama, large Chile flag on wall",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.28,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "museum",
+   "flag"
+  ]
+ },
+ {
+  "id": "c292",
+  "desc": "Omar Reygadas in green suit hugs man in grey shirt with backpack beside Fenix 2 capsule, daylight",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "capsule",
+   "reygadas",
+   "faces"
+  ]
+ },
+ {
+  "id": "c293",
+  "desc": "Close-up of hands embracing back of man in red Gobierno de Chile shirt, wedding ring visible",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "closeup",
+   "detail"
+  ]
+ },
+ {
+  "id": "c294",
+  "desc": "Omar Reygadas in green raises Chilean flag banner beside yellow capsule rig, blue sky",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "flag",
+   "capsule",
+   "reygadas",
+   "celebration"
+  ]
+ },
+ {
+  "id": "c295",
+  "desc": "Miner in green kneels on ground near capsule, rescuers in orange around, helmet on ground",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.75
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "reygadas",
+   "prayer"
+  ]
+ },
+ {
+  "id": "c296",
+  "desc": "Omar Reygadas in green suit, blue helmet, sunglasses, holding phone, greets man in grey shirt; cameraman foreground",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "reygadas",
+   "press",
+   "faces"
+  ]
+ },
+ {
+  "id": "c297",
+  "desc": "Smiling young woman with long dark hair among officials in red jackets and press at night",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "family",
+   "faces",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c298",
+  "desc": "Tearful woman in white helmet tightly hugs miner Osman Araya, close-up",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "araya",
+   "family",
+   "faces"
+  ]
+ },
+ {
+  "id": "c299",
+  "desc": "Osman Araya in blue helmet and sunglasses surrounded by rescuers in white helmets at capsule cage",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "araya",
+   "capsule",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c300",
+  "desc": "Osman Araya in blue helmet assisted by rescuer next to capsule cage",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "araya",
+   "capsule",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c301",
+  "desc": "Osman Araya in blue helmet with ear muffs embraces woman, onlookers behind",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "araya",
+   "family"
+  ]
+ },
+ {
+  "id": "c302",
+  "desc": "Osman Araya shakes hands with smiling officials in red jackets and white helmets",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "araya",
+   "officials",
+   "handshake"
+  ]
+ },
+ {
+  "id": "c303",
+  "desc": "Rescuer in orange holds handheld monitor showing miner vital signs, close-up",
+  "night": true,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.6,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "detail",
+   "rescuer",
+   "medical",
+   "device"
+  ]
+ },
+ {
+  "id": "c304",
+  "desc": "Pablo Rojas in green suit and sunglasses has harness adjusted by rescuer, holding paper",
+  "night": false,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.35
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rojas",
+   "rescuer",
+   "medical"
+  ]
+ },
+ {
+  "id": "c305",
+  "desc": "Pablo Rojas in green suit gives thumbs up, arm around young man in black jacket",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rojas",
+   "family",
+   "celebration",
+   "faces"
+  ]
+ },
+ {
+  "id": "c306",
+  "desc": "Pablo Rojas waves with raised hand beside rescuer in orange at capsule rig",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.55,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rojas",
+   "rescuer",
+   "capsule"
+  ]
+ },
+ {
+  "id": "c307",
+  "desc": "Pablo Rojas in green waves to crowd, flanked by orange-suited rescuers, sunlit capsule rig",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rojas",
+   "rescuer",
+   "capsule"
+  ]
+ },
+ {
+  "id": "c308",
+  "desc": "Pedro Cortes in red helmet, sunglasses, Chile-flag Gracias Senor shirt, flanked by two rescuers",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "cortes",
+   "rescuer",
+   "flag"
+  ]
+ },
+ {
+  "id": "c309",
+  "desc": "Pedro Cortes in sunglasses and Gracias Senor shirt among rescuers in white helmets",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "cortes",
+   "rescuer",
+   "faces"
+  ]
+ },
+ {
+  "id": "c310",
+  "desc": "Pedro Cortes in red helmet face to face with President Pinera in white helmet and red jacket",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.4
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "cortes",
+   "piñera",
+   "faces"
+  ]
+ },
+ {
+  "id": "c311",
+  "desc": "Pedro Cortes on stretcher wheeled away by medics, crowd and capsule behind",
+  "night": true,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "cortes",
+   "stretcher",
+   "medical"
+  ]
+ },
+ {
+  "id": "c312",
+  "desc": "President Pinera in red jacket and white helmet stands with rescuers in orange",
+  "night": true,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "rescuer",
+   "group"
+  ]
+ },
+ {
+  "id": "c313",
+  "desc": "Pedro Gallo in green helmet gesturing while holding a light stick, close-up",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.25,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "gallo",
+   "faces",
+   "closeup"
+  ]
+ },
+ {
+  "id": "c314",
+  "desc": "Small bronze plaque for Fenix 2 replica mounted on white wall, overexposed",
+  "night": false,
+  "emotion": 0,
+  "quality": 2,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "plaque",
+   "text",
+   "replica"
+  ]
+ },
+ {
+  "id": "c315",
+  "desc": "Close-up of Fenix 2 replica plaque text describing rescue of 33 miners, ACT Government",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "plaque",
+   "text",
+   "replica"
+  ]
+ },
+ {
+  "id": "c316",
+  "desc": "Pinera in red jacket on phone with Evo Morales in black and officials in hard hats at mine",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "morales",
+   "officials"
+  ]
+ },
+ {
+  "id": "c317",
+  "desc": "Woman in black dress steps into displayed Fenix 2 capsule, men in suits beside",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "presentation",
+   "officials"
+  ]
+ },
+ {
+  "id": "c318",
+  "desc": "Red Fenix 2 capsule on display with couple in formal wear standing beside it",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "presentation"
+  ]
+ },
+ {
+  "id": "c319",
+  "desc": "Officials in suits pose on stage in front of Fenix 2 capsule in scaffold",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "presentation",
+   "officials"
+  ]
+ },
+ {
+  "id": "c320",
+  "desc": "Pinera seated with rescued miners in sunglasses and hospital robes, clapping, Copiapo hospital",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "piñera",
+   "hospital",
+   "miners",
+   "group"
+  ]
+ },
+ {
+  "id": "c321",
+  "desc": "Pinera in red jacket and white helmet walks across dirt at San Jose mine camp",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "mine",
+   "wide"
+  ]
+ },
+ {
+  "id": "c322",
+  "desc": "Two men in red CHILE jackets walk toward saluting carabineros on desert road, seen from behind",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.35,
+   0.6
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "piñera",
+   "desert",
+   "wide",
+   "police"
+  ]
+ },
+ {
+  "id": "c323",
+  "desc": "Pinera in red jacket walks across muddy mine camp, group following, drill rig behind",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.4,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "mine",
+   "wide"
+  ]
+ },
+ {
+  "id": "c324",
+  "desc": "Pinera in red jacket shakes hands with worker in orange vest and white helmet, truck behind",
+  "night": false,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "handshake",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c325",
+  "desc": "Men in red shirts and white helmets stand beside crane and heavy machinery, blue sky",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.65,
+   0.7
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "machinery",
+   "mine",
+   "officials"
+  ]
+ },
+ {
+  "id": "c326",
+  "desc": "Man in red shirt and white helmet points while walking with officials through mine camp",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "officials",
+   "mine"
+  ]
+ },
+ {
+  "id": "c327",
+  "desc": "Miner in yellow helmet and Chile-flag shirt raises arm cheering, Pinera clapping, rescuers around",
+  "night": true,
+  "emotion": 4,
+  "quality": 3,
+  "focus": [
+   0.35,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "celebration",
+   "flag",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c328",
+  "desc": "Pinera in white helmet speaks into microphone beside children, watching TV showing miners",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.7,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "family",
+   "video",
+   "indoor"
+  ]
+ },
+ {
+  "id": "c329",
+  "desc": "Pinera and officials stand before seated families inside dark tent meeting",
+  "night": false,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.25,
+   0.35
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "piñera",
+   "family",
+   "tents",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c330",
+  "desc": "Fenix capsule hangs with rescuers in orange and officials lined up beside it",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.35,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "officials"
+  ]
+ },
+ {
+  "id": "c331",
+  "desc": "Pinera and officials in red jackets stand under tent addressing seated families",
+  "night": false,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.35
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "family",
+   "tents",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c332",
+  "desc": "Miner in orange helmet and sunglasses greets Pinera at capsule, man in dark jacket beside",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "capsule",
+   "handshake",
+   "faces"
+  ]
+ },
+ {
+  "id": "c333",
+  "desc": "Large group of officials posing on desert hillside, row of flags along ridge",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "officials",
+   "group",
+   "flags",
+   "wide"
+  ]
+ },
+ {
+  "id": "c334",
+  "desc": "Bright sun in deep blue sky over silhouetted hill with press tents on ridge",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.33,
+   0.35
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "wide",
+   "press",
+   "landscape",
+   "sun"
+  ]
+ },
+ {
+  "id": "c335",
+  "desc": "Raul Bustos emerges from Fenix capsule, helped by rescuers in orange under floodlights",
+  "night": true,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "bustos",
+   "capsule",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c336",
+  "desc": "Woman holds face of Raul Bustos in blue helmet in embrace, Pinera clapping at right",
+  "night": true,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "bustos",
+   "hug",
+   "family",
+   "piñera"
+  ]
+ },
+ {
+  "id": "c337",
+  "desc": "Raul Bustos in sunglasses on stretcher attended by medics in field clinic",
+  "night": true,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "bustos",
+   "medical",
+   "stretcher",
+   "doctor"
+  ]
+ },
+ {
+  "id": "c338",
+  "desc": "Pinera with young girl in pink holding Chile-flag balloons, rescuers waiting behind",
+  "night": true,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "family",
+   "child",
+   "balloons"
+  ]
+ },
+ {
+  "id": "c339",
+  "desc": "Rescuers in orange gather around Fenix capsule under bright floodlights",
+  "night": true,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "floodlights"
+  ]
+ },
+ {
+  "id": "c340",
+  "desc": "Night: Raul Bustos in Chile-flag shirt embraced by orange-suited rescuers beside capsule",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "night",
+   "hug",
+   "rescuer",
+   "capsule",
+   "faces"
+  ]
+ },
+ {
+  "id": "c341",
+  "desc": "Night: orange-suited rescuer hugs miner Raul Bustos in tan shirt; family and officials watch",
+  "night": true,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "night",
+   "hug",
+   "rescuer",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c342",
+  "desc": "Rescuers in orange gather at shaft opening; woman in purple watches in foreground",
+  "night": false,
+  "emotion": 2,
+  "quality": 3,
+  "focus": [
+   0.3,
+   0.4
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "rescuer",
+   "shaft",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c343",
+  "desc": "Renan Avalos in sunglasses, helmet and 'Gracias Señor' shirt smiles beside capsule among rescuers",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "capsule",
+   "faces",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c344",
+  "desc": "Renan Avalos lying on stretcher wearing dark glasses, looking up",
+  "night": false,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "stretcher",
+   "miner",
+   "faces"
+  ]
+ },
+ {
+  "id": "c345",
+  "desc": "Renan Avalos hugs grey-haired man; rescuers in orange around, capsule behind",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "rescuer",
+   "miner"
+  ]
+ },
+ {
+  "id": "c346",
+  "desc": "Replica of Fenix 2 capsule standing on plaza in front of glass office building",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "replica",
+   "wide"
+  ]
+ },
+ {
+  "id": "c347",
+  "desc": "Officials in helmets inspect rescue capsule; man in red jacket crouches at capsule",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.55,
+   0.6
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "capsule",
+   "officials",
+   "rescuer"
+  ]
+ },
+ {
+  "id": "c348",
+  "desc": "Fenix capsule lying on ground at site, officers and workers standing around",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "officials"
+  ]
+ },
+ {
+  "id": "c349",
+  "desc": "Wide: officials around red capsule lying on ground near rig and excavator",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.4,
+   0.6
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "capsule",
+   "wide",
+   "officials",
+   "drill"
+  ]
+ },
+ {
+  "id": "c350",
+  "desc": "Red, white and blue rescue capsule lying horizontal, workers in helmets beside it",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.65
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "capsule",
+   "wide"
+  ]
+ },
+ {
+  "id": "c351",
+  "desc": "Capsule with Chilean flag livery lying horizontal; man in red jacket inspects it",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "capsule",
+   "flag"
+  ]
+ },
+ {
+  "id": "c352",
+  "desc": "Large Chilean flag in foreground, yellow rescue derrick and site in background",
+  "night": false,
+  "emotion": 1,
+  "quality": 4,
+  "focus": [
+   0.7,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "flag",
+   "wide",
+   "drill"
+  ]
+ },
+ {
+  "id": "c353",
+  "desc": "Richard Villarroel's family cheering with signed Chile flag, man photographing, helmeted crowd",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "family",
+   "crowd",
+   "flag",
+   "faces"
+  ]
+ },
+ {
+  "id": "c354",
+  "desc": "Closer: girl shouting holding signed Chile flag, man in blue shirt takes photo",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "family",
+   "flag",
+   "faces",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c355",
+  "desc": "Richard Villarroel, back to camera, embraces woman; capsule and rescuers behind",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "miner",
+   "family"
+  ]
+ },
+ {
+  "id": "c356",
+  "desc": "Richard Villarroel in tight embrace with woman, crowd of workers behind",
+  "night": false,
+  "emotion": 5,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "family",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c357",
+  "desc": "Samuel Avalos raises fist beside capsule under blue sky, rescuers nearby",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.35,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "miner",
+   "capsule",
+   "celebration"
+  ]
+ },
+ {
+  "id": "c358",
+  "desc": "Close-up of hands clasped next to capsule mesh as Samuel Avalos exits",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "hands",
+   "detail"
+  ]
+ },
+ {
+  "id": "c359",
+  "desc": "Satellite image of desert terrain around San Jose mine",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.8
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "satellite",
+   "map",
+   "wide"
+  ]
+ },
+ {
+  "id": "c360",
+  "desc": "Annotated satellite image of San Jose mine area in Atacama desert",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.8
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "satellite",
+   "map",
+   "diagram"
+  ]
+ },
+ {
+  "id": "c361",
+  "desc": "Senator Mark Warner and suited men hold folded US flag beside framed rescue photo",
+  "night": false,
+  "emotion": 1,
+  "quality": 3,
+  "focus": [
+   0.4,
+   0.6
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "press",
+   "officials",
+   "ceremony"
+  ]
+ },
+ {
+  "id": "c362",
+  "desc": "Three actors posing at 'The 33' film press event, bearded man centre",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "press",
+   "film",
+   "faces"
+  ]
+ },
+ {
+  "id": "c363",
+  "desc": "Portrait of smiling actress at 'The 33' film press conference",
+  "night": false,
+  "emotion": 0,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "press",
+   "film",
+   "faces"
+  ]
+ },
+ {
+  "id": "c364",
+  "desc": "Workers fitting out a container interior as triage medical station, one drilling",
+  "night": false,
+  "emotion": 0,
+  "quality": 3,
+  "focus": [
+   0.4,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "medical",
+   "preparation"
+  ]
+ },
+ {
+  "id": "c365",
+  "desc": "Victor Segovia embraced by Piñera in red jacket and white helmet, officials around",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "hug",
+   "miner"
+  ]
+ },
+ {
+  "id": "c366",
+  "desc": "Victor Segovia in Chile-flag shirt greeted by orange-suited rescuers below capsule",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "capsule",
+   "miner"
+  ]
+ },
+ {
+  "id": "c367",
+  "desc": "Victor Segovia emerging from Fenix capsule, rescuers in orange helping",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "capsule",
+   "rescuer",
+   "miner"
+  ]
+ },
+ {
+  "id": "c368",
+  "desc": "Victor Segovia on stretcher with blanket and dark glasses, crowd of officials",
+  "night": false,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "stretcher",
+   "crowd",
+   "miner"
+  ]
+ },
+ {
+  "id": "c369",
+  "desc": "Victor Zamora on stretcher beside yellow caution-taped pole, man in teal leans in",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.6,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "stretcher",
+   "miner",
+   "crowd"
+  ]
+ },
+ {
+  "id": "c370",
+  "desc": "Victor Zamora on stretcher, raising hand, surrounded by helmeted officials",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.65
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "stretcher",
+   "crowd",
+   "miner"
+  ]
+ },
+ {
+  "id": "c371",
+  "desc": "Medic in white coat and officer bend over Victor Zamora on stretcher",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "stretcher",
+   "doctor",
+   "miner"
+  ]
+ },
+ {
+  "id": "c372",
+  "desc": "Piñera rests hand on boy's shoulder; woman and officials in helmets nearby",
+  "night": false,
+  "emotion": 2,
+  "quality": 4,
+  "focus": [
+   0.7,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "piñera",
+   "family",
+   "faces"
+  ]
+ },
+ {
+  "id": "c373",
+  "desc": "Wikinews screenshot about film plans, shows 'Estamos bien en el refugio los 33' note",
+  "night": false,
+  "emotion": 0,
+  "quality": 2,
+  "focus": [
+   0.15,
+   0.25
+  ],
+  "vertical_ok": false,
+  "tags": [
+   "screenshot",
+   "document",
+   "note"
+  ]
+ },
+ {
+  "id": "c374",
+  "desc": "Yonni Barrios hugs woman under white tent, onlookers in red and helmets",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.65,
+   0.5
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "family",
+   "miner"
+  ]
+ },
+ {
+  "id": "c375",
+  "desc": "Orange-suited rescuer helps Yonni Barrios with helmet as he exits capsule",
+  "night": false,
+  "emotion": 3,
+  "quality": 3,
+  "focus": [
+   0.45,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "capsule",
+   "miner"
+  ]
+ },
+ {
+  "id": "c376",
+  "desc": "Yonni Barrios in sunglasses and harness; rescuer in orange removes his helmet",
+  "night": false,
+  "emotion": 3,
+  "quality": 4,
+  "focus": [
+   0.4,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "rescuer",
+   "miner",
+   "faces"
+  ]
+ },
+ {
+  "id": "c377",
+  "desc": "Yonni Barrios embraces woman in patterned blouse beside red capsule",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "hug",
+   "family",
+   "capsule"
+  ]
+ },
+ {
+  "id": "c378",
+  "desc": "Woman in patterned blouse wipes tears, comforted by woman in red jacket",
+  "night": false,
+  "emotion": 4,
+  "quality": 4,
+  "focus": [
+   0.25,
+   0.45
+  ],
+  "vertical_ok": true,
+  "tags": [
+   "tears",
+   "family",
+   "faces"
+  ]
+ }
+]

@@ -1,0 +1,911 @@
+{
+ "episode": "ep-001",
+ "title": "69 يومًا تحت الأرض — قصة الـ33",
+ "mode": "night",
+ "mode_switch_at": 109.0,
+ "category": "history",
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "format": "youtube-short",
+ "scenes": [
+  {
+   "id": 1,
+   "audio": "audio/voice-clean.wav",
+   "start": 0,
+   "end": 17.98,
+   "shots": [
+    {
+     "src": "footage/inbox/2894897-hd_1920_1080_24fps.mp4 (2.6-6.9s)",
+     "in": 0.0,
+     "out": 3.95,
+     "motion": "video",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "NASA GIBS Blue Marble/MODIS + EO-1 ALI (build/frames/mapzoom)",
+     "in": 3.95,
+     "out": 7.28,
+     "motion": "video",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "graphic:depthSection",
+     "in": 7.28,
+     "out": 13.02,
+     "motion": "motion-graphic",
+     "grade": "none",
+     "layout": "graphic"
+    },
+    {
+     "src": "footage/commons/c273.jpg",
+     "cid": "c273",
+     "in": 13.02,
+     "out": 17.98,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "full"
+    }
+   ],
+   "titles": [
+    {
+     "text": "٢٠١٠",
+     "at": 0.7909999999999999,
+     "dur": 3.11,
+     "style": "label"
+    },
+    {
+     "text": "33",
+     "at": 2.4130000000000003,
+     "dur": 1.52,
+     "style": "stat"
+    },
+    {
+     "text": "تشيلي",
+     "at": 4.796,
+     "dur": 1.49,
+     "style": "keyword"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "impact_low",
+     "at": 2.563,
+     "gain": -14
+    },
+    {
+     "name": "gravel",
+     "at": 1.2,
+     "gain": -26,
+     "dur": 2.6
+    },
+    {
+     "name": "whoosh_soft",
+     "at": 3.7,
+     "gain": -18
+    },
+    {
+     "name": "wind",
+     "at": 3.95,
+     "gain": -24,
+     "dur": 3.6,
+     "fade": 1.0
+    },
+    {
+     "name": "rumble",
+     "at": 5.747,
+     "gain": -18,
+     "dur": 2.2
+    },
+    {
+     "name": "whoosh_down",
+     "at": 7.55,
+     "gain": -20
+    },
+    {
+     "name": "riser",
+     "at": 13.12,
+     "gain": -22,
+     "dur": 1.6390000000000007
+    },
+    {
+     "name": "impact_mid",
+     "at": 14.739,
+     "gain": -15
+    }
+   ],
+   "transition_out": "cut"
+  },
+  {
+   "id": 2,
+   "audio": "audio/voice-clean.wav",
+   "start": 17.98,
+   "end": 35.3,
+   "shots": [
+    {
+     "src": "footage/commons/c287.jpg",
+     "cid": "c287",
+     "in": 17.98,
+     "out": 19.8,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "framed"
+    },
+    {
+     "src": "graphic:mineSpiral",
+     "in": 19.8,
+     "out": 25.85,
+     "motion": "motion-graphic",
+     "grade": "none",
+     "layout": "graphic"
+    },
+    {
+     "src": "footage/commons/c072.jpg",
+     "cid": "c072",
+     "in": 25.85,
+     "out": 28.62,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c073.jpg",
+     "cid": "c073",
+     "in": 28.62,
+     "out": 31.4,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c077.jpg",
+     "cid": "c077",
+     "in": 31.4,
+     "out": 35.3,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "framed"
+    }
+   ],
+   "titles": [
+    {
+     "text": "٥ أغسطس ٢٠١٠",
+     "at": 18.413999999999998,
+     "dur": 1.37,
+     "style": "date"
+    },
+    {
+     "text": "لا أحد يعرفإن كانوا أحياء",
+     "at": 32.597,
+     "dur": 2.55,
+     "style": "keyword"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 18.414,
+     "gain": -20
+    },
+    {
+     "name": "collapse",
+     "at": 20.836,
+     "gain": -12,
+     "dur": 2.4
+    },
+    {
+     "name": "hit",
+     "at": 22.477,
+     "gain": -16
+    },
+    {
+     "name": "drill",
+     "at": 25.85,
+     "gain": -24,
+     "dur": 5.5,
+     "fade": 1.0
+    }
+   ],
+   "transition_out": "cut"
+  },
+  {
+   "id": 3,
+   "audio": "audio/voice-clean.wav",
+   "start": 35.3,
+   "end": 52.75,
+   "shots": [
+    {
+     "src": "footage/commons/c135.jpg",
+     "cid": "c135",
+     "in": 35.3,
+     "out": 36.55,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c079.jpg",
+     "cid": "c079",
+     "in": 36.55,
+     "out": 37.8,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c075.jpg",
+     "cid": "c075",
+     "in": 37.8,
+     "out": 39.0,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c080.jpg",
+     "cid": "c080",
+     "in": 39.0,
+     "out": 43.98,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "graphic:noteReveal",
+     "in": 44.33,
+     "out": 48.45,
+     "motion": "motion-graphic",
+     "grade": "none",
+     "layout": "graphic"
+    },
+    {
+     "src": "footage/commons/c285.jpg",
+     "cid": "c285",
+     "in": 48.45,
+     "out": 50.72,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "framed"
+    },
+    {
+     "src": "footage/commons/c289.jpg",
+     "cid": "c289",
+     "in": 50.72,
+     "out": 52.75,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "framed"
+    }
+   ],
+   "titles": [
+    {
+     "text": "17",
+     "at": 35.379999999999995,
+     "dur": 3.6,
+     "style": "stat"
+    },
+    {
+     "text": "الرسالة الأصلية بيد الرئيس التشيلي",
+     "at": 48.7,
+     "dur": 1.9,
+     "style": "label"
+    },
+    {
+     "text": "أحياء",
+     "at": 50.741,
+     "dur": 1.86,
+     "style": "title"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "shutter",
+     "at": 36.55,
+     "gain": -20
+    },
+    {
+     "name": "shutter",
+     "at": 37.8,
+     "gain": -20
+    },
+    {
+     "name": "tick",
+     "at": 35.8,
+     "gain": -24,
+     "dur": 2.3
+    },
+    {
+     "name": "whoosh_up",
+     "at": 41.464,
+     "gain": -22
+    },
+    {
+     "name": "impact_big",
+     "at": 44.326,
+     "gain": -12
+    },
+    {
+     "name": "paper",
+     "at": 44.476,
+     "gain": -18
+    },
+    {
+     "name": "impact_mid",
+     "at": 50.741,
+     "gain": -15
+    }
+   ],
+   "transition_out": "cut"
+  },
+  {
+   "id": 4,
+   "audio": "audio/voice-clean.wav",
+   "start": 52.75,
+   "end": 74.75,
+   "shots": [
+    {
+     "src": "footage/commons/c138.jpg",
+     "cid": "c138",
+     "in": 52.75,
+     "out": 56.22,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "graphic:depthSection",
+     "in": 56.22,
+     "out": 62.05,
+     "motion": "motion-graphic",
+     "grade": "none",
+     "layout": "graphic"
+    },
+    {
+     "src": "graphic:holeCompare",
+     "in": 62.05,
+     "out": 66.18,
+     "motion": "motion-graphic",
+     "grade": "none",
+     "layout": "graphic"
+    },
+    {
+     "src": "footage/commons/c043.jpg",
+     "cid": "c043",
+     "in": 66.18,
+     "out": 69.4,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "framed"
+    },
+    {
+     "src": "footage/inbox/6686925-hd_1920_1080_25fps.mp4 (1.0-3.4s)",
+     "in": 69.4,
+     "out": 71.42,
+     "motion": "video",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c303.jpg",
+     "cid": "c303",
+     "in": 71.42,
+     "out": 74.75,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "full"
+    }
+   ],
+   "titles": [
+    {
+     "text": "أنبوب الإمداد",
+     "at": 66.38000000000001,
+     "dur": 2.92,
+     "style": "label"
+    },
+    {
+     "text": "الطعام",
+     "at": 69.601,
+     "dur": 1.78,
+     "style": "keyword"
+    },
+    {
+     "text": "الماء",
+     "at": 70.022,
+     "dur": 1.36,
+     "style": "keyword"
+    },
+    {
+     "text": "الدواء",
+     "at": 70.44200000000001,
+     "dur": 0.94,
+     "style": "keyword"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "whoosh_down",
+     "at": 56.27,
+     "gain": -20
+    },
+    {
+     "name": "thud",
+     "at": 62.25,
+     "gain": -18
+    },
+    {
+     "name": "hit",
+     "at": 65.049,
+     "gain": -18
+    },
+    {
+     "name": "pop",
+     "at": 69.601,
+     "gain": -20
+    },
+    {
+     "name": "pop",
+     "at": 70.022,
+     "gain": -20
+    },
+    {
+     "name": "pop",
+     "at": 70.442,
+     "gain": -20
+    }
+   ],
+   "transition_out": "cut"
+  },
+  {
+   "id": 5,
+   "audio": "audio/voice-clean.wav",
+   "start": 74.75,
+   "end": 96.7,
+   "shots": [
+    {
+     "src": "footage/inbox/11800598-hd_1920_1080_30fps.mp4 (2.0-5.4s)",
+     "in": 74.75,
+     "out": 77.88,
+     "motion": "video",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c330.jpg",
+     "cid": "c330",
+     "in": 77.88,
+     "out": 82.45,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "framed"
+    },
+    {
+     "src": "graphic:capsuleSchematic",
+     "in": 82.45,
+     "out": 87.18,
+     "motion": "motion-graphic",
+     "grade": "none",
+     "layout": "graphic"
+    },
+    {
+     "src": "footage/inbox/17034343_1920_1080_30fps.mp4 (1.5-4.9s)",
+     "in": 87.18,
+     "out": 90.28,
+     "motion": "video",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c361.jpg",
+     "cid": "c361",
+     "in": 90.28,
+     "out": 93.0,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "framed"
+    },
+    {
+     "src": "footage/commons/c092.jpg",
+     "cid": "c092",
+     "in": 93.0,
+     "out": 96.7,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "full"
+    }
+   ],
+   "titles": [
+    {
+     "text": "حل هندسي",
+     "at": 76.33500000000001,
+     "dur": 1.46,
+     "style": "keyword"
+    },
+    {
+     "text": "فينيكس Fénix 2",
+     "at": 81.626,
+     "dur": 0.72,
+     "style": "keyword"
+    },
+    {
+     "text": "ناسا",
+     "at": 91.78,
+     "dur": 1.17,
+     "style": "title"
+    },
+    {
+     "text": "مهندسو ناسا الذين ساعدوا في التصميم",
+     "at": 92.13,
+     "dur": 0.82,
+     "style": "label"
+    },
+    {
+     "text": "اختبار الكبسولة عند فوهة المنجم",
+     "at": 93.2,
+     "dur": 3.35,
+     "style": "label"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "clang",
+     "at": 81.656,
+     "gain": -16
+    },
+    {
+     "name": "whoosh_up",
+     "at": 82.45,
+     "gain": -22
+    },
+    {
+     "name": "impact_mid",
+     "at": 91.78,
+     "gain": -17
+    }
+   ],
+   "transition_out": "wash"
+  },
+  {
+   "id": 6,
+   "audio": "audio/voice-clean.wav",
+   "start": 96.7,
+   "end": 119.4,
+   "shots": [
+    {
+     "src": "footage/commons/c007.jpg",
+     "cid": "c007",
+     "in": 96.7,
+     "out": 100.7,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c251.jpg",
+     "cid": "c251",
+     "in": 100.7,
+     "out": 103.0,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c177.jpg",
+     "cid": "c177",
+     "in": 103.0,
+     "out": 105.45,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c234.jpg",
+     "cid": "c234",
+     "in": 105.45,
+     "out": 107.1,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c217.jpg",
+     "cid": "c217",
+     "in": 107.1,
+     "out": 109.0,
+     "motion": "kenburns",
+     "grade": "night",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c178.jpg",
+     "cid": "c178",
+     "in": 109.0,
+     "out": 112.42,
+     "motion": "kenburns",
+     "grade": "day",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c298.jpg",
+     "cid": "c298",
+     "in": 112.42,
+     "out": 113.62,
+     "motion": "kenburns",
+     "grade": "day",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c281.jpg",
+     "cid": "c281",
+     "in": 113.62,
+     "out": 114.82,
+     "motion": "kenburns",
+     "grade": "day",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c053.jpg",
+     "cid": "c053",
+     "in": 114.82,
+     "out": 116.02,
+     "motion": "kenburns",
+     "grade": "day",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c153.jpg",
+     "cid": "c153",
+     "in": 116.02,
+     "out": 117.22,
+     "motion": "kenburns",
+     "grade": "day",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c144.jpg",
+     "cid": "c144",
+     "in": 117.22,
+     "out": 118.42,
+     "motion": "kenburns",
+     "grade": "day",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c159.jpg",
+     "cid": "c159",
+     "in": 118.42,
+     "out": 119.4,
+     "motion": "kenburns",
+     "grade": "day",
+     "layout": "full"
+    }
+   ],
+   "titles": [
+    {
+     "text": "١٣ أكتوبر ٢٠١٠",
+     "at": 96.88000000000001,
+     "dur": 3.72,
+     "style": "date"
+    },
+    {
+     "text": "عاد الأول",
+     "at": 109.3,
+     "dur": 3.0,
+     "style": "keyword"
+    },
+    {
+     "text": "فلورنسيو أفالوس",
+     "at": 109.75,
+     "dur": 2.55,
+     "style": "label"
+    },
+    {
+     "text": "33",
+     "at": 115.07700000000001,
+     "dur": 4.22,
+     "style": "stat"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 96.88,
+     "gain": -20
+    },
+    {
+     "name": "winch",
+     "at": 99.0,
+     "gain": -24,
+     "dur": 9.0,
+     "fade": 1.5
+    },
+    {
+     "name": "crowd_murmur",
+     "at": 105.4,
+     "gain": -28,
+     "dur": 3.4,
+     "fade": 0.8
+    },
+    {
+     "name": "impact_big",
+     "at": 109.0,
+     "gain": -13
+    },
+    {
+     "name": "cheer",
+     "at": 109.0,
+     "gain": -18,
+     "dur": 9.5,
+     "fade": 2.0,
+     "ramp": [
+      -24,
+      -14
+     ]
+    },
+    {
+     "name": "shutter",
+     "at": 112.42,
+     "gain": -18
+    },
+    {
+     "name": "shutter",
+     "at": 113.62,
+     "gain": -18
+    },
+    {
+     "name": "shutter",
+     "at": 114.82,
+     "gain": -18
+    },
+    {
+     "name": "shutter",
+     "at": 116.02,
+     "gain": -18
+    },
+    {
+     "name": "shutter",
+     "at": 117.22,
+     "gain": -18
+    },
+    {
+     "name": "impact_big",
+     "at": 118.477,
+     "gain": -13
+    }
+   ],
+   "transition_out": "cut"
+  },
+  {
+   "id": 7,
+   "audio": "audio/voice-clean.wav",
+   "start": 119.4,
+   "end": 146.4,
+   "shots": [
+    {
+     "src": "footage/commons/c279.jpg",
+     "cid": "c279",
+     "in": 119.4,
+     "out": 123.3,
+     "motion": "kenburns",
+     "grade": "day",
+     "layout": "full"
+    },
+    {
+     "src": "graphic:timelineV",
+     "in": 123.3,
+     "out": 128.68,
+     "motion": "motion-graphic",
+     "grade": "none",
+     "layout": "graphic"
+    },
+    {
+     "src": "footage/commons/c074.jpg",
+     "cid": "c074",
+     "in": 128.68,
+     "out": 131.25,
+     "motion": "kenburns",
+     "grade": "day",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c012.jpg",
+     "cid": "c012",
+     "in": 131.25,
+     "out": 134.45,
+     "motion": "kenburns",
+     "grade": "day",
+     "layout": "framed"
+    },
+    {
+     "src": "footage/commons/c371.jpg",
+     "cid": "c371",
+     "in": 134.45,
+     "out": 136.92,
+     "motion": "kenburns",
+     "grade": "day",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c081.jpg",
+     "cid": "c081",
+     "in": 136.92,
+     "out": 139.3,
+     "motion": "kenburns",
+     "grade": "day",
+     "layout": "full"
+    },
+    {
+     "src": "footage/commons/c277.jpg",
+     "cid": "c277",
+     "in": 139.3,
+     "out": 142.45,
+     "motion": "kenburns",
+     "grade": "day",
+     "layout": "framed"
+    }
+   ],
+   "titles": [
+    {
+     "text": "فرق الإنقاذ",
+     "at": 132.92499999999998,
+     "dur": 3.93,
+     "style": "keyword"
+    },
+    {
+     "text": "المهندسون",
+     "at": 133.74599999999998,
+     "dur": 3.1,
+     "style": "keyword"
+    },
+    {
+     "text": "الأطباء",
+     "at": 134.426,
+     "dur": 2.42,
+     "style": "keyword"
+    },
+    {
+     "text": "33",
+     "at": 141.67899999999997,
+     "dur": 0.72,
+     "style": "stat"
+    }
+   ],
+   "sfx": [
+    {
+     "name": "whoosh_soft",
+     "at": 121.211,
+     "gain": -24
+    },
+    {
+     "name": "pop",
+     "at": 123.6,
+     "gain": -22
+    },
+    {
+     "name": "pop",
+     "at": 124.6,
+     "gain": -22
+    },
+    {
+     "name": "pop",
+     "at": 125.6,
+     "gain": -22
+    },
+    {
+     "name": "impact_mid",
+     "at": 126.733,
+     "gain": -17
+    },
+    {
+     "name": "pop",
+     "at": 142.65,
+     "gain": -22
+    }
+   ],
+   "transition_out": "cut"
+  }
+ ]
+}

@@ -1,0 +1,311 @@
+{
+ "voice": "audio/voice-clean.wav",
+ "duration": 146.4,
+ "voice_end": 143.079,
+ "music": [
+  {
+   "track": "Metaphysik",
+   "file": "build/music/tracks/Metaphysik.mp3",
+   "start": 2.0,
+   "offset": 0.0,
+   "end": 75.6,
+   "fade_in": 1.2,
+   "fade_out": 1.6,
+   "gain": 1.5
+  },
+  {
+   "track": "Eternal Hope",
+   "file": "build/music/tracks/Eternal Hope.mp3",
+   "start": 74.4,
+   "offset": 76.0,
+   "end": 109.15,
+   "fade_in": 1.5,
+   "fade_out": 0.25,
+   "gain": 0
+  },
+  {
+   "track": "Thaxted",
+   "file": "build/music/tracks/Thaxted.mp3",
+   "start": 108.95,
+   "offset": 25.0,
+   "end": 138.35,
+   "fade_in": 0.05,
+   "fade_out": 1.2,
+   "gain": 0
+  },
+  {
+   "track": "Thaxted (final chord)",
+   "file": "build/music/tracks/Thaxted.mp3",
+   "start": 141.70899999999997,
+   "offset": 137.5,
+   "end": 146.4,
+   "fade_in": 0.08,
+   "fade_out": 1.2,
+   "gain": 0
+  }
+ ],
+ "music_dips": [
+  [
+   22.436,
+   22.836
+  ],
+  [
+   43.93,
+   44.346
+  ],
+  [
+   108.5,
+   108.98
+  ],
+  [
+   138.35,
+   139.31799999999998
+  ]
+ ],
+ "sfx": [
+  {
+   "name": "impact_low",
+   "at": 2.563,
+   "gain": -14
+  },
+  {
+   "name": "gravel",
+   "at": 1.2,
+   "gain": -26,
+   "dur": 2.6
+  },
+  {
+   "name": "whoosh_soft",
+   "at": 3.7,
+   "gain": -18
+  },
+  {
+   "name": "wind",
+   "at": 3.95,
+   "gain": -24,
+   "dur": 3.6,
+   "fade": 1.0
+  },
+  {
+   "name": "rumble",
+   "at": 5.747,
+   "gain": -18,
+   "dur": 2.2
+  },
+  {
+   "name": "whoosh_down",
+   "at": 7.55,
+   "gain": -20
+  },
+  {
+   "name": "riser",
+   "at": 13.12,
+   "gain": -22,
+   "dur": 1.6390000000000007
+  },
+  {
+   "name": "impact_mid",
+   "at": 14.739,
+   "gain": -15
+  },
+  {
+   "name": "pop",
+   "at": 18.414,
+   "gain": -20
+  },
+  {
+   "name": "collapse",
+   "at": 20.836,
+   "gain": -12,
+   "dur": 2.4
+  },
+  {
+   "name": "hit",
+   "at": 22.477,
+   "gain": -16
+  },
+  {
+   "name": "drill",
+   "at": 25.85,
+   "gain": -24,
+   "dur": 5.5,
+   "fade": 1.0
+  },
+  {
+   "name": "shutter",
+   "at": 36.55,
+   "gain": -20
+  },
+  {
+   "name": "shutter",
+   "at": 37.8,
+   "gain": -20
+  },
+  {
+   "name": "tick",
+   "at": 35.8,
+   "gain": -24,
+   "dur": 2.3
+  },
+  {
+   "name": "whoosh_up",
+   "at": 41.464,
+   "gain": -22
+  },
+  {
+   "name": "impact_big",
+   "at": 44.326,
+   "gain": -12
+  },
+  {
+   "name": "paper",
+   "at": 44.476,
+   "gain": -18
+  },
+  {
+   "name": "impact_mid",
+   "at": 50.741,
+   "gain": -15
+  },
+  {
+   "name": "whoosh_down",
+   "at": 56.27,
+   "gain": -20
+  },
+  {
+   "name": "thud",
+   "at": 62.25,
+   "gain": -18
+  },
+  {
+   "name": "hit",
+   "at": 65.049,
+   "gain": -18
+  },
+  {
+   "name": "pop",
+   "at": 69.601,
+   "gain": -20
+  },
+  {
+   "name": "pop",
+   "at": 70.022,
+   "gain": -20
+  },
+  {
+   "name": "pop",
+   "at": 70.442,
+   "gain": -20
+  },
+  {
+   "name": "clang",
+   "at": 81.656,
+   "gain": -16
+  },
+  {
+   "name": "whoosh_up",
+   "at": 82.45,
+   "gain": -22
+  },
+  {
+   "name": "impact_mid",
+   "at": 91.78,
+   "gain": -17
+  },
+  {
+   "name": "pop",
+   "at": 96.88,
+   "gain": -20
+  },
+  {
+   "name": "winch",
+   "at": 99.0,
+   "gain": -24,
+   "dur": 9.0,
+   "fade": 1.5
+  },
+  {
+   "name": "crowd_murmur",
+   "at": 105.4,
+   "gain": -28,
+   "dur": 3.4,
+   "fade": 0.8
+  },
+  {
+   "name": "impact_big",
+   "at": 109.0,
+   "gain": -13
+  },
+  {
+   "name": "cheer",
+   "at": 109.0,
+   "gain": -18,
+   "dur": 9.5,
+   "fade": 2.0,
+   "ramp": [
+    -24,
+    -14
+   ]
+  },
+  {
+   "name": "shutter",
+   "at": 112.42,
+   "gain": -18
+  },
+  {
+   "name": "shutter",
+   "at": 113.62,
+   "gain": -18
+  },
+  {
+   "name": "shutter",
+   "at": 114.82,
+   "gain": -18
+  },
+  {
+   "name": "shutter",
+   "at": 116.02,
+   "gain": -18
+  },
+  {
+   "name": "shutter",
+   "at": 117.22,
+   "gain": -18
+  },
+  {
+   "name": "impact_big",
+   "at": 118.477,
+   "gain": -13
+  },
+  {
+   "name": "whoosh_soft",
+   "at": 121.211,
+   "gain": -24
+  },
+  {
+   "name": "pop",
+   "at": 123.6,
+   "gain": -22
+  },
+  {
+   "name": "pop",
+   "at": 124.6,
+   "gain": -22
+  },
+  {
+   "name": "pop",
+   "at": 125.6,
+   "gain": -22
+  },
+  {
+   "name": "impact_mid",
+   "at": 126.733,
+   "gain": -17
+  },
+  {
+   "name": "pop",
+   "at": 142.65,
+   "gain": -22
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "note": "Vertical YouTube Short (1080x1920) about the 2010 Copiapó mine rescue. Each beat = a narration moment that needs a REAL photo (Wikimedia Commons, mostly Gobierno de Chile 2010). Beats marked graphic/stock are covered elsewhere but may use a photo as background. 'n' = how many distinct photos the beat needs.",
+ "beats": [
+  {"id": "b05", "scene": 1, "n": 1, "narration": "ما حدث بعد ذلك تحوّل إلى واحدة من أشهر عمليات الإنقاذ في العالم", "need": "ONE iconic teaser image of the rescue: capsule emerging at night under floodlights, or a miner bursting out with emotion. Will carry the episode title on top."},
+  {"id": "b06", "scene": 2, "n": 1, "narration": "في الخامس من أغسطس، انهار جزء من منجم سان خوسيه", "need": "San José mine site / entrance from outside, desert, daytime. Wide."},
+  {"id": "b08", "scene": 2, "n": 2, "narration": "بدأت فرق الإنقاذ في الحفر والبحث", "need": "drilling rigs and rescue teams working at the site in the desert, daytime (search phase, August-September)."},
+  {"id": "b09", "scene": 2, "n": 2, "narration": "لكنها لم تكن تعرف مكان العمال بدقة، ولا إن كانوا قد نجوا من الانهيار", "need": "families waiting / Campamento Esperanza tents / flags and signs / worried faces. Human tension."},
+  {"id": "b10", "scene": 3, "n": 4, "narration": "مرّت ١٧ يومًا من دون تأكيد أنهم أحياء", "need": "fast sequence (1.5 s each): drilling day and night, waiting faces, drill machinery close-ups."},
+  {"id": "b11", "scene": 3, "n": 1, "narration": "ثم وصلت أداة حفر إلى مكانهم، وعاد معها دليل غيّر كل شيء", "need": "a drill bit / drill pipe / borehole rig close-up (the probe that reached them)."},
+  {"id": "b12", "scene": 3, "n": 2, "narration": "رسالة كتبها العمال تقول إنهم بخير...", "need": "President Piñera holding up the miners' handwritten note 'Estamos bien en el refugio los 33' (22 Aug 2010). Both versions if available; the note must be readable when zoomed."},
+  {"id": "b13", "scene": 3, "n": 1, "narration": "كان العمال على قيد الحياة", "need": "joy at the news they were alive: celebration with the note, crowds, 'Miners Alive!' signs. Must be from August 2010 if it claims the note moment — check date."},
+  {"id": "b14", "scene": 4, "n": 1, "narration": "لكن العثور عليهم لم يكن نهاية المشكلة", "need": "heavy drilling rig (Plan B Schramm T130 or similar), serious mood, daytime."},
+  {"id": "b16", "scene": 4, "n": 1, "narration": "ثم رفع كل عامل عبر فتحة ضيقة", "need": "the narrow rescue shaft opening seen from above / the casing pipe / the hole at the surface."},
+  {"id": "b17", "scene": 4, "n": 1, "narration": "أرسلت فرق الإنقاذ إليهم الطعام والماء والأدوية", "need": "supply tubes ('palomas') or supplies prepared for the miners; or medical preparation."},
+  {"id": "b18", "scene": 4, "n": 1, "narration": "وحاولت الحفاظ على صحتهم ومعنوياتهم", "need": "medical team / triage station / doctors / psychologists / families meeting rescuers."},
+  {"id": "b20", "scene": 5, "n": 2, "narration": "صُممت كبسولة إنقاذ ضيقة تُعرف باسم «فينيكس»", "need": "the Fénix capsule, full body visible, Chilean flag colours; one clean hero shot + one alternative angle."},
+  {"id": "b22", "scene": 5, "n": 1, "narration": "منها خبراء من ناسا", "need": "NASA experts who advised (NASA team photo related to the Chilean miners). NO NASA logo."},
+  {"id": "b23", "scene": 5, "n": 2, "narration": "في تقديم المشورة بشأن تصميم الكبسولة ورعاية العمال", "need": "capsule tests at the mine mouth (empty capsule test descent, engineers checking it)."},
+  {"id": "b24", "scene": 6, "n": 1, "narration": "في الثالث عشر من أكتوبر", "need": "NIGHT: floodlit rescue site, winch tower / stage, 12-13 Oct."},
+  {"id": "b25", "scene": 6, "n": 1, "narration": "بدأت عملية إخراج العمال", "need": "NIGHT: first rescuer descending in the capsule / capsule lowered into the hole."},
+  {"id": "b26", "scene": 6, "n": 2, "narration": "دخل كل عامل الكبسولة، وصعد عبر الممر الضيق إلى السطح", "need": "capsule in the shaft / winch wheel / cable / capsule rising (night)."},
+  {"id": "b27", "scene": 6, "n": 2, "narration": "كانت العملية تُتابَع في أنحاء العالم", "need": "the world watching: press camp on the hill, cameras, crowds watching."},
+  {"id": "b28", "scene": 6, "n": 2, "narration": "وكل مرة تظهر فيها الكبسولة فوق الأرض", "need": "FIRST miner Florencio Ávalos emerging from the capsule, then hugging (son / president). Strong emotion. This is the night->day 'wash' moment."},
+  {"id": "b29", "scene": 6, "n": 8, "narration": "كان عامل آخر يعود إلى عائلته", "need": "rapid sequence (1.2 s each) of DIFFERENT miners coming out: hugs, tears, kneeling, raised fists, wives and children. Faces readable, strong emotion, varied framing. Prefer tight framing that survives a 9:16 crop."},
+  {"id": "b30", "scene": 6, "n": 1, "narration": "وبعد نحو ٢٢ ساعة، اكتملت عملية الإنقاذ", "need": "the end of the operation: last miner / celebration / everyone together. Background for a 33/33 counter."},
+  {"id": "b31", "scene": 7, "n": 2, "narration": "كان آخر من خرج هو قائد العمال لويس أورسوا", "need": "Luis Urzúa (shift foreman, last out) with President Piñera at the moment he came out."},
+  {"id": "b33", "scene": 7, "n": 4, "narration": "تعاون فرق الإنقاذ والمهندسين والأطباء", "need": "the TEAMS, not the miners: rescuers (incl. Manuel González), engineers reviewing the plan, doctors/triage, drillers."},
+  {"id": "b34", "scene": 7, "n": 1, "narration": "(one second of silence)", "need": "WIDE daylight shot of the desert and the mine site, calm, no text."},
+  {"id": "b35", "scene": 7, "n": 1, "narration": "وفي النهاية، عاد الجميع إلى السطح أحياء", "need": "group photo of the 33 survivors together (after the rescue)."},
+  {"id": "thumb", "scene": 0, "n": 2, "narration": "thumbnail", "need": "a miner's face at the moment of coming out of the capsule, face readable, can sit on the LEFT third of a 16:9 frame and also works in 9:16."}
+ ]
+}

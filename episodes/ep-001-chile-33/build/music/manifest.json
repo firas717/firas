@@ -1,0 +1,62 @@
+[
+ {
+  "id": "Eternal Hope",
+  "group": "music",
+  "path": "tracks/Eternal Hope.mp3",
+  "dur": 284.1
+ },
+ {
+  "id": "Lost Time",
+  "group": "music",
+  "path": "tracks/Lost Time.mp3",
+  "dur": 227.4
+ },
+ {
+  "id": "Man Down",
+  "group": "music",
+  "path": "tracks/Man Down.mp3",
+  "dur": 198.6
+ },
+ {
+  "id": "Metaphysik",
+  "group": "music",
+  "path": "tracks/Metaphysik.mp3",
+  "dur": 277.9
+ },
+ {
+  "id": "Promises to Keep",
+  "group": "music",
+  "path": "tracks/Promises to Keep.mp3",
+  "dur": 304.1
+ },
+ {
+  "id": "Reawakening",
+  "group": "music",
+  "path": "tracks/Reawakening.mp3",
+  "dur": 214.1
+ },
+ {
+  "id": "Satiate Strings",
+  "group": "music",
+  "path": "tracks/Satiate Strings.mp3",
+  "dur": 192.1
+ },
+ {
+  "id": "Second Coming - no percussion",
+  "group": "music",
+  "path": "tracks/Second Coming - no percussion.mp3",
+  "dur": 131.8
+ },
+ {
+  "id": "Thaxted",
+  "group": "music",
+  "path": "tracks/Thaxted.mp3",
+  "dur": 152.8
+ },
+ {
+  "id": "Thunder Dreams",
+  "group": "music",
+  "path": "tracks/Thunder Dreams.mp3",
+  "dur": 230.4
+ }
+]

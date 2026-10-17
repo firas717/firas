@@ -1,0 +1,13 @@
+{"lead": 0.30, "tail": 0.80, "default_pause": 0.34, "max_keep": 0.40,
+ "pauses": [
+  {"before": 18.10, "target": 0.45, "why": "scene 1 -> 2"},
+  {"before": 34.62, "target": 0.50, "why": "scene 2 -> 3"},
+  {"before": 43.60, "target": 0.50, "why": "reveal: the note"},
+  {"before": 50.28, "target": 0.45, "why": "they were alive"},
+  {"before": 52.30, "target": 0.50, "why": "scene 3 -> 4"},
+  {"before": 74.74, "target": 0.55, "why": "scene 4 -> 5"},
+  {"before": 97.58, "target": 0.55, "why": "scene 5 -> 6"},
+  {"before": 109.48, "target": 0.45, "why": "capsule surfaces (mode switch)"},
+  {"before": 119.96, "target": 0.55, "why": "scene 6 -> 7"},
+  {"before": 139.94, "target": 1.00, "why": "script: one second of silence"}
+ ]}

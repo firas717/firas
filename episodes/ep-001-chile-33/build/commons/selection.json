@@ -1,0 +1,713 @@
+{
+ "picks": [
+  {
+   "beat": "b05",
+   "photos": [
+    {
+     "id": "c273",
+     "layout": "full",
+     "focus": [
+      0.6,
+      0.38
+     ],
+     "why": "Mario Sepúlveda, the second miner out, raising his arm in front of the crowd under the floodlight tower. A night exit full of emotion, with dark sky above for the title. 5616x3744."
+    }
+   ],
+   "alternates": [
+    "c266",
+    "c264",
+    "c240"
+   ]
+  },
+  {
+   "beat": "b06",
+   "photos": [
+    {
+     "id": "c359",
+     "layout": "full",
+     "focus": [
+      0.5,
+      0.8
+     ],
+     "why": "Natural-colour satellite image of the San José mine in the bare desert, Sept 2010. Honest wide establishing shot; the mine patch is near the bottom, so keep focus low. 3000x3000, no text."
+    }
+   ],
+   "alternates": [
+    "c360",
+    "c078",
+    "c322"
+   ]
+  },
+  {
+   "beat": "b08",
+   "photos": [
+    {
+     "id": "c287",
+     "layout": "framed",
+     "focus": [
+      0.5,
+      0.4
+     ],
+     "why": "Drilling rigs on the San José hillside on 10 Aug 2010, during the actual search. The only drilling photo from the right period. Small (1024x768), so framed."
+    },
+    {
+     "id": "c072",
+     "layout": "full",
+     "focus": [
+      0.3,
+      0.45
+     ],
+     "why": "Rescue worker in front of the drill rig on the desert slope in daylight. It dates from 12 Oct, but it reads as a generic 'teams drilling at the site' second shot."
+    }
+   ],
+   "alternates": [
+    "c073",
+    "c136",
+    "c137"
+   ]
+  },
+  {
+   "beat": "b09",
+   "photos": [
+    {
+     "id": "c329",
+     "layout": "framed",
+     "focus": [
+      0.25,
+      0.35
+     ],
+     "why": "7 Aug 2010, two days after the collapse: worried families sit in a dark tent while officials address them. Right period and right mood: nobody knows if the men are alive."
+    },
+    {
+     "id": "c331",
+     "layout": "framed",
+     "focus": [
+      0.5,
+      0.35
+     ],
+     "why": "14 Aug 2010: officials stand under a tent before seated, anxious families. Also before contact, so it is honest for 'they did not know if they survived'."
+    }
+   ],
+   "alternates": [
+    "c010",
+    "c081",
+    "c077"
+   ]
+  },
+  {
+   "beat": "b10",
+   "photos": [
+    {
+     "id": "c135",
+     "layout": "full",
+     "focus": [
+      0.32,
+      0.4
+     ],
+     "why": "Over-the-shoulder shot of a worker facing the drill rig and crew. Generic drilling texture for the fast montage."
+    },
+    {
+     "id": "c282",
+     "layout": "framed",
+     "focus": [
+      0.45,
+      0.4
+     ],
+     "why": "Mass for the families at Campamento Esperanza, with rows of waiting faces. It shows the same camp as the waiting period. Dated Oct, so it is used only as generic waiting texture."
+    },
+    {
+     "id": "c079",
+     "layout": "full",
+     "focus": [
+      0.4,
+      0.55
+     ],
+     "why": "Close-up of the drill pipe going into the borehole with a crouching worker. Covers the 'drill machinery close-up' slot."
+    },
+    {
+     "id": "c077",
+     "layout": "framed",
+     "focus": [
+      0.6,
+      0.5
+     ],
+     "why": "Camp Esperanza on the hillside with the 33 flags the families planted, one per trapped miner. Generic image of the vigil."
+    }
+   ],
+   "alternates": [
+    "c010",
+    "c075",
+    "c082"
+   ]
+  },
+  {
+   "beat": "b11",
+   "photos": [
+    {
+     "id": "c080",
+     "layout": "full",
+     "focus": [
+      0.5,
+      0.45
+     ],
+     "why": "Vertical shot of the drill pipe entering the borehole while a worker signals. Clear 'the drill went down' image. Note: this is the Oct rescue borehole, not the 22 Aug probe hole, so treat it as illustrative."
+    }
+   ],
+   "alternates": [
+    "c076",
+    "c074",
+    "c086"
+   ]
+  },
+  {
+   "beat": "b12",
+   "photos": [
+    {
+     "id": "c285",
+     "layout": "framed",
+     "focus": [
+      0.62,
+      0.45
+     ],
+     "why": "22 Aug 2010: Piñera holds the bagged note, and 'Estamos bien en el refugio los 33' is legible on the right. Zoom target for the note."
+    },
+    {
+     "id": "c286",
+     "layout": "framed",
+     "focus": [
+      0.65,
+      0.3
+     ],
+     "why": "22 Aug 2010: Piñera with a megaphone raises the note in its plastic bag above a cheering crowd. The second version of the note moment."
+    }
+   ],
+   "alternates": [
+    "c149"
+   ]
+  },
+  {
+   "beat": "b13",
+   "photos": [
+    {
+     "id": "c289",
+     "layout": "framed",
+     "focus": [
+      0.5,
+      0.75
+     ],
+     "why": "'Miners Alive!' celebration with Chilean flags at Plaza Italia, Santiago, 22 Aug 2010 17:45, the same day as the note. Correct date for the joy beat."
+    }
+   ],
+   "alternates": []
+  },
+  {
+   "beat": "b14",
+   "photos": [
+    {
+     "id": "c138",
+     "layout": "full",
+     "focus": [
+      0.6,
+      0.45
+     ],
+     "why": "Low angle on a large yellow drilling rig with workers in orange, daylight, heavy and serious. It is not the Schramm T130 itself (none in the catalog) but reads as heavy drilling machinery."
+    }
+   ],
+   "alternates": [
+    "c082",
+    "c073",
+    "c008"
+   ]
+  },
+  {
+   "beat": "b16",
+   "photos": [
+    {
+     "id": "c342",
+     "layout": "framed",
+     "focus": [
+      0.25,
+      0.65
+     ],
+     "why": "The actual narrow rescue shaft opening in its concrete collar, with rescuers in orange gathered around it in daylight (13 Oct). The hole is at lower left; framed so it stays visible."
+    }
+   ],
+   "alternates": [
+    "c089",
+    "c086",
+    "c106"
+   ]
+  },
+  {
+   "beat": "b17",
+   "photos": [
+    {
+     "id": "c043",
+     "layout": "framed",
+     "focus": [
+      0.35,
+      0.7
+     ],
+     "why": "NASA photo (2 Oct 2010) of the borehole pipe used to send supplies ('palomas') down to the miners. The only real supply-line image. Small, so framed."
+    }
+   ],
+   "alternates": [
+    "c002",
+    "c364"
+   ]
+  },
+  {
+   "beat": "b18",
+   "photos": [
+    {
+     "id": "c328",
+     "layout": "framed",
+     "focus": [
+      0.65,
+      0.4
+     ],
+     "why": "19 Sept 2010: Piñera with miners' children at a TV showing the men underground, the video link that kept their morale up. Right period."
+    }
+   ],
+   "alternates": [
+    "c364",
+    "c303",
+    "c010"
+   ]
+  },
+  {
+   "beat": "b20",
+   "photos": [
+    {
+     "id": "c330",
+     "layout": "framed",
+     "focus": [
+      0.4,
+      0.45
+     ],
+     "why": "Hero shot: the Fénix capsule in its Chilean flag livery hanging full-length at the mine on 12 Oct, with rescuers and officials lined up beside it."
+    },
+    {
+     "id": "c351",
+     "layout": "framed",
+     "focus": [
+      0.5,
+      0.6
+     ],
+     "why": "Second angle: the flag-painted Fénix lying horizontal on 12 Oct while an official inspects it, showing the whole body."
+    }
+   ],
+   "alternates": [
+    "c003",
+    "c350",
+    "c124"
+   ]
+  },
+  {
+   "beat": "b22",
+   "photos": [
+    {
+     "id": "c361",
+     "layout": "framed",
+     "focus": [
+      0.45,
+      0.55
+     ],
+     "why": "NASA Engineering and Safety Center engineers who helped design the capsule, at NASA Langley, 12 Nov 2010, beside a framed rescue photo. The only NASA team photo. Check for a NASA logo on the wall or flag before final render."
+    }
+   ],
+   "alternates": [
+    "c156"
+   ]
+  },
+  {
+   "beat": "b23",
+   "photos": [
+    {
+     "id": "c092",
+     "layout": "full",
+     "focus": [
+      0.48,
+      0.5
+     ],
+     "why": "Dry-run test on 10 Oct: a person inside the capsule cage at the shaft tower with rescuers checking it. Capsule testing in daylight."
+    },
+    {
+     "id": "c348",
+     "layout": "full",
+     "focus": [
+      0.5,
+      0.6
+     ],
+     "why": "Vertical shot of the Fénix on the ground on 12 Oct while Health Minister Mañalich and officers check final details. Ties to 'care for the workers'."
+    }
+   ],
+   "alternates": [
+    "c347",
+    "c091",
+    "c005"
+   ]
+  },
+  {
+   "beat": "b24",
+   "photos": [
+    {
+     "id": "c007",
+     "layout": "full",
+     "focus": [
+      0.32,
+      0.5
+     ],
+     "why": "NIGHT: the floodlit rescue stage with the yellow winch tower and the Fénix 2 capsule as officials watch the first test. Clean establishing shot of the site."
+    }
+   ],
+   "alternates": [
+    "c116",
+    "c176"
+   ]
+  },
+  {
+   "beat": "b25",
+   "photos": [
+    {
+     "id": "c251",
+     "layout": "full",
+     "focus": [
+      0.55,
+      0.4
+     ],
+     "why": "NIGHT, 12 Oct 23:17: first rescuer Manuel González inside the capsule cage, face lit, just before going down. Tight and tense: 'the extraction begins'."
+    }
+   ],
+   "alternates": [
+    "c252",
+    "c004",
+    "c250"
+   ]
+  },
+  {
+   "beat": "b26",
+   "photos": [
+    {
+     "id": "c177",
+     "layout": "full",
+     "focus": [
+      0.45,
+      0.6
+     ],
+     "why": "NIGHT: the top of the capsule (CHILE label) sinking into the shaft opening with officials and rescuers standing by. The capsule in the shaft. Taken at the empty test descent the night of 11-12 Oct."
+    },
+    {
+     "id": "c117",
+     "layout": "framed",
+     "focus": [
+      0.5,
+      0.75
+     ],
+     "why": "NIGHT: the winch cable running down into the hole under the yellow headframe, rescuers around the opening. Framed so the hole at the bottom and the cable stay in view."
+    }
+   ],
+   "alternates": [
+    "c205",
+    "c176",
+    "c339"
+   ]
+  },
+  {
+   "beat": "b27",
+   "photos": [
+    {
+     "id": "c234",
+     "layout": "full",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "why": "NIGHT: the Fénix 2 capsule hanging under a blazing floodlight above a crowd of white helmets, everyone watching the shaft."
+    },
+    {
+     "id": "c027",
+     "layout": "framed",
+     "focus": [
+      0.3,
+      0.45
+     ],
+     "why": "NIGHT: TV cameras and photographers surround the shaft as a miner comes out (Aguilar, 13 Oct). The press presence carries the 'world watching' idea. Framed so the cameras on the left stay in shot."
+    }
+   ],
+   "alternates": [
+    "c071",
+    "c214",
+    "c217"
+   ]
+  },
+  {
+   "beat": "b28",
+   "photos": [
+    {
+     "id": "c178",
+     "layout": "full",
+     "focus": [
+      0.55,
+      0.45
+     ],
+     "why": "Florencio Ávalos, the FIRST miner out, embracing family beside the capsule while his son watches, night of 12-13 Oct. The exit moment."
+    },
+    {
+     "id": "c023",
+     "layout": "framed",
+     "focus": [
+      0.4,
+      0.45
+     ],
+     "why": "Florencio Ávalos hugging President Piñera with his son watching at the right. The second emotional beat. Small (1506x1161), so framed."
+    }
+   ],
+   "alternates": [
+    "c179",
+    "c180",
+    "c181"
+   ]
+  },
+  {
+   "beat": "b29",
+   "photos": [
+    {
+     "id": "c298",
+     "layout": "full",
+     "focus": [
+      0.42,
+      0.4
+     ],
+     "why": "Osman Araya held by a tearful woman, a tight crop with tears (night)."
+    },
+    {
+     "id": "c281",
+     "layout": "full",
+     "focus": [
+      0.48,
+      0.4
+     ],
+     "why": "Mario Gómez, the oldest miner, raises a fist with the flag and a letter beside the capsule (dawn/day)."
+    },
+    {
+     "id": "c053",
+     "layout": "full",
+     "focus": [
+      0.5,
+      0.45
+     ],
+     "why": "Ariel Ticona kissing his wife, very tight on both faces."
+    },
+    {
+     "id": "c153",
+     "layout": "full",
+     "focus": [
+      0.5,
+      0.6
+     ],
+     "why": "Esteban Rojas kneeling and embracing his wife, vertical source. The kneeling moment."
+    },
+    {
+     "id": "c185",
+     "layout": "framed",
+     "focus": [
+      0.45,
+      0.45
+     ],
+     "why": "A woman holds Franklin Lobos's face in both hands, the strongest face image (quality 5). Both faces span the frame, so framed."
+    },
+    {
+     "id": "c144",
+     "layout": "full",
+     "focus": [
+      0.4,
+      0.45
+     ],
+     "why": "Edison Peña on the stretcher, fist raised against a blue sky."
+    },
+    {
+     "id": "c133",
+     "layout": "full",
+     "focus": [
+      0.42,
+      0.4
+     ],
+     "why": "Dario Segovia in a tight embrace with a woman holding a Chilean flag."
+    },
+    {
+     "id": "c305",
+     "layout": "full",
+     "focus": [
+      0.6,
+      0.4
+     ],
+     "why": "Pablo Rojas, thumbs up, arm around his son. Covers the 'children' slot."
+    }
+   ],
+   "alternates": [
+    "c336",
+    "c020",
+    "c049"
+   ]
+  },
+  {
+   "beat": "b30",
+   "photos": [
+    {
+     "id": "c159",
+     "layout": "full",
+     "focus": [
+      0.5,
+      0.45
+     ],
+     "why": "The moment the last miner was out (13 Oct, ~22:00): a crowd of rescuers cheering around Piñera embracing the triage doctor, one waving a green helmet. Everyone together, good under a 33/33 counter."
+    }
+   ],
+   "alternates": [
+    "c169",
+    "c166",
+    "c018"
+   ]
+  },
+  {
+   "beat": "b31",
+   "photos": [
+    {
+     "id": "c279",
+     "layout": "full",
+     "focus": [
+      0.47,
+      0.4
+     ],
+     "why": "Luis Urzúa raises his fist with the flag beside a smiling Piñera, the moment he came out last. Iconic and full-bleed."
+    },
+    {
+     "id": "c162",
+     "layout": "framed",
+     "focus": [
+      0.55,
+      0.45
+     ],
+     "why": "Urzúa and Piñera face to face, both smiling (quality 5). The faces sit too far apart for a 9:16 crop, so framed keeps both."
+    }
+   ],
+   "alternates": [
+    "c171",
+    "c166",
+    "c240"
+   ]
+  },
+  {
+   "beat": "b33",
+   "photos": [
+    {
+     "id": "c254",
+     "layout": "full",
+     "focus": [
+      0.45,
+      0.4
+     ],
+     "why": "Rescuer Manuel González in harness among the rescue team and a Gobierno de Chile jacket, the night of 12 Oct."
+    },
+    {
+     "id": "c012",
+     "layout": "framed",
+     "focus": [
+      0.55,
+      0.4
+     ],
+     "why": "Piñera, ministers and rescue chief André Sougarret bent over the rescue plan map: the engineers' planning."
+    },
+    {
+     "id": "c371",
+     "layout": "full",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "why": "A medic in a white coat and an officer bending over a rescued miner on a stretcher: the doctors at work."
+    },
+    {
+     "id": "c074",
+     "layout": "full",
+     "focus": [
+      0.62,
+      0.55
+     ],
+     "why": "Workers in red coveralls fitting the clamp at the borehole, drill rig behind: the drilling and technical crew."
+    }
+   ],
+   "alternates": [
+    "c238",
+    "c364",
+    "c228"
+   ]
+  },
+  {
+   "beat": "b34",
+   "photos": [
+    {
+     "id": "c334",
+     "layout": "full",
+     "focus": [
+      0.33,
+      0.5
+     ],
+     "why": "Calm daytime wide: the sun in a deep blue sky over the silhouetted desert hill, with the press tents small on the ridge. No text, a quiet moment."
+    }
+   ],
+   "alternates": [
+    "c078",
+    "c322",
+    "c081"
+   ]
+  },
+  {
+   "beat": "b35",
+   "photos": [
+    {
+     "id": "c277",
+     "layout": "framed",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "why": "Group portrait of the 33 rescued miners with the President in the Blue Room of La Moneda, 24 Oct 2010, after the rescue. Landscape group, so framed."
+    }
+   ],
+   "alternates": [
+    "c278",
+    "c276"
+   ]
+  },
+  {
+   "beat": "thumb",
+   "photos": [
+    {
+     "id": "c059",
+     "layout": "full",
+     "focus": [
+      0.45,
+      0.38
+     ],
+     "why": "Carlos Barrios waving as he steps out of the flag-painted capsule. Face readable, capsule behind; crop the right side for 16:9 so his face lands on the left third."
+    },
+    {
+     "id": "c343",
+     "layout": "full",
+     "focus": [
+      0.47,
+      0.35
+     ],
+     "why": "Renán Ávalos smiling beside the capsule mesh in a 'Gracias Señor' shirt. Clear face, works in 9:16 and on the left third of 16:9."
+    }
+   ],
+   "alternates": [
+    "c196",
+    "c046",
+    "c039"
+   ]
+  }
+ ]
+}

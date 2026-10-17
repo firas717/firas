@@ -1,0 +1,2354 @@
+[
+ {
+  "id": "A-5",
+  "group": "A",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/530ff1bd-5.mp3",
+  "dur": 2.51,
+  "batch": 1
+ },
+ {
+  "id": "A-6",
+  "group": "A",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/8e8f7570-6.mp3",
+  "dur": 2.74,
+  "batch": 1
+ },
+ {
+  "id": "A-1",
+  "group": "A",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/462ba2c8-1.mp3",
+  "dur": 7.47,
+  "batch": 1
+ },
+ {
+  "id": "A-13",
+  "group": "A",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/5250088c-13.mp3",
+  "dur": 6.06,
+  "batch": 1
+ },
+ {
+  "id": "A-14",
+  "group": "A",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/f2067b67-14.mp3",
+  "dur": 6.55,
+  "batch": 1
+ },
+ {
+  "id": "A-10",
+  "group": "A",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/808d255b-10.mp3",
+  "dur": 6.06,
+  "batch": 1
+ },
+ {
+  "id": "A-2",
+  "group": "A",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/cc8060ac-2.mp3",
+  "dur": 8.85,
+  "batch": 1
+ },
+ {
+  "id": "A-11",
+  "group": "A",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d879f02f-11.mp3",
+  "dur": 3.79,
+  "batch": 1
+ },
+ {
+  "id": "A-12",
+  "group": "A",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/a3939048-12.mp3",
+  "dur": 5.07,
+  "batch": 1
+ },
+ {
+  "id": "A-15",
+  "group": "A",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/80febedd-15.mp3",
+  "dur": 5.07,
+  "batch": 1
+ },
+ {
+  "id": "A-16",
+  "group": "A",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/49e7d41c-16.mp3",
+  "dur": 4.8,
+  "batch": 1
+ },
+ {
+  "id": "A-3",
+  "group": "A",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e49aba86-3.mp3",
+  "dur": 11.69,
+  "batch": 1
+ },
+ {
+  "id": "A-4",
+  "group": "A",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/049c4261-4.mp3",
+  "dur": 18.37,
+  "batch": 1
+ },
+ {
+  "id": "B-9",
+  "group": "B",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/4f3e374d-9.mp3",
+  "dur": 1.1,
+  "batch": 2
+ },
+ {
+  "id": "B-5",
+  "group": "B",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/4bf0c30e-5.mp3",
+  "dur": 1.6,
+  "batch": 2
+ },
+ {
+  "id": "B-1",
+  "group": "B",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e70606b6-1.mp3",
+  "dur": 0.71,
+  "batch": 2
+ },
+ {
+  "id": "B-6",
+  "group": "B",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/a4dccadf-6.mp3",
+  "dur": 1.21,
+  "batch": 2
+ },
+ {
+  "id": "B-2",
+  "group": "B",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/c272bd4f-2.mp3",
+  "dur": 0.61,
+  "batch": 2
+ },
+ {
+  "id": "B-11",
+  "group": "B",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/91fbd66e-11.mp3",
+  "dur": 0.4,
+  "batch": 2
+ },
+ {
+  "id": "B-8",
+  "group": "B",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/18f2af3c-8.mp3",
+  "dur": 1.41,
+  "batch": 2
+ },
+ {
+  "id": "B-4",
+  "group": "B",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/6c1d9074-4.mp3",
+  "dur": 0.74,
+  "batch": 2
+ },
+ {
+  "id": "B-3",
+  "group": "B",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/66a9bc2a-3.mp3",
+  "dur": 0.45,
+  "batch": 2
+ },
+ {
+  "id": "B-7",
+  "group": "B",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d7e24c49-7.mp3",
+  "dur": 0.94,
+  "batch": 2
+ },
+ {
+  "id": "Camera_Flash",
+  "group": "B",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/6ac0f5b0-______Camera_Flash.mp3",
+  "dur": 9.86,
+  "batch": 2
+ },
+ {
+  "id": "B-10",
+  "group": "B",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/7549469e-10.mp3",
+  "dur": 0.84,
+  "batch": 2
+ },
+ {
+  "id": "C-16",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b5ca8daa-16.mp3",
+  "dur": 1.62,
+  "batch": 3
+ },
+ {
+  "id": "C-17",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/08e49a40-17.mp3",
+  "dur": 2.8,
+  "batch": 3
+ },
+ {
+  "id": "C-12",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/3dbefe14-12.mp3",
+  "dur": 3.06,
+  "batch": 3
+ },
+ {
+  "id": "C-14",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/41819880-14.mp3",
+  "dur": 3.06,
+  "batch": 3
+ },
+ {
+  "id": "C-1",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/bd4a0eae-1.mp3",
+  "dur": 10.05,
+  "batch": 3
+ },
+ {
+  "id": "C-10",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/8937ebd1-10.mp3",
+  "dur": 3.55,
+  "batch": 3
+ },
+ {
+  "id": "C-11",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/4b692654-11.mp3",
+  "dur": 4.07,
+  "batch": 3
+ },
+ {
+  "id": "C-15",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/602d675e-15.mp3",
+  "dur": 1.18,
+  "batch": 3
+ },
+ {
+  "id": "C-13",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/1ba3d1ee-13.mp3",
+  "dur": 0.76,
+  "batch": 3
+ },
+ {
+  "id": "C-19",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/10a281a8-19.mp3",
+  "dur": 10.41,
+  "batch": 3
+ },
+ {
+  "id": "C-18",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/1c16096b-18.mp3",
+  "dur": 4.99,
+  "batch": 3
+ },
+ {
+  "id": "C-2",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/f176a02f-2.mp3",
+  "dur": 10.62,
+  "batch": 3
+ },
+ {
+  "id": "C-21",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/7523b404-21.mp3",
+  "dur": 1.07,
+  "batch": 4
+ },
+ {
+  "id": "C-31",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d037ecdc-31.mp3",
+  "dur": 0.94,
+  "batch": 4
+ },
+ {
+  "id": "C-33",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/342305d4-33.mp3",
+  "dur": 0.87,
+  "batch": 4
+ },
+ {
+  "id": "C-23",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/20990b4c-23.mp3",
+  "dur": 4.99,
+  "batch": 4
+ },
+ {
+  "id": "C-22",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/02fe7eee-22.mp3",
+  "dur": 1.07,
+  "batch": 4
+ },
+ {
+  "id": "C-30",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/32ef6179-30.mp3",
+  "dur": 2.3,
+  "batch": 4
+ },
+ {
+  "id": "C-28",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b798a0b0-28.mp3",
+  "dur": 1.07,
+  "batch": 4
+ },
+ {
+  "id": "C-34",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/620d0de8-34.mp3",
+  "dur": 2.54,
+  "batch": 4
+ },
+ {
+  "id": "C-29",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/1b607dd1-29.mp3",
+  "dur": 1.07,
+  "batch": 4
+ },
+ {
+  "id": "C-26",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/369f7a16-26.mp3",
+  "dur": 3.94,
+  "batch": 4
+ },
+ {
+  "id": "C-24",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e712030d-24.mp3",
+  "dur": 6.92,
+  "batch": 4
+ },
+ {
+  "id": "C-25",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/5c069085-25.mp3",
+  "dur": 3.55,
+  "batch": 4
+ },
+ {
+  "id": "C-20",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/29b74e36-20.mp3",
+  "dur": 2.56,
+  "batch": 4
+ },
+ {
+  "id": "C-32",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/fdcf065e-32.mp3",
+  "dur": 1.07,
+  "batch": 4
+ },
+ {
+  "id": "C-27",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/0213b333-27.mp3",
+  "dur": 3.55,
+  "batch": 4
+ },
+ {
+  "id": "C-3",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/5a72c04d-3.mp3",
+  "dur": 1.62,
+  "batch": 4
+ },
+ {
+  "id": "C-38",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/751e4aa4-38.mp3",
+  "dur": 2.3,
+  "batch": 4
+ },
+ {
+  "id": "C-37",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/83788add-37.mp3",
+  "dur": 3.34,
+  "batch": 4
+ },
+ {
+  "id": "C-35",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/3c4b23d0-35.mp3",
+  "dur": 4.44,
+  "batch": 4
+ },
+ {
+  "id": "C-36",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/38d89456-36.mp3",
+  "dur": 3.14,
+  "batch": 4
+ },
+ {
+  "id": "C-4",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/5c9af719-4.mp3",
+  "dur": 3.55,
+  "batch": 5
+ },
+ {
+  "id": "C-47",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/81667590-47.mp3",
+  "dur": 5.4,
+  "batch": 5
+ },
+ {
+  "id": "C-43",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/7ed76154-43.mp3",
+  "dur": 2.3,
+  "batch": 5
+ },
+ {
+  "id": "C-50",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/8019bef9-50.mp3",
+  "dur": 2.87,
+  "batch": 5
+ },
+ {
+  "id": "C-45",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/4b2629f2-45.mp3",
+  "dur": 2.43,
+  "batch": 5
+ },
+ {
+  "id": "C-39",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/43403086-39.mp3",
+  "dur": 3.84,
+  "batch": 5
+ },
+ {
+  "id": "C-40",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/40811b00-40.mp3",
+  "dur": 2.17,
+  "batch": 5
+ },
+ {
+  "id": "C-5",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/89a86637-5.mp3",
+  "dur": 4.31,
+  "batch": 5
+ },
+ {
+  "id": "C-46",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/493e4eb0-46.mp3",
+  "dur": 2.59,
+  "batch": 5
+ },
+ {
+  "id": "C-42",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b3fa546b-42.mp3",
+  "dur": 4.13,
+  "batch": 5
+ },
+ {
+  "id": "C-41",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/8e594bb8-41.mp3",
+  "dur": 7.02,
+  "batch": 5
+ },
+ {
+  "id": "C-44",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/4999d99a-44.mp3",
+  "dur": 3.4,
+  "batch": 5
+ },
+ {
+  "id": "C-49",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/cbef220a-49.mp3",
+  "dur": 5.2,
+  "batch": 5
+ },
+ {
+  "id": "C-51",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/531c14f9-51.mp3",
+  "dur": 3.11,
+  "batch": 5
+ },
+ {
+  "id": "C-48",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/8342a9fa-48.mp3",
+  "dur": 2.64,
+  "batch": 5
+ },
+ {
+  "id": "C-56",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/9a4d9175-56.mp3",
+  "dur": 0.63,
+  "batch": 5
+ },
+ {
+  "id": "C-52",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/bebb7575-52.mp3",
+  "dur": 5.82,
+  "batch": 5
+ },
+ {
+  "id": "C-54",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/4855bf46-54.mp3",
+  "dur": 4.07,
+  "batch": 5
+ },
+ {
+  "id": "C-55",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/f7056886-55.mp3",
+  "dur": 5.59,
+  "batch": 5
+ },
+ {
+  "id": "C-53",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/ee8bb13e-53.mp3",
+  "dur": 9.19,
+  "batch": 5
+ },
+ {
+  "id": "C-7",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e870ecab-7.mp3",
+  "dur": 1.62,
+  "batch": 6
+ },
+ {
+  "id": "C-79",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/4de7ce61-79.mp3",
+  "dur": 1.31,
+  "batch": 6
+ },
+ {
+  "id": "C-77",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d753b281-77.mp3",
+  "dur": 1.18,
+  "batch": 6
+ },
+ {
+  "id": "C-78",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/3c7ffcac-78.mp3",
+  "dur": 1.05,
+  "batch": 6
+ },
+ {
+  "id": "C-75",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/db4eef27-75.mp3",
+  "dur": 1.7,
+  "batch": 6
+ },
+ {
+  "id": "C-72",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e5078734-72.mp3",
+  "dur": 4.91,
+  "batch": 6
+ },
+ {
+  "id": "C-74",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/87a31862-74.mp3",
+  "dur": 1.62,
+  "batch": 6
+ },
+ {
+  "id": "C-81",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b6d728d1-81.mp3",
+  "dur": 3.24,
+  "batch": 6
+ },
+ {
+  "id": "C-73",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/3de9572c-73.mp3",
+  "dur": 1.86,
+  "batch": 6
+ },
+ {
+  "id": "C-80",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/4f3a9d2b-80.mp3",
+  "dur": 2.56,
+  "batch": 6
+ },
+ {
+  "id": "C-71",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/afd7e91f-71.mp3",
+  "dur": 3.84,
+  "batch": 6
+ },
+ {
+  "id": "C-70",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/a416c25b-70.mp3",
+  "dur": 2.07,
+  "batch": 6
+ },
+ {
+  "id": "C-76",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/47c53d4d-76.mp3",
+  "dur": 2.04,
+  "batch": 6
+ },
+ {
+  "id": "C-9",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/271a4e3c-9.mp3",
+  "dur": 1.6,
+  "batch": 6
+ },
+ {
+  "id": "C-8",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/589c51d4-8.mp3",
+  "dur": 6.29,
+  "batch": 6
+ },
+ {
+  "id": "C-67",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/7ca949ac-67.mp3",
+  "dur": 0.76,
+  "batch": 6
+ },
+ {
+  "id": "C-69",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/a547b6db-69.mp3",
+  "dur": 4.2,
+  "batch": 6
+ },
+ {
+  "id": "C-66",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/ab967de1-66.mp3",
+  "dur": 4.49,
+  "batch": 6
+ },
+ {
+  "id": "C-68",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/983c1498-68.mp3",
+  "dur": 5.27,
+  "batch": 6
+ },
+ {
+  "id": "Whoosh",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/83546052-______________Whoosh.mp3",
+  "dur": 277.82,
+  "batch": 6
+ },
+ {
+  "id": "C-6",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/afa19fdf-6.mp3",
+  "dur": 1.62,
+  "batch": 7
+ },
+ {
+  "id": "C-62",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/1f3442a2-62.mp3",
+  "dur": 4.62,
+  "batch": 7
+ },
+ {
+  "id": "C-61",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/a4167ae8-61.mp3",
+  "dur": 3.5,
+  "batch": 7
+ },
+ {
+  "id": "C-64",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/943a0b26-64.mp3",
+  "dur": 3.76,
+  "batch": 7
+ },
+ {
+  "id": "C-58",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/9c209d1a-58.mp3",
+  "dur": 3.74,
+  "batch": 7
+ },
+ {
+  "id": "C-59",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/c5eaf95c-59.mp3",
+  "dur": 6.53,
+  "batch": 7
+ },
+ {
+  "id": "C-60",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/7f4823a0-60.mp3",
+  "dur": 4.34,
+  "batch": 7
+ },
+ {
+  "id": "C-57",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/474d6946-57.mp3",
+  "dur": 4.15,
+  "batch": 7
+ },
+ {
+  "id": "C-63",
+  "group": "C",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e10ad33a-63.mp3",
+  "dur": 4.02,
+  "batch": 7
+ },
+ {
+  "id": "D-2",
+  "group": "D",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/89b7bcd2-2.mp3",
+  "dur": 1.62,
+  "batch": 7
+ },
+ {
+  "id": "D-3",
+  "group": "D",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e62ca3d3-3.mp3",
+  "dur": 1.62,
+  "batch": 7
+ },
+ {
+  "id": "D-4",
+  "group": "D",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b425b62e-4.mp3",
+  "dur": 1.62,
+  "batch": 7
+ },
+ {
+  "id": "pop",
+  "group": "D",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/65724012-____________pop.mp3",
+  "dur": 8.07,
+  "batch": 7
+ },
+ {
+  "id": "D-5",
+  "group": "D",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/f6fb0e64-5.mp3",
+  "dur": 1.62,
+  "batch": 7
+ },
+ {
+  "id": "D-1",
+  "group": "D",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/2fd1da9d-1.mp3",
+  "dur": 1.62,
+  "batch": 7
+ },
+ {
+  "id": "E-16",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/356ba8b8-16.mp3",
+  "dur": 0.97,
+  "batch": 8
+ },
+ {
+  "id": "E-1",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/0d346351-1.mp3",
+  "dur": 1.21,
+  "batch": 8
+ },
+ {
+  "id": "E-2",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/f6e289d4-2.mp3",
+  "dur": 0.63,
+  "batch": 8
+ },
+ {
+  "id": "E-11",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/0a3d816f-11.mp3",
+  "dur": 3.16,
+  "batch": 8
+ },
+ {
+  "id": "E-22",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/a3f22b4b-22.mp3",
+  "dur": 1.26,
+  "batch": 8
+ },
+ {
+  "id": "E-21",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/f622edd0-21.mp3",
+  "dur": 1.05,
+  "batch": 8
+ },
+ {
+  "id": "E-20",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/01d9666f-20.mp3",
+  "dur": 2.22,
+  "batch": 8
+ },
+ {
+  "id": "E-19",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/a4a5c51c-19.mp3",
+  "dur": 0.5,
+  "batch": 8
+ },
+ {
+  "id": "E-14",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/5f4ead26-14.mp3",
+  "dur": 0.4,
+  "batch": 8
+ },
+ {
+  "id": "E-10",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/f8ca9308-10.mp3",
+  "dur": 1.31,
+  "batch": 8
+ },
+ {
+  "id": "E-15",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/ae2c72be-15.mp3",
+  "dur": 1.18,
+  "batch": 8
+ },
+ {
+  "id": "E-23",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/f74ac197-23.mp3",
+  "dur": 2.43,
+  "batch": 8
+ },
+ {
+  "id": "E-12",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b6d52ab3-12.mp3",
+  "dur": 0.63,
+  "batch": 8
+ },
+ {
+  "id": "E-17",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/8ef2586a-17.mp3",
+  "dur": 0.53,
+  "batch": 8
+ },
+ {
+  "id": "E-18",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/11ea37b8-18.mp3",
+  "dur": 0.76,
+  "batch": 8
+ },
+ {
+  "id": "E-13",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d9589cd3-13.mp3",
+  "dur": 1.94,
+  "batch": 8
+ },
+ {
+  "id": "E-25",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/3ed1a513-25.mp3",
+  "dur": 1.21,
+  "batch": 8
+ },
+ {
+  "id": "E-26",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/5a99a74d-26.mp3",
+  "dur": 2.4,
+  "batch": 8
+ },
+ {
+  "id": "E-24",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/98c1db90-24.mp3",
+  "dur": 3.74,
+  "batch": 8
+ },
+ {
+  "id": "E-27",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/a8daab2e-27.mp3",
+  "dur": 2.27,
+  "batch": 8
+ },
+ {
+  "id": "E-28",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/a49902e1-28.mp3",
+  "dur": 2.2,
+  "batch": 9
+ },
+ {
+  "id": "E-41",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/6b7df628-41.mp3",
+  "dur": 4.44,
+  "batch": 9
+ },
+ {
+  "id": "E-40",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b86cd18f-40.mp3",
+  "dur": 3.74,
+  "batch": 9
+ },
+ {
+  "id": "E-39",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/9ebd3f86-39.mp3",
+  "dur": 6.5,
+  "batch": 9
+ },
+ {
+  "id": "E-36",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d2ef9442-36.mp3",
+  "dur": 1.83,
+  "batch": 9
+ },
+ {
+  "id": "E-32",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/4b82df66-32.mp3",
+  "dur": 2.07,
+  "batch": 9
+ },
+ {
+  "id": "E-34",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/29d3ddd9-34.mp3",
+  "dur": 3.74,
+  "batch": 9
+ },
+ {
+  "id": "E-3",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/97fc0530-3.mp3",
+  "dur": 3.27,
+  "batch": 9
+ },
+ {
+  "id": "E-30",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/cc3d1a50-30.mp3",
+  "dur": 2.4,
+  "batch": 9
+ },
+ {
+  "id": "E-33",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/7514901f-33.mp3",
+  "dur": 2.07,
+  "batch": 9
+ },
+ {
+  "id": "E-31",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/38f01bab-31.mp3",
+  "dur": 2.38,
+  "batch": 9
+ },
+ {
+  "id": "E-35",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/0e30f69d-35.mp3",
+  "dur": 3.74,
+  "batch": 9
+ },
+ {
+  "id": "E-29",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d5c5e308-29.mp3",
+  "dur": 7.44,
+  "batch": 9
+ },
+ {
+  "id": "E-37",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/023da85d-37.mp3",
+  "dur": 2.4,
+  "batch": 9
+ },
+ {
+  "id": "E-38",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/4b40fed8-38.mp3",
+  "dur": 5.59,
+  "batch": 9
+ },
+ {
+  "id": "E-4",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/77145c4d-4.mp3",
+  "dur": 1.83,
+  "batch": 9
+ },
+ {
+  "id": "E-7",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/60283fd8-7.mp3",
+  "dur": 0.37,
+  "batch": 9
+ },
+ {
+  "id": "E-5",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/3dc925fc-5.mp3",
+  "dur": 0.37,
+  "batch": 9
+ },
+ {
+  "id": "E-8",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d6ab7ed7-8.mp3",
+  "dur": 0.71,
+  "batch": 9
+ },
+ {
+  "id": "E-6",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/632315b4-6.mp3",
+  "dur": 0.37,
+  "batch": 9
+ },
+ {
+  "id": "E-9",
+  "group": "E",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/a3c4734f-9.mp3",
+  "dur": 3.53,
+  "batch": 10
+ },
+ {
+  "id": "unnamed1",
+  "group": "U",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/0cca39bf-_____________________.mp3",
+  "dur": 89.86,
+  "batch": 10
+ },
+ {
+  "id": "F-5",
+  "group": "F",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/8a4a3b6d-5.mp3",
+  "dur": 16.57,
+  "batch": 11
+ },
+ {
+  "id": "F-1",
+  "group": "F",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/f67e6ebb-1.mp3",
+  "dur": 23.66,
+  "batch": 11
+ },
+ {
+  "id": "F-3",
+  "group": "F",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/42008e43-3.mp3",
+  "dur": 9.63,
+  "batch": 11
+ },
+ {
+  "id": "F-2",
+  "group": "F",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/be176094-2.mp3",
+  "dur": 26.61,
+  "batch": 11
+ },
+ {
+  "id": "F-4",
+  "group": "F",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/bfe51b7f-4.mp3",
+  "dur": 179.69,
+  "batch": 11
+ },
+ {
+  "id": "unnamed2",
+  "group": "U",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/89bd6e17-_____________.mp3",
+  "dur": 256.12,
+  "batch": 11
+ },
+ {
+  "id": "G-12",
+  "group": "G",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d3f83b9a-12.mp3",
+  "dur": 0.47,
+  "batch": 12
+ },
+ {
+  "id": "G-1",
+  "group": "G",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/72669fbb-1.mp3",
+  "dur": 0.37,
+  "batch": 12
+ },
+ {
+  "id": "G-11",
+  "group": "G",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/ed33f7ca-11.mp3",
+  "dur": 0.63,
+  "batch": 12
+ },
+ {
+  "id": "G-5",
+  "group": "G",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/347f2549-5.mp3",
+  "dur": 0.27,
+  "batch": 12
+ },
+ {
+  "id": "G-10",
+  "group": "G",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/9996e06d-10.mp3",
+  "dur": 1.0,
+  "batch": 12
+ },
+ {
+  "id": "G-6",
+  "group": "G",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/2bedff68-6.mp3",
+  "dur": 0.34,
+  "batch": 12
+ },
+ {
+  "id": "G-4",
+  "group": "G",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/34e915b6-4.mp3",
+  "dur": 0.27,
+  "batch": 12
+ },
+ {
+  "id": "G-7",
+  "group": "G",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/c06d87f2-7.mp3",
+  "dur": 0.29,
+  "batch": 12
+ },
+ {
+  "id": "G-8",
+  "group": "G",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/26f91719-8.mp3",
+  "dur": 0.45,
+  "batch": 12
+ },
+ {
+  "id": "G-3",
+  "group": "G",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b7f86b10-3.mp3",
+  "dur": 0.29,
+  "batch": 12
+ },
+ {
+  "id": "G-2",
+  "group": "G",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/058e2999-2.mp3",
+  "dur": 0.27,
+  "batch": 12
+ },
+ {
+  "id": "unnamed3",
+  "group": "U",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/ad30b0aa-___________.mp3",
+  "dur": 4.99,
+  "batch": 12
+ },
+ {
+  "id": "G-9",
+  "group": "G",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/2bcd20f9-9.mp3",
+  "dur": 0.58,
+  "batch": 12
+ },
+ {
+  "id": "H-10",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/1b7e5486-10.mp3",
+  "dur": 2.27,
+  "batch": 13
+ },
+ {
+  "id": "H-18",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d58ab1a8-18.mp3",
+  "dur": 3.16,
+  "batch": 13
+ },
+ {
+  "id": "H-12",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/734b18f4-12.mp3",
+  "dur": 2.69,
+  "batch": 13
+ },
+ {
+  "id": "H-21",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/09c09198-21.mp3",
+  "dur": 10.05,
+  "batch": 13
+ },
+ {
+  "id": "H-15",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e947f523-15.mp3",
+  "dur": 2.82,
+  "batch": 13
+ },
+ {
+  "id": "H-16",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d29bfc21-16.mp3",
+  "dur": 3.53,
+  "batch": 13
+ },
+ {
+  "id": "H-13",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/1e51f5e0-13.mp3",
+  "dur": 2.17,
+  "batch": 13
+ },
+ {
+  "id": "H-20",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/94c2d2a9-20.mp3",
+  "dur": 5.69,
+  "batch": 13
+ },
+ {
+  "id": "H-1",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/f00a45aa-1.mp3",
+  "dur": 4.13,
+  "batch": 13
+ },
+ {
+  "id": "H-19",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b6094758-19.mp3",
+  "dur": 5.54,
+  "batch": 13
+ },
+ {
+  "id": "H-2",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d3c3a88c-2.mp3",
+  "dur": 2.98,
+  "batch": 13
+ },
+ {
+  "id": "H-22",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/cc7f0ddb-22.mp3",
+  "dur": 3.55,
+  "batch": 13
+ },
+ {
+  "id": "H-17",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/55ad7f78-17.mp3",
+  "dur": 2.87,
+  "batch": 13
+ },
+ {
+  "id": "H-14",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/bc44a962-14.mp3",
+  "dur": 3.63,
+  "batch": 13
+ },
+ {
+  "id": "H-27",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/5fb765db-27.mp3",
+  "dur": 1.83,
+  "batch": 13
+ },
+ {
+  "id": "H-24",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/398b09d7-24.mp3",
+  "dur": 8.07,
+  "batch": 13
+ },
+ {
+  "id": "H-26",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/fac5f1bd-26.mp3",
+  "dur": 10.36,
+  "batch": 13
+ },
+ {
+  "id": "H-23",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/51d0ec81-23.mp3",
+  "dur": 4.99,
+  "batch": 13
+ },
+ {
+  "id": "H-25",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/97c179a5-25.mp3",
+  "dur": 12.89,
+  "batch": 13
+ },
+ {
+  "id": "H-11",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d620437b-11.mp3",
+  "dur": 1.41,
+  "batch": 13
+ },
+ {
+  "id": "H-9",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d4343922-9.mp3",
+  "dur": 2.9,
+  "batch": 14
+ },
+ {
+  "id": "H-28",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/f95680d3-28.mp3",
+  "dur": 22.44,
+  "batch": 14
+ },
+ {
+  "id": "H-3",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/1bae3749-3.mp3",
+  "dur": 2.8,
+  "batch": 14
+ },
+ {
+  "id": "H-5",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/840af7b1-5.mp3",
+  "dur": 5.46,
+  "batch": 14
+ },
+ {
+  "id": "H-30",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/9d7f099d-30.mp3",
+  "dur": 6.19,
+  "batch": 14
+ },
+ {
+  "id": "H-6",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/38ea900e-6.mp3",
+  "dur": 4.2,
+  "batch": 14
+ },
+ {
+  "id": "H-4",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/a5497bd4-4.mp3",
+  "dur": 5.46,
+  "batch": 14
+ },
+ {
+  "id": "H-8",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/6d9e1a76-8.mp3",
+  "dur": 2.04,
+  "batch": 14
+ },
+ {
+  "id": "H-29",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/7e8d65c9-29.mp3",
+  "dur": 8.43,
+  "batch": 14
+ },
+ {
+  "id": "unnamed4",
+  "group": "U",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/9f35e229-__________________________.mp3",
+  "dur": 160.34,
+  "batch": 14
+ },
+ {
+  "id": "H-7",
+  "group": "H",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/18e63fa2-7.mp3",
+  "dur": 6.42,
+  "batch": 14
+ },
+ {
+  "id": "I-22",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b99a6032-22.mp3",
+  "dur": 1.18,
+  "batch": 15
+ },
+ {
+  "id": "I-18",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e829061e-18.mp3",
+  "dur": 0.76,
+  "batch": 15
+ },
+ {
+  "id": "I-7",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/12347ffa-7.mp3",
+  "dur": 0.66,
+  "batch": 15
+ },
+ {
+  "id": "I-6",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/fdb85795-6.mp3",
+  "dur": 0.94,
+  "batch": 15
+ },
+ {
+  "id": "I-8",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e4dc3638-8.mp3",
+  "dur": 0.63,
+  "batch": 15
+ },
+ {
+  "id": "I-3",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/20dbb4bf-3.mp3",
+  "dur": 0.81,
+  "batch": 15
+ },
+ {
+  "id": "I-21",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/0f70a1fa-21.mp3",
+  "dur": 1.18,
+  "batch": 15
+ },
+ {
+  "id": "I-2",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/1266b667-2.mp3",
+  "dur": 1.41,
+  "batch": 15
+ },
+ {
+  "id": "I-17",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/9dc12fb2-17.mp3",
+  "dur": 1.07,
+  "batch": 15
+ },
+ {
+  "id": "I-19",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/00ab4893-19.mp3",
+  "dur": 0.71,
+  "batch": 15
+ },
+ {
+  "id": "I-9",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/250e446f-9.mp3",
+  "dur": 1.05,
+  "batch": 15
+ },
+ {
+  "id": "I-5",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d4b6b48f-5.mp3",
+  "dur": 2.38,
+  "batch": 15
+ },
+ {
+  "id": "I-20",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/0edfc7ca-20.mp3",
+  "dur": 1.05,
+  "batch": 15
+ },
+ {
+  "id": "I-4",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/c70c93c2-4.mp3",
+  "dur": 2.14,
+  "batch": 15
+ },
+ {
+  "id": "unnamed5",
+  "group": "U",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b9f3f65c-__________________________.mp3",
+  "dur": 26.82,
+  "batch": 15
+ },
+ {
+  "id": "I-23",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/518c16fd-23.mp3",
+  "dur": 0.76,
+  "batch": 15
+ },
+ {
+  "id": "I-16",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/66dbc471-16.mp3",
+  "dur": 1.07,
+  "batch": 15
+ },
+ {
+  "id": "I-14",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/7dfbb089-14.mp3",
+  "dur": 1.05,
+  "batch": 15
+ },
+ {
+  "id": "I-15",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/206e97dc-15.mp3",
+  "dur": 0.87,
+  "batch": 15
+ },
+ {
+  "id": "I-13",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e64df2af-13.mp3",
+  "dur": 1.62,
+  "batch": 15
+ },
+ {
+  "id": "I-10",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/61319b5d-10.mp3",
+  "dur": 1.31,
+  "batch": 16
+ },
+ {
+  "id": "I-1",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/29335b83-1.mp3",
+  "dur": 1.6,
+  "batch": 16
+ },
+ {
+  "id": "I-12",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/c75fc4ac-12.mp3",
+  "dur": 1.49,
+  "batch": 16
+ },
+ {
+  "id": "I-11",
+  "group": "I",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/33f142b3-11.mp3",
+  "dur": 1.47,
+  "batch": 16
+ },
+ {
+  "id": "J-18",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/6ccd1f04-18.mp3",
+  "dur": 0.34,
+  "batch": 17
+ },
+ {
+  "id": "J-6",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/dfbe7e31-6.mp3",
+  "dur": 0.45,
+  "batch": 17
+ },
+ {
+  "id": "J-5",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/a033d8b1-5.mp3",
+  "dur": 0.58,
+  "batch": 17
+ },
+ {
+  "id": "J-14",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b68c060c-14.mp3",
+  "dur": 0.34,
+  "batch": 17
+ },
+ {
+  "id": "J-12",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/22ba31c6-12.mp3",
+  "dur": 0.37,
+  "batch": 17
+ },
+ {
+  "id": "J-7",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/695f64e6-7.mp3",
+  "dur": 1.49,
+  "batch": 17
+ },
+ {
+  "id": "J-17",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/a5e5bf37-17.mp3",
+  "dur": 0.4,
+  "batch": 17
+ },
+ {
+  "id": "J-4",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/821ea44b-4.mp3",
+  "dur": 0.34,
+  "batch": 17
+ },
+ {
+  "id": "J-3",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/6eebf3e2-3.mp3",
+  "dur": 0.37,
+  "batch": 17
+ },
+ {
+  "id": "J-13",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/6c29d1f5-13.mp3",
+  "dur": 1.91,
+  "batch": 17
+ },
+ {
+  "id": "J-11",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/332579b7-11.mp3",
+  "dur": 1.54,
+  "batch": 17
+ },
+ {
+  "id": "J-16",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b75a33f5-16.mp3",
+  "dur": 0.24,
+  "batch": 17
+ },
+ {
+  "id": "J-15",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/2808144f-15.mp3",
+  "dur": 0.34,
+  "batch": 17
+ },
+ {
+  "id": "J-2",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/69684662-2.mp3",
+  "dur": 0.63,
+  "batch": 17
+ },
+ {
+  "id": "J-1",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/0bc6460d-1.mp3",
+  "dur": 0.37,
+  "batch": 17
+ },
+ {
+  "id": "J-10",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/aeaf56dc-10.mp3",
+  "dur": 1.31,
+  "batch": 17
+ },
+ {
+  "id": "J-9",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/ec7410af-9.mp3",
+  "dur": 1.47,
+  "batch": 17
+ },
+ {
+  "id": "J-8",
+  "group": "J",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d09f0df1-8.mp3",
+  "dur": 1.26,
+  "batch": 17
+ },
+ {
+  "id": "unnamed6",
+  "group": "U",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/0a10b351-_______________________________.mp3",
+  "dur": 13.44,
+  "batch": 17
+ },
+ {
+  "id": "K-12",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/99248688-12.mp3",
+  "dur": 0.76,
+  "batch": 18
+ },
+ {
+  "id": "K-13",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b599fc36-13.mp3",
+  "dur": 0.81,
+  "batch": 18
+ },
+ {
+  "id": "K-18",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/28282c6e-18.mp3",
+  "dur": 0.81,
+  "batch": 18
+ },
+ {
+  "id": "K-20",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/3be8df47-20.mp3",
+  "dur": 0.71,
+  "batch": 18
+ },
+ {
+  "id": "K-17",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/6354251b-17.mp3",
+  "dur": 0.87,
+  "batch": 18
+ },
+ {
+  "id": "K-2",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/55b31580-2.mp3",
+  "dur": 1.94,
+  "batch": 18
+ },
+ {
+  "id": "K-22",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/dff089ca-22.mp3",
+  "dur": 0.5,
+  "batch": 18
+ },
+ {
+  "id": "K-16",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/6cf0e40e-16.mp3",
+  "dur": 0.71,
+  "batch": 18
+ },
+ {
+  "id": "K-23",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/2790a158-23.mp3",
+  "dur": 0.87,
+  "batch": 18
+ },
+ {
+  "id": "K-1",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/49ed438f-1.mp3",
+  "dur": 1.67,
+  "batch": 18
+ },
+ {
+  "id": "K-19",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/0ebe4400-19.mp3",
+  "dur": 0.76,
+  "batch": 18
+ },
+ {
+  "id": "K-14",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/cc7e3e9d-14.mp3",
+  "dur": 0.76,
+  "batch": 18
+ },
+ {
+  "id": "K-11",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/8c60fad5-11.mp3",
+  "dur": 2.59,
+  "batch": 18
+ },
+ {
+  "id": "K-21",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/3b0a5cdb-21.mp3",
+  "dur": 0.71,
+  "batch": 18
+ },
+ {
+  "id": "K-15",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/60d42968-15.mp3",
+  "dur": 0.61,
+  "batch": 18
+ },
+ {
+  "id": "K-10",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/25924828-10.mp3",
+  "dur": 6.4,
+  "batch": 18
+ },
+ {
+  "id": "K-25",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/cc027fa1-25.mp3",
+  "dur": 0.61,
+  "batch": 18
+ },
+ {
+  "id": "K-26",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/26e26162-26.mp3",
+  "dur": 0.66,
+  "batch": 18
+ },
+ {
+  "id": "K-24",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/02580ca3-24.mp3",
+  "dur": 0.66,
+  "batch": 18
+ },
+ {
+  "id": "K-27",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/3de8292f-27.mp3",
+  "dur": 0.66,
+  "batch": 18
+ },
+ {
+  "id": "K-34",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/6a561e74-34.mp3",
+  "dur": 0.61,
+  "batch": 19
+ },
+ {
+  "id": "K-40",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/be0adc55-40.mp3",
+  "dur": 0.63,
+  "batch": 19
+ },
+ {
+  "id": "K-3",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/dad4026d-3.mp3",
+  "dur": 0.89,
+  "batch": 19
+ },
+ {
+  "id": "K-39",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/631c7da8-39.mp3",
+  "dur": 0.53,
+  "batch": 19
+ },
+ {
+  "id": "K-41",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/29445ab6-41.mp3",
+  "dur": 0.61,
+  "batch": 19
+ },
+ {
+  "id": "K-38",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/1acbeb74-38.mp3",
+  "dur": 0.71,
+  "batch": 19
+ },
+ {
+  "id": "K-36",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/189083bd-36.mp3",
+  "dur": 0.76,
+  "batch": 19
+ },
+ {
+  "id": "K-35",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/2ea0bf53-35.mp3",
+  "dur": 0.47,
+  "batch": 19
+ },
+ {
+  "id": "K-30",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/80f572d5-30.mp3",
+  "dur": 0.53,
+  "batch": 19
+ },
+ {
+  "id": "K-28",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/5293a3d2-28.mp3",
+  "dur": 0.47,
+  "batch": 19
+ },
+ {
+  "id": "K-33",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/20342901-33.mp3",
+  "dur": 0.94,
+  "batch": 19
+ },
+ {
+  "id": "K-4",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/d0375101-4.mp3",
+  "dur": 0.61,
+  "batch": 19
+ },
+ {
+  "id": "K-31",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/399e58af-31.mp3",
+  "dur": 0.61,
+  "batch": 19
+ },
+ {
+  "id": "K-32",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/6510bb57-32.mp3",
+  "dur": 0.87,
+  "batch": 19
+ },
+ {
+  "id": "K-37",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/9ab6a212-37.mp3",
+  "dur": 1.07,
+  "batch": 19
+ },
+ {
+  "id": "K-29",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/c1aee851-29.mp3",
+  "dur": 0.87,
+  "batch": 19
+ },
+ {
+  "id": "K-42",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/84f8f6c0-42.mp3",
+  "dur": 0.84,
+  "batch": 19
+ },
+ {
+  "id": "K-45",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/03d1340b-45.mp3",
+  "dur": 0.63,
+  "batch": 19
+ },
+ {
+  "id": "K-43",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e07f2ae8-43.mp3",
+  "dur": 1.21,
+  "batch": 19
+ },
+ {
+  "id": "K-44",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e9d4ab69-44.mp3",
+  "dur": 2.38,
+  "batch": 19
+ },
+ {
+  "id": "K-67",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/92eaef28-67.mp3",
+  "dur": 2.09,
+  "batch": 20
+ },
+ {
+  "id": "K-70",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/476d140e-70.mp3",
+  "dur": 1.07,
+  "batch": 20
+ },
+ {
+  "id": "K-63",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/4dcd95dd-63.mp3",
+  "dur": 2.07,
+  "batch": 20
+ },
+ {
+  "id": "K-66",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/6b51467e-66.mp3",
+  "dur": 2.07,
+  "batch": 20
+ },
+ {
+  "id": "K-69",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b6df3c5f-69.mp3",
+  "dur": 2.07,
+  "batch": 20
+ },
+ {
+  "id": "K-62",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/c650aafa-62.mp3",
+  "dur": 1.07,
+  "batch": 20
+ },
+ {
+  "id": "K-72",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b42eac39-72.mp3",
+  "dur": 1.96,
+  "batch": 20
+ },
+ {
+  "id": "K-65",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/5482eaa9-65.mp3",
+  "dur": 1.07,
+  "batch": 20
+ },
+ {
+  "id": "K-68",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/54fe84f6-68.mp3",
+  "dur": 1.07,
+  "batch": 20
+ },
+ {
+  "id": "K-71",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/efe9c56b-71.mp3",
+  "dur": 1.1,
+  "batch": 20
+ },
+ {
+  "id": "K-7",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e0f802dd-7.mp3",
+  "dur": 6.87,
+  "batch": 20
+ },
+ {
+  "id": "K-9",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/54caf3ca-9.mp3",
+  "dur": 4.7,
+  "batch": 20
+ },
+ {
+  "id": "K-73",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/37d2656c-73.mp3",
+  "dur": 2.01,
+  "batch": 20
+ },
+ {
+  "id": "K-74",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/44335087-74.mp3",
+  "dur": 72.96,
+  "batch": 20
+ },
+ {
+  "id": "K-8",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e14cb1d8-8.mp3",
+  "dur": 33.68,
+  "batch": 20
+ },
+ {
+  "id": "K-61",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/db174f42-61.mp3",
+  "dur": 2.07,
+  "batch": 20
+ },
+ {
+  "id": "K-60",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/dd3d8047-60.mp3",
+  "dur": 1.07,
+  "batch": 20
+ },
+ {
+  "id": "K-6",
+  "group": "K",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/fcaaa171-6.mp3",
+  "dur": 0.87,
+  "batch": 20
+ },
+ {
+  "id": "unnamed7",
+  "group": "U",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/dbfbd4b3-_________.mp3",
+  "dur": 201.13,
+  "batch": 20
+ },
+ {
+  "id": "L-2",
+  "group": "L",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e05213dd-2.mp3",
+  "dur": 0.61,
+  "batch": 21
+ },
+ {
+  "id": "L-3",
+  "group": "L",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/fcbb61b5-3.mp3",
+  "dur": 8.22,
+  "batch": 21
+ },
+ {
+  "id": "L-1",
+  "group": "L",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/74940222-1.mp3",
+  "dur": 16.99,
+  "batch": 21
+ },
+ {
+  "id": "L-4",
+  "group": "L",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/b755cda6-4.mp3",
+  "dur": 179.56,
+  "batch": 21
+ },
+ {
+  "id": "unnamed8",
+  "group": "U",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/29e0755e-___________.mp3",
+  "dur": 205.36,
+  "batch": 21
+ },
+ {
+  "id": "M-1",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/2b2c70dc-1.mp3",
+  "dur": 2.2,
+  "batch": 22
+ },
+ {
+  "id": "M-14",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/6006d519-14.mp3",
+  "dur": 6.06,
+  "batch": 22
+ },
+ {
+  "id": "M-10",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/79bc744d-10.mp3",
+  "dur": 3.27,
+  "batch": 22
+ },
+ {
+  "id": "M-11",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/48018e68-11.mp3",
+  "dur": 3.11,
+  "batch": 22
+ },
+ {
+  "id": "M-16",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/88f977d8-16.mp3",
+  "dur": 10.54,
+  "batch": 22
+ },
+ {
+  "id": "M-19",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/dfe321ae-19.mp3",
+  "dur": 15.55,
+  "batch": 22
+ },
+ {
+  "id": "M-20",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/5c4f86f7-20.mp3",
+  "dur": 4.07,
+  "batch": 22
+ },
+ {
+  "id": "M-12",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/03986117-12.mp3",
+  "dur": 8.35,
+  "batch": 22
+ },
+ {
+  "id": "M-2",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/43e0798e-2.mp3",
+  "dur": 3.71,
+  "batch": 22
+ },
+ {
+  "id": "M-21",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/930046b4-21.mp3",
+  "dur": 12.55,
+  "batch": 22
+ },
+ {
+  "id": "M-15",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/9d6f4dc6-15.mp3",
+  "dur": 20.04,
+  "batch": 22
+ },
+ {
+  "id": "M-22",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/84a4cd4f-22.mp3",
+  "dur": 9.4,
+  "batch": 22
+ },
+ {
+  "id": "M-18",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/ea331cb1-18.mp3",
+  "dur": 6.06,
+  "batch": 22
+ },
+ {
+  "id": "M-13",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/528e5454-13.mp3",
+  "dur": 17.53,
+  "batch": 22
+ },
+ {
+  "id": "M-17",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/32073634-17.mp3",
+  "dur": 6.42,
+  "batch": 22
+ },
+ {
+  "id": "M-6",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/89eafa3f-6.mp3",
+  "dur": 1.41,
+  "batch": 23
+ },
+ {
+  "id": "M-7",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/3caad5c0-7.mp3",
+  "dur": 2.04,
+  "batch": 23
+ },
+ {
+  "id": "M-9",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/67a8d261-9.mp3",
+  "dur": 3.71,
+  "batch": 23
+ },
+ {
+  "id": "M-5",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/aacbcfcd-5.mp3",
+  "dur": 3.14,
+  "batch": 23
+ },
+ {
+  "id": "M-23",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/eab54aef-23.mp3",
+  "dur": 14.04,
+  "batch": 23
+ },
+ {
+  "id": "M-3",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/a4d24dfd-3.mp3",
+  "dur": 27.97,
+  "batch": 23
+ },
+ {
+  "id": "M-8",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/57ac3f1f-8.mp3",
+  "dur": 2.51,
+  "batch": 23
+ },
+ {
+  "id": "Risers",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/6e836830-___________Risers.mp3",
+  "dur": 191.69,
+  "batch": 23
+ },
+ {
+  "id": "M-4",
+  "group": "M",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/e88df9eb-4.mp3",
+  "dur": 8.46,
+  "batch": 23
+ },
+ {
+  "id": "unnamed9",
+  "group": "U",
+  "path": "/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1/dc40ff5a-_____________________.mp3",
+  "dur": 371.9,
+  "batch": 24
+ }
+]
