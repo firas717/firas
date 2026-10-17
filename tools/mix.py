@@ -1,21 +1,28 @@
 #!/usr/bin/env python3
 """Mix voice + music + SFX for an episode from build/audio_plan.json (numpy, 48 kHz stereo).
 
-usage: mix.py <episode_dir> <out.wav>
+usage: mix.py <episode_dir> <out.wav> [--music-db dB|off] [--music-lp Hz] [--music-hp Hz] [--duck-db dB] [--voice file]
 Brand (CLAUDE.md §6): voice -16 LUFS / -1.5 dBTP; music under voice -24..-26 LUFS with 8-10 dB ducking
 (attack 150 ms, release 400 ms); SFX peaks -18 dB (transitions) / -14 dB (impacts); silences respected.
+An episode's audio_plan.json may carry a "mix" block that overrides these music defaults (owner's choice).
 """
 import json, os, subprocess, sys
 import numpy as np
 from scipy.signal import butter, sosfilt
 
 EP, OUT = sys.argv[1], sys.argv[2]
-# optional: --music-db <dB offset> (e.g. -12 for a faint bed, or 'off' for no music), --music-lp <Hz> (soften/dull the music)
-_a = sys.argv[3:]
-MUSIC_DB = _a[_a.index('--music-db') + 1] if '--music-db' in _a else '0'
-MUSIC_LP = float(_a[_a.index('--music-lp') + 1]) if '--music-lp' in _a else None
 SR = 48000
 plan = json.load(open(f'{EP}/build/audio_plan.json'))
+# optional: --music-db <dB offset> (e.g. -12 for a faint bed, or 'off' for no music), --music-lp <Hz> (soften/dull the music),
+# --music-hp <Hz> (keep the music out of the voice's low end), --duck-db <dB> (default 9), --voice <file> (overrides the plan).
+# Defaults come from the plan's "mix" block when present.
+_a, _d = sys.argv[3:], plan.get('mix', {})
+_o = lambda k, d: _a[_a.index(k) + 1] if k in _a else _d.get(k[2:].replace('-', '_'), d)
+MUSIC_DB = str(_o('--music-db', '0'))
+MUSIC_LP = float(_o('--music-lp', 0)) or None
+MUSIC_HP = float(_o('--music-hp', 0)) or None
+DUCK_DB = float(_o('--duck-db', 9.0))
+VOICE = _a[_a.index('--voice') + 1] if '--voice' in _a else None
 N = int(plan['duration'] * SR)
 UP = '/root/.claude/uploads/77444345-a615-5688-a3fa-bc71d6bb52c1'
 DRIVE2 = '/tmp/claude-0/-home-user-firas/77444345-a615-5688-a3fa-bc71d6bb52c1/scratchpad/downloads/drive-folder-2/majed-video-ad-editor/studio/sfx_prev'
@@ -39,6 +46,9 @@ def lufs(x):
 
 def lowpass(x, hz):
     sos = butter(4, hz, 'low', fs=SR, output='sos'); return sosfilt(sos, x, axis=0).astype(np.float32)
+
+def highpass(x, hz):
+    sos = butter(2, hz, 'high', fs=SR, output='sos'); return sosfilt(sos, x, axis=0).astype(np.float32)
 
 def fade(x, fin, fout):
     n = len(x)
@@ -127,8 +137,8 @@ for a, b in plan['music_dips']:
     g[ib:ib + r] = np.minimum(g[ib:ib + r], np.linspace(0, 1, len(g[ib:ib + r])))
 music_bus *= g[:, None]
 
-# ---- voice and ducking (attack 150 ms, release 400 ms, 9 dB)
-voice = load(f"{EP}/{plan['voice']}", mono=True)
+# ---- voice and ducking (attack 150 ms, release 400 ms, 9 dB unless --duck-db)
+voice = load(VOICE if VOICE else f"{EP}/{plan['voice']}", mono=True)
 v = np.zeros(N, np.float32); v[:min(N, len(voice))] = voice[:N]
 hop = int(0.01 * SR)
 env = np.sqrt(np.convolve(v ** 2, np.ones(hop * 3) / (hop * 3), 'same') + 1e-12)
@@ -139,7 +149,7 @@ a_att, a_rel = np.exp(-1 / (0.150 * SR)), np.exp(-1 / (0.400 * SR))
 ctrl = active[::hop]; out = np.zeros_like(ctrl); st = 0.0
 aa, ar = np.exp(-1 / (0.150 * 100)), np.exp(-1 / (0.400 * 100))
 for i, c in enumerate(ctrl):
-    tgt = 9.0 * c
+    tgt = DUCK_DB * c
     st = aa * st + (1 - aa) * tgt if tgt > st else ar * st + (1 - ar) * tgt
     out[i] = st
 red = np.repeat(out, hop)[:N]
@@ -150,6 +160,7 @@ if MUSIC_DB == 'off':
 else:
     music_bus *= 10 ** (float(MUSIC_DB) / 20)
     if MUSIC_LP: music_bus = lowpass(music_bus, MUSIC_LP)
+    if MUSIC_HP: music_bus = highpass(music_bus, MUSIC_HP)
 mix = music_bus + sfx_bus + np.stack([v, v], 1)
 import soundfile as sf
 sf.write('/tmp/_premix.wav', mix, SR, subtype='FLOAT')

@@ -14,13 +14,15 @@
 | تفريغ الصوت بتوقيت الكلمات | `faster-whisper large-v3` ← `tools/transcribe_fw.py` |
 | تقصير الوقفات بلا قصّ كلمات | `tools/cut_voice.py` |
 | محاذاة دقيقة لكل كلمة | `tools/align_ctc.py` (wav2vec2 عربي) |
-| تحسين الصوت | EQ + ضغط + de-esser + loudnorm (−16 LUFS) — `build/transcript/chain.txt` |
+| ترميم الصوت | Sidon v0.1 (يعيد بناء صوت نقي 48kHz من تسجيل الهاتف) ← `tools/enh_sidon.py` |
+| معالجة الراوي | مطابقة النغمة لمنحنى الكلام القياسي ANSI S3.5 + de-esser + ضغط 2:1 + loudnorm (−16 LUFS) ← `tools/narrator.py` |
+| فحص الجودة الصوتية | DNSMOS + SQUIM ← `tools/speech_quality.py`، سلامة الكلمات ← `tools/asr_cer.py`، الطيف ← `tools/ltass.py` |
 | اختيار الصور | ويكيميديا (صور الحكومة التشيلية CC BY 2.0) ← `tools/commons.py`, `tools/fetch_selected.py` |
 | الطيران من الفضاء | صور ناسا GIBS + EO-1 ← `tools/map_zoom.py` |
 | تصنيف المؤثرات | AudioSet AST ← `tools/tag_sounds.py` |
 | بناء التايم‑لاين | `episodes/ep-001-chile-33/build/build_timeline.py` |
 | الرسوم والإطارات | محرّك Chromium خاص ← `tools/render/` (كل حركة دالة نقية للزمن) |
-| المكساج | `tools/mix.py` (ducking 9 dB، attack 150ms، release 400ms) |
+| المكساج | `tools/mix.py` (ducking، attack 150ms، release 400ms) — مستوى الموسيقى يُقاس بـ `tools/mix_report.py` |
 | التصدير والفحص | `tools/export.sh`, `tools/qc.py` |
 
 ## إعادة البناء

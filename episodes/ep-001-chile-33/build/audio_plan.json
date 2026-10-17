@@ -1,5 +1,11 @@
 {
- "voice": "audio/voice-clean.wav",
+ "voice": "audio/voice-narrator.wav",
+ "mix": {
+  "music_db": -24,
+  "music_lp": 3000,
+  "music_hp": 100,
+  "duck_db": 6
+ },
  "duration": 146.4,
  "voice_end": 143.079,
  "music": [

@@ -356,7 +356,11 @@ music_dips = [[T(2, 'منجم') + 1.5, T(2, 'منجم') + 1.9], [n0 - 0.05, n1 +
 
 timeline = {'duration': DUR, 'fps': 30, 'modeSwitch': MODE_SWITCH, 'layers': layers}
 open(f'{B}/timeline.js', 'w').write('window.TL = ' + json.dumps(timeline, ensure_ascii=False) + ';\n')
-json.dump({'voice': 'audio/voice-clean.wav', 'duration': DUR, 'voice_end': VOICE_END, 'music': music, 'music_dips': music_dips, 'sfx': sfx},
+# voice: Sidon-restored + narrator chain (tools/enh_sidon.py, tools/narrator.py); music level chosen by the owner:
+# a faint bed ~28 LU under the voice, darker (low-pass 3 kHz, high-pass 100 Hz) with gentle 6 dB ducking
+VOICE = 'audio/voice-narrator.wav'
+MIX = {'music_db': -24, 'music_lp': 3000, 'music_hp': 100, 'duck_db': 6}
+json.dump({'voice': VOICE, 'mix': MIX, 'duration': DUR, 'voice_end': VOICE_END, 'music': music, 'music_dips': music_dips, 'sfx': sfx},
           open(f'{B}/audio_plan.json', 'w'), ensure_ascii=False, indent=1)
 
 # CLAUDE.md summary timeline
@@ -366,7 +370,7 @@ summary = {'episode': 'ep-001', 'title': '69 يومًا تحت الأرض — ق
 for i in range(7):
     a, b = scenes_b[i], scenes_b[i + 1]
     summary['scenes'].append({
-        'id': i + 1, 'audio': 'audio/voice-clean.wav', 'start': a, 'end': b,
+        'id': i + 1, 'audio': VOICE, 'start': a, 'end': b,
         'shots': [s for s in shots if a - 1e-6 <= s['in'] < b - 1e-6],
         'titles': [{'text': re.sub('<[^>]+>', '', L.get('html', '') or str(L.get('to', ''))), 'at': L['start'], 'dur': round(L['end'] - L['start'], 2), 'style': L.get('style')}
                    for L in layers if L['type'] in ('text', 'counter') and a <= L['start'] < b],

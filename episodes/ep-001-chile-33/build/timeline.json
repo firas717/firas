@@ -13,7 +13,7 @@
  "scenes": [
   {
    "id": 1,
-   "audio": "audio/voice-clean.wav",
+   "audio": "audio/voice-narrator.wav",
    "start": 0,
    "end": 17.98,
    "shots": [
@@ -122,7 +122,7 @@
   },
   {
    "id": 2,
-   "audio": "audio/voice-clean.wav",
+   "audio": "audio/voice-narrator.wav",
    "start": 17.98,
    "end": 35.3,
    "shots": [
@@ -214,7 +214,7 @@
   },
   {
    "id": 3,
-   "audio": "audio/voice-clean.wav",
+   "audio": "audio/voice-narrator.wav",
    "start": 35.3,
    "end": 52.75,
    "shots": [
@@ -343,7 +343,7 @@
   },
   {
    "id": 4,
-   "audio": "audio/voice-clean.wav",
+   "audio": "audio/voice-narrator.wav",
    "start": 52.75,
    "end": 74.75,
    "shots": [
@@ -461,7 +461,7 @@
   },
   {
    "id": 5,
-   "audio": "audio/voice-clean.wav",
+   "audio": "audio/voice-narrator.wav",
    "start": 74.75,
    "end": 96.7,
    "shots": [
@@ -570,7 +570,7 @@
   },
   {
    "id": 6,
-   "audio": "audio/voice-clean.wav",
+   "audio": "audio/voice-narrator.wav",
    "start": 96.7,
    "end": 119.4,
    "shots": [
@@ -780,7 +780,7 @@
   },
   {
    "id": 7,
-   "audio": "audio/voice-clean.wav",
+   "audio": "audio/voice-narrator.wav",
    "start": 119.4,
    "end": 146.4,
    "shots": [
