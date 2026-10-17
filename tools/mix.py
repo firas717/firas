@@ -163,15 +163,15 @@ else:
     if MUSIC_HP: music_bus = highpass(music_bus, MUSIC_HP)
 mix = music_bus + sfx_bus + np.stack([v, v], 1)
 import soundfile as sf
-sf.write('/tmp/_premix.wav', mix, SR, subtype='FLOAT')
 sf.write(OUT.replace('.wav', '.music.wav'), music_bus, SR, subtype='FLOAT')
 sf.write(OUT.replace('.wav', '.sfx.wav'), sfx_bus, SR, subtype='FLOAT')
-# two-pass loudnorm to -16 LUFS / -1.5 dBTP
-r = subprocess.run(['ffmpeg', '-hide_banner', '-i', '/tmp/_premix.wav', '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json', '-f', 'null', '-'],
-                   capture_output=True, text=True).stderr
-js = json.loads(r[r.rindex('{'):r.rindex('}') + 1])
-af = (f"loudnorm=I=-16:TP=-1.5:LRA=11:measured_I={js['input_i']}:measured_TP={js['input_tp']}:measured_LRA={js['input_lra']}:"
-      f"measured_thresh={js['input_thresh']}:offset={js['target_offset']}:linear=true,alimiter=limit=0.84:level=false,aresample=48000")
-subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', '/tmp/_premix.wav', '-af', af, '-c:a', 'pcm_s24le', OUT], check=True)
+# fixed gain to -16 LUFS, then a look-ahead true-peak limiter per channel at -1.5 dBTP (no gain riding, no added delay)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from narrator import tp_limit
+pre_i = lufs(mix)
+mix = mix * 10 ** ((-16 - pre_i) / 20)
+for c in range(2):
+    mix[:, c] = tp_limit(mix[:, c].astype(np.float64), SR, -1.5)
+sf.write(OUT, mix, SR, subtype='PCM_24')
 print('missing sfx:', missing)
-print('premix', js['input_i'], 'LUFS, TP', js['input_tp'])
+print(f'premix {pre_i:.2f} LUFS -> {lufs(mix):.2f} LUFS')

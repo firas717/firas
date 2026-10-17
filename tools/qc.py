@@ -28,6 +28,11 @@ check('الذروة الحقيقية ≤ -1.0 dBTP', TP <= -1.0, f'ذروة {TP:
 astats = subprocess.run(['ffmpeg', '-hide_banner', '-i', MP4, '-af', 'astats=metadata=0', '-f', 'null', '-'], capture_output=True, text=True).stderr
 clip = re.findall(r'Number of samples clipped:\s+(\d+)', astats) or re.findall(r'Peak count:\s+(\d+)', astats)
 check('لا يوجد clipping', TP < 0, f'أعلى ذروة {TP:.1f} dBTP (أقل من 0)')
+mixcfg = json.load(open(f'{B}/audio_plan.json')).get('mix')
+if mixcfg:   # owner-approved departure from CLAUDE.md §6 (music -24..-26 LUFS, ducking 8-10 dB): record it, don't hide it
+    check('مستوى الموسيقى (استثناء معتمد من المالك)', True,
+          f"الموسيقى أخفض من قاعدة §6 بطلب المالك: {mixcfg.get('music_db')} dB، ducking {mixcfg.get('duck_db')} dB، "
+          f"low-pass {mixcfg.get('music_lp')} Hz، high-pass {mixcfg.get('music_hp')} Hz — قِس الفارق بـ tools/mix_report.py")
 
 shots = json.load(open(f'{B}/shots.json'))
 lens = [s['out'] - s['in'] for s in shots]

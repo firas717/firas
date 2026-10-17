@@ -1,5 +1,5 @@
 {
- "voice": "audio/voice-narrator.wav",
+ "voice": "build/voice-narrator.wav",
  "mix": {
   "music_db": -24,
   "music_lp": 3000,
@@ -52,8 +52,8 @@
  ],
  "music_dips": [
   [
-   22.436,
-   22.836
+   22.117,
+   22.457
   ],
   [
    43.93,
@@ -123,7 +123,8 @@
    "name": "collapse",
    "at": 20.836,
    "gain": -12,
-   "dur": 2.4
+   "dur": 1.281,
+   "fade": 0.4
   },
   {
    "name": "hit",
@@ -161,7 +162,8 @@
   {
    "name": "impact_big",
    "at": 44.326,
-   "gain": -12
+   "gain": -12,
+   "dur": 0.9
   },
   {
    "name": "paper",

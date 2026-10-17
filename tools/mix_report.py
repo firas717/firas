@@ -23,7 +23,9 @@ def load(p):
     return np.frombuffer(raw, np.float32).reshape(-1, 2)
 
 
-v = load(sys.argv[1])[:, 0]
+# mono at full level, as mix.py copies it to both channels (ffmpeg -ac 2 would spread it 3 dB down per channel)
+v = np.frombuffer(subprocess.run(['ffmpeg', '-v', 'error', '-i', sys.argv[1], '-ac', '1', '-ar', str(SR), '-f', 'f32le', '-'],
+                                 capture_output=True).stdout, np.float32)
 hop = SR // 100
 env = 20 * np.log10(np.sqrt(np.convolve(v ** 2, np.ones(hop * 3) / (hop * 3), 'same')) + 1e-9)
 for mix in sys.argv[2:]:

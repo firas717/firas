@@ -1,0 +1,4 @@
+file                                 SIG   BAK  OVRL  P808 |  STOI  PESQ  SISDR
+nar_ctx_patched.wav                 3.55  4.16  3.33  3.93 |  0.99  3.50   19.2
+sidon_ctx.wav                       3.58  4.19  3.38  3.89 |  0.99  3.53   18.3
+nar_ctx_patched.wav          CER  4.62%  WER  5.70%  conf 0.982

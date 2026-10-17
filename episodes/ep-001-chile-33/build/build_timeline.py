@@ -141,7 +141,8 @@ g2b = 25.85
 gfx('mineSpiral', g2a, g2b, {'tDraw': [0, 0.9], 'tCollapse': T(2, 'منجم') - g2a - 0.05, 'tCut': T(2, 'انقطعت') - g2a,
                              'tTrapped': T(2, 'وأصبح') - g2a + 0.1,
                              'labels': {'portal': 'المدخل', 'collapse': 'الانهيار', 'refuge': 'الملجأ', 'trapped': '٣٣ عاملًا محاصرون'}})
-S('collapse', T(2, 'منجم') - 0.1, -12, dur=2.4)
+# the collapse ends (0.4 s fade) when 'خوسيه' ends, so the 0.36 s before the reveal word 'انقطعت' is real silence
+S('collapse', T(2, 'منجم') - 0.1, -12, dur=round(T(2, 'سان خوسيه', 'e') - T(2, 'منجم') + 0.1, 3), fade=0.4)
 S('hit', T(2, 'انقطعت'), -16)
 photo('c072', g2b, 28.62, 'full', focus=(0.62, 0.5), kb={'from': [1.0, 0, 0], 'to': [1.07, -30, 0]})
 photo('c073', 28.62, 31.40, 'full', focus=(0.55, 0.45), kb={'from': [1.06, 0, 0], 'to': [1.0, 0, 0]})
@@ -168,7 +169,7 @@ n2 = 48.45
 gfx('noteReveal', n1, n2, {'paperSrc': F(f'{ROOT}/brand/templates/backgrounds/paper.png'), 'noteSrc': F(f'{THUMB}/c149.jpg'),
                            'tCard': 0, 'tWrite': 0.3, 'tHighlight': T(3, 'تقول') - n1, 'tTranslate': T(3, 'بخير') - n1 + 0.1,
                            'translation': '«نحن الـ٣٣ بخير في الملجأ»', 'source': 'نص رسالة العمال · ٢٢ أغسطس ٢٠١٠'})
-S('impact_big', n1, -12)
+S('impact_big', n1, -12, dur=0.9)                  # short tail: gone before 'العمال' in the reveal line
 S('paper', n1 + 0.15, -18)
 photo('c285', n2, 50.72, 'framed', focus=(0.5, 0.5), card={'w': 980, 'cy': 860}, kb={'from': [1.0, 0, 0], 'to': [1.12, 0, -40]})
 text('الرسالة الأصلية بيد الرئيس التشيلي', n2 + 0.25, 50.6, style='label', top=330, css={'fontSize': '52px'})
@@ -352,13 +353,14 @@ music = [
     {'track': 'Thaxted (final chord)', 'file': 'build/music/tracks/Thaxted.mp3', 'start': T(7, 'أحياء') - 0.05, 'offset': 137.5, 'end': DUR, 'fade_in': 0.08, 'fade_out': 1.2, 'gain': 0},
 ]
 # silences the music must respect (seconds): before the note, after the collapse, before the wash, the closing pause
-music_dips = [[T(2, 'منجم') + 1.5, T(2, 'منجم') + 1.9], [n0 - 0.05, n1 + 0.02], [MODE_SWITCH - 0.5, MODE_SWITCH - 0.02], [138.35, T(7, 'وفي') - 0.02]]
+music_dips = [[T(2, 'سان خوسيه', 'e'), T(2, 'انقطعت') - 0.02], [n0 - 0.05, n1 + 0.02], [MODE_SWITCH - 0.5, MODE_SWITCH - 0.02], [138.35, T(7, 'وفي') - 0.02]]
 
 timeline = {'duration': DUR, 'fps': 30, 'modeSwitch': MODE_SWITCH, 'layers': layers}
 open(f'{B}/timeline.js', 'w').write('window.TL = ' + json.dumps(timeline, ensure_ascii=False) + ';\n')
-# voice: Sidon-restored + narrator chain (tools/enh_sidon.py, tools/narrator.py); music level chosen by the owner:
-# a faint bed ~28 LU under the voice, darker (low-pass 3 kHz, high-pass 100 Hz) with gentle 6 dB ducking
-VOICE = 'audio/voice-narrator.wav'
+# voice: Sidon-restored (with context) + narrator chain keyed by the raw take + 2 word patches (tools/enh_sidon.py,
+# tools/narrator.py --key, tools/patch_voice.py 81.68-81.90 34.45-34.68); music level chosen by the owner:
+# a faint bed ~31 LU under the voice during speech (tools/mix_report.py), darker (low-pass 3 kHz, high-pass 100 Hz) with gentle 6 dB ducking
+VOICE = 'build/voice-narrator.wav'   # derived voice lives in build/; audio/ holds only the owner's inputs
 MIX = {'music_db': -24, 'music_lp': 3000, 'music_hp': 100, 'duck_db': 6}
 json.dump({'voice': VOICE, 'mix': MIX, 'duration': DUR, 'voice_end': VOICE_END, 'music': music, 'music_dips': music_dips, 'sfx': sfx},
           open(f'{B}/audio_plan.json', 'w'), ensure_ascii=False, indent=1)
