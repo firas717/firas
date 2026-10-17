@@ -54,6 +54,8 @@ Licensed under Creative Commons: By Attribution 4.0 License — http://creativec
 | 35 | 2:19.3–2:22.4 | [Mina San José - Los 33 in the Blue Room at Presidential Palace with President and First Lady - Gobierno de Chile.jpg](https://commons.wikimedia.org/wiki/File:Mina_San_Jos%C3%A9_-_Los_33_in_the_Blue_Room_at_Presidential_Palace_with_President_and_First_Lady_-_Gobierno_de_Chile.jpg) `c277` | Gobierno de Chile | CC BY 2.0 | 2010-10-24 |
 | 36 | داخل رسم «الرسالة» | []() `c149` |  |  |  |
 
+> ملاحظة: صورتان برخصة CC BY-SA 2.0 (مشاركة بالمثل): «Mina San José de Copiapó en 2010» و«Miners Alive! at Plaza Italia». يكفي ذكر المصوّر والرخصة في الوصف كما في النص الجاهز أعلاه.
+
 ## صور الأقمار الصناعية والخرائط
 
 | الظهور | المصدر | الرخصة |

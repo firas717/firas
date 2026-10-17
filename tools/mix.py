@@ -70,8 +70,8 @@ LIB = {
     'clang':       (man['K-11'], 0.0, 2.6, {}),
     'cheer':       (f'{COM}/Slow_starting_applause.ogg', 0.0, 12.0, {'layer': (f'{COM}/Applause_i.ogg', 0.0, 12.0)}),
     'crowd_murmur': (f'{COM}/Applause_i.ogg', 4.0, 4.0, {'lp': 1800}),
-    'drill':       (f'{COM}/Tamrock_Tiger_drilling_machine_drilling.opus', 3.0, 6.0, {'optional': True}),
-    'winch':       (f'{COM}/WWS_Coalcrane.ogg', 1.0, 9.0, {'optional': True}),
+    'drill':       (man['A-3'], 1.0, 6.0, {'lp': 400}),          # low machinery hum (owner library)
+    'winch':       (man['A-4'], 0.5, 9.0, {'lp': 500}),          # low mechanical rumble under the winch shots
 }
 
 sfx_bus = np.zeros((N, 2), np.float32)

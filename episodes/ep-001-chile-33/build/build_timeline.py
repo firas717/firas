@@ -167,7 +167,7 @@ add(type='bg', start=n0, end=n1, z=0, color='#000')
 n2 = 48.45
 gfx('noteReveal', n1, n2, {'paperSrc': F(f'{ROOT}/brand/templates/backgrounds/paper.png'), 'noteSrc': F(f'{THUMB}/c149.jpg'),
                            'tCard': 0, 'tWrite': 0.3, 'tHighlight': T(3, 'تقول') - n1, 'tTranslate': T(3, 'بخير') - n1 + 0.1,
-                           'translation': '«نحن الـ٣٣ بخير داخل الملجأ»', 'source': 'نص رسالة العمال · ٢٢ أغسطس ٢٠١٠'})
+                           'translation': '«نحن الـ٣٣ بخير في الملجأ»', 'source': 'نص رسالة العمال · ٢٢ أغسطس ٢٠١٠'})
 S('impact_big', n1, -12)
 S('paper', n1 + 0.15, -18)
 photo('c285', n2, 50.72, 'framed', focus=(0.5, 0.5), card={'w': 980, 'cy': 860}, kb={'from': [1.0, 0, 0], 'to': [1.12, 0, -40]})
@@ -255,12 +255,15 @@ for t in (0.3, 1.3, 2.3):
 S('impact_mid', T(7, 'تسعة'), -17)
 photo('c074', 128.68, 131.25, 'full', focus=(0.5, 0.5), kb={'from': [1.0, 0, 0], 'to': [1.07, 0, 0]})
 photo('c012', 131.25, 134.45, 'framed', focus=(0.5, 0.45), card={'w': 960, 'cy': 860})
-for i, (w, k) in enumerate([('فرق الإنقاذ', 'فرق الإنقاذ'), ('المهندسون', 'والمهندسين'), ('الأطباء', 'والأطباء')]):
-    text(w, T(7, k) - 0.05, 136.85 if i else 136.85, style='keyword', top=280 + i * 140, css={'fontSize': '100px'})
+team = [('فرق الإنقاذ', 'فرق الإنقاذ'), ('المهندسون', 'والمهندسين'), ('الأطباء', 'والأطباء')]
+for i, (w, k) in enumerate(team):     # one word at a time, swapping on the spoken word
+    end = T(7, team[i + 1][1]) - 0.06 if i + 1 < len(team) else 136.85
+    text(w, T(7, k) - 0.05, end, style='keyword', top=300, css={'fontSize': '112px'}, anim='pop')
+    S('pop', T(7, k) - 0.05, -22)
 photo('c371', 134.45, 136.92, 'full', focus=(0.5, 0.5), kb={'from': [1.0, 0, 0], 'to': [1.06, 0, 0]})
 photo('c081', 136.92, 139.30, 'full', focus=(0.45, 0.5), kb={'from': [1.0, 0, 0], 'to': [1.05, 0, 0]})
-photo('c277', 139.30, 142.45, 'framed', focus=(0.5, 0.5), card={'w': 980, 'cy': 860})
-counter(T(7, 'أحياء') - 0.08, 142.40, 33, 33, T(7, 'أحياء'), 0.1, suffix=' / ٣٣', unit='<span style="color:#E9A13B;font:700 120px/1.2 Readex Pro">أحياء</span>', top=260, css={'fontSize': '230px'})
+photo('c277', 139.30, 142.45, 'framed', focus=(0.5, 0.5), card={'w': 980, 'cy': 990})
+counter(T(7, 'أحياء') - 0.08, 142.40, 33, 33, T(7, 'أحياء'), 0.1, suffix=' / ٣٣', unit='<span style="color:#E9A13B;font:700 120px/1.2 Readex Pro">أحياء</span>', top=200, css={'fontSize': '220px'})
 add(type='media', start=142.45, end=DUR, z=1, layout='blur', src=F(img('c277')[0]), iw=img('c277')[1], ih=img('c277')[2],
     grade='day', blurSrc=F(f'{THUMB}/c277.jpg'))
 add(type='graphic', name='endCard', start=142.45, end=DUR, z=6,
@@ -330,7 +333,7 @@ for M in [L for L in layers if L['type'] == 'media' and L.get('layout') == 'full
     if any(T_['type'] in ('text', 'counter') and T_['start'] < M['end'] and T_['end'] > M['start'] for T_ in layers):
         add(type='overlay', start=M['start'], end=M['end'], z=3, cls='topscrim', opacity=0.85)
 # band behind captions whenever a photo/video is on screen
-band = [[L['start'], L['end']] for L in layers if L['type'] == 'media']
+band = [[L['start'], L['end']] for L in layers if L['type'] == 'media'] + [[MODE_SWITCH, DUR]]   # day mode: light graphics need the band too
 add(type='captions', start=0, end=DUR, z=8, cues=cues, bandRanges=band)
 
 # global finishing layers
