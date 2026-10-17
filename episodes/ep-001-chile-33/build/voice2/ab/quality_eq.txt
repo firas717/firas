@@ -1,0 +1,3 @@
+file                                 SIG   BAK  OVRL  P808 |  STOI  PESQ  SISDR
+nar_sid_eq0.5.wav                   3.56  4.14  3.33  3.92 |  0.99  3.38   18.2
+nar_sid_eq0.7.wav                   3.57  4.14  3.33  3.92 |  0.99  3.35   18.4

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Non-intrusive speech quality: DNSMOS P.835 (SIG/BAK/OVRL) + P.808 MOS, and torchaudio SQUIM (STOI/PESQ/SI-SDR).
 
-usage: speech_quality.py a.wav [b.wav ...]
+usage: speech_quality.py [--rms] a.wav [b.wav ...]
 Based on microsoft/DNS-Challenge DNSMOS/dnsmos_local.py (polynomial mapping for non-personalised MOS).
 """
 import sys, numpy as np, soundfile as sf, librosa, onnxruntime as ort
@@ -45,12 +45,21 @@ def squim(x):
     except Exception as e:
         return (np.nan, np.nan, np.nan)
 
+def level(x):
+    """--rms: same active-speech RMS (-26 dBFS) for every file, so compressed and uncompressed versions are
+    compared at equal loudness (peak normalisation would feed the compressed one to the models several dB hotter)."""
+    if '--rms' not in sys.argv:
+        return x / (np.abs(x).max() + 1e-9) * 0.5
+    f = x[:len(x) // 320 * 320].reshape(-1, 320); r = np.sqrt((f ** 2).mean(1))
+    act = r[r > r.max() * 10 ** (-35 / 20)]
+    return x * (10 ** (-26 / 20) / np.sqrt((act ** 2).mean()))
+
 print(f"{'file':<34} {'SIG':>5} {'BAK':>5} {'OVRL':>5} {'P808':>5} | {'STOI':>5} {'PESQ':>5} {'SISDR':>6}")
-for p in sys.argv[1:]:
+for p in [a for a in sys.argv[1:] if not a.startswith('--')]:
     x, sr = sf.read(p, dtype='float32')
     if x.ndim > 1: x = x.mean(1)
     x = librosa.resample(x, orig_sr=sr, target_sr=SR)
-    x = x / (np.abs(x).max() + 1e-9) * 0.5
+    x = level(x)
     sig, bak, ovr, p808 = dnsmos(x)
     st, pq, sd = squim(x)
     print(f"{p.split('/')[-1][:34]:<34} {sig:5.2f} {bak:5.2f} {ovr:5.2f} {p808:5.2f} | {st:5.2f} {pq:5.2f} {sd:6.1f}", flush=True)
