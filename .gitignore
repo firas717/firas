@@ -1,0 +1,12 @@
+# Downloaded assets and per-episode working media (too large for git)
+assets/
+work/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.zip
+node_modules/
