@@ -10,3 +10,4 @@ work/
 *.m4a
 *.zip
 node_modules/
+__pycache__/
