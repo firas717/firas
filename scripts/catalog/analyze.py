@@ -151,7 +151,7 @@ def main() -> None:
 
     files = sorted(p for p in root.rglob("*") if p.is_file() and not p.name.endswith(".part"))
     rel = lambda p: str(p.relative_to(root))
-    files = [p for p in files if not rel(p).startswith(SKIP_DIRS)]
+    files = [p for p in files if not rel(p).startswith(SKIP_DIRS) and "(Preview)/" not in rel(p)]
     audio = [p for p in files if p.suffix.lower() in AUDIO]
     audio_stems = {p.with_suffix("") for p in audio}
     image = [p for p in files if p.suffix.lower() in IMAGE]

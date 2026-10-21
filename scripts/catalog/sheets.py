@@ -72,7 +72,7 @@ def main() -> None:
             continue
         r = str(p.relative_to(root))
         ext = p.suffix.lower()
-        if r.startswith(SKIP_DIRS) or ext in AUDIO or ext not in IMAGE | VIDEO:
+        if r.startswith(SKIP_DIRS) or "(Preview)/" in r or ext in AUDIO or ext not in IMAGE | VIDEO:
             continue
         if ext in VIDEO and any(p.with_suffix(e).exists() for e in AUDIO):
             continue  # sound-library preview
