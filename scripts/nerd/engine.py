@@ -16,6 +16,8 @@ from pathlib import Path
 
 from PIL import Image
 
+import alive
+
 W, H = 1080, 1920
 CARD_Y, CARD_W, CARD_H = 500, 1080, 680
 FPS = 30
@@ -28,6 +30,7 @@ TOPICS = {  # accent, drawn-scene background (brand/docs/01)
 
 NARRATOR_SCALE = 0.48   # standing narrator pose (~920px) -> ~440px, 65% of the scene card
 CHAR_SCALE = 0.41       # secondary characters are drawn taller than the narrator
+STILL = ("dead-officer",)  # bodies stay still; every other pose/character is brought to life (alive.py)
 
 
 def esc(s):
@@ -35,8 +38,11 @@ def esc(s):
 
 
 class Video:
-    def __init__(self, project_dir, duration, topic, title, voice_end):
+    def __init__(self, project_dir, duration, topic, title, voice_end, alive=True):
         self.dir = Path(project_dir)
+        self.alive = alive        # living poses: each pose layer becomes a warped video clip
+        self.alive_jobs = []
+        self.words = []
         self.duration = duration
         self.voice_end = voice_end
         self.accent, self.scene_bg = TOPICS[topic]
@@ -66,6 +72,10 @@ class Video:
     # ---------- public API ----------
     def audio(self, src):
         self.audio_src = src
+
+    def set_words(self, words):
+        """Word timings: the living poses gesture on the stressed words."""
+        self.words = words
 
     def set_captions(self, caps, keywords=()):
         self.captions = caps
@@ -132,6 +142,9 @@ class Video:
             imgs.append(f'<img data-k="{k}" src="{esc(s)}" style="left:{(w - iw) / 2:.0f}px;width:{iw:.0f}px;height:{ih:.0f}px;'
                         f'opacity:{1 if k == 0 else 0}">')
         uniq = list(dict.fromkeys(srcs))
+        live = self._alive_clip(L, t0, t1, sc, (w / sc, h / sc))
+        if live:
+            imgs = [live]
         flip = ' style="transform:scaleX(-1)"' if L.get("flip") else ""
         out = (f'<div id="{i}" class="pic" style="left:{cx - w / 2:.0f}px;top:{by - h:.0f}px;width:{w:.0f}px;'
                f'height:{h:.0f}px;z-index:{L.get("z", 3)};opacity:{L.get("opacity", 1)}"><div class="flip"{flip}>{"".join(imgs)}</div></div>')
@@ -144,11 +157,12 @@ class Video:
                   "fade": "opacity:1", "drop": "y:0,opacity:1"}[enter]
             ease = "back.out(1.6)" if enter == "pop" else "power3.out"
             self.js.append(f'tl.fromTo("#{i}",{frm},{{{to},duration:0.35,ease:"{ease}"}},{self.at(a)});')
-        # pose swaps at given times (hard cut + small bounce)
+        # pose swaps at given times (hard cut + small bounce); a living clip already contains the cut
         for t_sw, s in L.get("swap", []):
             k = uniq.index(s)
             ts = t0 + t_sw
-            self.js.append(f'tl.set("#{i} img",{{opacity:0}},{self.at(ts)});tl.set("#{i} img[data-k=\\"{k}\\"]",{{opacity:1}},{self.at(ts)});')
+            if not live:
+                self.js.append(f'tl.set("#{i} img",{{opacity:0}},{self.at(ts)});tl.set("#{i} img[data-k=\\"{k}\\"]",{{opacity:1}},{self.at(ts)});')
             self.js.append(f'tl.fromTo("#{i}",{{scale:0.96}},{{scale:1,duration:0.2,ease:"back.out(2)"}},{self.at(ts)});')
         # walk/run/crawl cycle
         if L.get("frames"):
@@ -170,7 +184,7 @@ class Video:
         if L.get("bob"):
             n = max(1, int((t1 - a) / 0.6))
             self.js.append(f'tl.to("#{i} img",{{y:-6,duration:0.3,ease:"sine.inOut",yoyo:true,repeat:{n * 2 - 1}}},{self.at(a)});')
-        if L.get("breathe", True) and not L.get("frames") and not L.get("bob"):
+        if L.get("breathe", True) and not L.get("frames") and not L.get("bob") and not live:
             self.js.append(f'tl.fromTo("#{i} img",{{scaleY:1}},{{scaleY:1.015,transformOrigin:"50% 100%",duration:{max(0.4, (t1 - a) / 2):.3f},ease:"sine.inOut",yoyo:true,repeat:1}},{self.at(a)});')
         if L.get("shake_at") is not None:
             ts = t0 + L["shake_at"]
@@ -178,6 +192,33 @@ class Video:
         if L.get("fade_to") is not None:
             self.js.append(f'tl.to("#{i}",{{opacity:{L["fade_to"]},duration:0.6}},{self.at(t0 + L.get("fade_at", 0.5))});')
         return out
+
+    def _alive_clip(self, L, t0, t1, sc, size0):
+        """<video> markup for a living pose, and queue the clip that alive.py will render."""
+        if not self.alive or L.get("alive") is False or L.get("frames"):
+            return None
+        if any(k in Path(L["src"]).stem for k in STILL):
+            return None
+        a = t0 + L.get("at", 0)
+        dur = t1 - a
+        srcs = [L["src"]] + [s for _, s in L.get("swap", [])]
+        segs = [{"src": str(self.dir / L["src"]), "t": 0.0}]
+        segs += [{"src": str(self.dir / s), "t": round(t_sw - L.get("at", 0), 3)} for t_sw, s in L.get("swap", [])]
+        stem = Path(L["src"]).stem
+        heights = [self.size(s)[1] for s in srcs]
+        spec = {"v": alive.MOTION_VERSION, "segments": segs, "rigs": [alive.find_rig(g["src"]) for g in segs],
+                "style": L.get("act") or alive.style_for(stem, moving=bool(L.get("move"))),
+                "duration": round(dur, 3), "beats": alive.pick_beats(self.words, a, t1), "seed": self._n,
+                "fps": alive.FPS, "pad": int(0.07 * max(heights)), "step": 6}
+        rel = f"assets/alive/{stem}-{alive.spec_hash(spec)}.webm"
+        self.alive_jobs.append((spec, self.dir / rel))
+        Wc, Hc, m, Wm, Hm = alive.canvas_geometry(spec)
+        w0, h0 = size0
+        left = -(m + (Wm - w0) // 2) * sc
+        bottom = -(Hc - m - Hm) * sc
+        vid = self.uid("av")
+        return (f'<video id="{vid}" class="clip" data-start="{a:.3f}" data-duration="{dur:.3f}" src="{esc(rel)}" muted playsinline '
+                f'style="left:{left:.1f}px;bottom:{bottom:.1f}px;width:{Wc * sc:.1f}px;height:{Hc * sc:.1f}px"></video>')
 
     def r_text(self, L, t0, t1):
         i = self.uid("tx")
@@ -414,6 +455,10 @@ class Video:
             end_start=f"{end_t0:.3f}", end_dur=f"{self.duration - end_t0:.3f}",
             js="\n".join(self.js), mapsvg=self.map_svg or "")
         (self.dir / out).write_text(doc)
+        if self.alive_jobs:
+            (self.dir / "assets/alive").mkdir(parents=True, exist_ok=True)
+            made = alive.render_all(self.alive_jobs)
+            print(f"living poses: {len(self.alive_jobs)} clips ({len(made)} rendered, {len(self.alive_jobs) - len(made)} cached)")
         return doc
 
 
@@ -506,6 +551,7 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#191917}
 .pic{position:absolute}
 .pic .flip{position:absolute;inset:0}
 .pic img{position:absolute;bottom:0}
+.pic video{position:absolute;display:block}
 .ov{position:absolute;inset:0;width:1080px;height:680px;overflow:visible;pointer-events:none}
 .t-anchor{position:absolute;width:0;height:0;display:flex;align-items:center;justify-content:center}
 .t-anchor>div{position:absolute;white-space:nowrap;direction:rtl}
