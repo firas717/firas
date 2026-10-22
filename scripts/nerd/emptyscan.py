@@ -26,7 +26,7 @@ def main():
     a = ap.parse_args()
     raw = subprocess.run(
         ["ffmpeg", "-hide_banner", "-loglevel", "error", "-i", a.video,
-         "-vf", f"fps={FPS},crop=1080:680:0:500,scale={W}:{H},format=gray", "-f", "rawvideo", "-"],
+         "-vf", f"fps={FPS},scale=1080:1920,crop=1080:680:0:500,scale={W}:{H},format=gray", "-f", "rawvideo", "-"],
         check=True, capture_output=True).stdout
     frames = np.frombuffer(raw, np.uint8).reshape(-1, H, W).astype(np.int16)
     empty = [(np.abs(np.diff(f, axis=1)) > 25).mean() < EDGE_MIN for f in frames]
