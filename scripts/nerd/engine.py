@@ -459,6 +459,17 @@ class Video:
             (self.dir / "assets/alive").mkdir(parents=True, exist_ok=True)
             made = alive.render_all(self.alive_jobs)
             print(f"living poses: {len(self.alive_jobs)} clips ({len(made)} rendered, {len(self.alive_jobs) - len(made)} cached)")
+            # Firas: the body must never come apart. Every clip is checked for tears, folds, stretch, clipping.
+            bad = alive.check_all(self.alive_jobs)
+            for o, w in bad:
+                print(f"  BODY CHECK FAILED {Path(o).name}: {w}")
+            if bad:
+                raise SystemExit(f"{len(bad)} living clip(s) failed the body check; fix the rig or the style before rendering")
+            print("body check: all clips OK (no tear, fold, stretch or clipping)")
+            used = {Path(o).name for _, o in self.alive_jobs}
+            for f in (self.dir / "assets/alive").glob("*.webm"):
+                if f.name not in used:
+                    f.unlink()
         return doc
 
 

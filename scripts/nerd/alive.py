@@ -26,7 +26,7 @@ import numpy as np
 from PIL import Image
 
 FPS = 60
-MOTION_VERSION = 1   # bump when the motion code changes, so cached clips are rebuilt
+MOTION_VERSION = 4   # bump when the motion code changes, so cached clips are rebuilt
 REPO = Path(__file__).resolve().parents[2]
 RIG_FILES = [REPO / "brand/narrator-poses/rig.json"] + sorted(REPO.glob("brand/characters/*/rig.json"))
 
@@ -94,11 +94,15 @@ def detect_rig(im):
 
 
 # ---------------------------------------------------------------------------- MLS rigid warp
-def mls_rigid_inverse(src_pts, dst_pts, shape, step=6, alpha=1.6):
+def mls_rigid_inverse(src_pts, dst_pts, shape, step=6, alpha=1.0):
     """Backward map for cv2.remap: for every output pixel, where to sample the source.
     MLS from the deformed handles (dst) to the original ones (src), evaluated on a grid."""
     h, w = shape
-    gy, gx = np.mgrid[0:h + step:step, 0:w + step:step].astype(np.float64)
+    # grid samples sit where cv2.resize looks for them: full-res pixel x <-> grid index (x + 0.5) / step - 0.5
+    gw, gh = -(-w // step) + 1, -(-h // step) + 1
+    gx1 = (np.arange(gw) + 0.5) * step - 0.5
+    gy1 = (np.arange(gh) + 0.5) * step - 0.5
+    gx, gy = np.meshgrid(gx1, gy1)
     v = np.stack([gx.ravel(), gy.ravel()], 1)                      # (N,2)
     p, q = np.asarray(dst_pts, float), np.asarray(src_pts, float)  # map output -> source
     d2 = ((v[:, None, :] - p[None]) ** 2).sum(2)                   # (N,K)
@@ -121,13 +125,13 @@ def mls_rigid_inverse(src_pts, dst_pts, shape, step=6, alpha=1.6):
     fr = np.stack([fx, fy], 1)
     n = np.linalg.norm(fr, axis=1, keepdims=True)
     res = np.linalg.norm(vp, axis=1, keepdims=True) * fr / np.maximum(n, 1e-9) + qs
-    mx = res[:, 0].reshape(gy.shape).astype(np.float32)
-    my = res[:, 1].reshape(gy.shape).astype(np.float32)
-    # upsample the coarse grid exactly: full-res pixel (x, y) sits at grid index (x/step, y/step)
+    # store the displacement (smooth, small) and upsample it in float: no fixed-point remap noise
+    dx = (res[:, 0] - v[:, 0]).reshape(gh, gw).astype(np.float32)
+    dy = (res[:, 1] - v[:, 1]).reshape(gh, gw).astype(np.float32)
+    dx = cv2.resize(dx, (gw * step, gh * step), interpolation=cv2.INTER_CUBIC)[:h, :w]
+    dy = cv2.resize(dy, (gw * step, gh * step), interpolation=cv2.INTER_CUBIC)[:h, :w]
     yy, xx = np.mgrid[0:h, 0:w].astype(np.float32)
-    gu, gv = xx / step, yy / step
-    return (cv2.remap(mx, gu, gv, cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE),
-            cv2.remap(my, gu, gv, cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE))
+    return xx + dx, yy + dy
 
 
 def warp(im, mx, my):
@@ -160,32 +164,70 @@ def rot(pts, pivot, deg):
     return np.stack([d[:, 0] * c - d[:, 1] * s, d[:, 0] * s + d[:, 1] * c], 1) + pivot
 
 
-# which way each style moves the body. All amplitudes are fractions of the figure height.
+# how each style moves the body. Angles in degrees, distances as fractions of the figure height.
+# Arms never stretch: a gesturing hand turns around its shoulder, so the arm keeps its length.
 STYLES = {
     "idle": {},
-    "talk": {"hands": 0.05, "nod": 1.0},
-    "point": {"pump": 0.045, "lean": 0.014, "nod": 0.8},
-    "present": {"hands": 0.045, "lean": 0.012, "nod": 1.0},
-    "count": {"hands": 0.035, "nod": 1.0},
-    "tremble": {"tremble": 0.006, "recoil": 0.045},
-    "laugh": {"laugh": 0.014},
-    "think": {"tilt": 5.0, "slow": True, "nod": 0.6},
-    "search": {"scan": 0.04, "lean": 0.012},
-    "shake": {"shake": 7.0},
-    "cheer": {"pump": 0.06, "bounce": 0.015},
-    "wide": {"shrug": 0.045, "nod": 0.6},
-    "hop": {"hop": 0.08, "hands": 0.03},
+    "talk": {"arm": 9, "nod": 1.0},
+    "point": {"arm": 6, "main_only": True, "lean": 0.012, "nod": 0.8},
+    "present": {"arm": 8, "lean": 0.010, "nod": 1.0},
+    "count": {"arm": 5, "nod": 1.0},
+    "tremble": {"tremble": 1.6, "recoil": 0.035},
+    "laugh": {"laugh": 0.012},
+    "think": {"tilt": 4.0, "slow": True, "nod": 0.6},
+    "search": {"scan": 0.035, "lean": 0.010},
+    "shake": {"shake": 6.0},
+    "cheer": {"arm": 10, "main_only": True, "bounce": 0.012},
+    "wide": {"shrug": 6.0, "nod": 0.6},
+    "hop": {"hop": 0.06, "arm": 5},
     "walk": {"walk": 1.0},
     "hold": {"nod": 0.8},
 }
 
 
+MAX_STRAIN = 0.12   # two neighbouring handles may move apart/together by at most 12% of their distance
+
+
+def limit_strain(src, dst, pair_dist, fixed=None, iters=40):
+    """Keep every pair of neighbouring handles (from different body parts) within MAX_STRAIN of
+    their distance: only the pairs that would squeeze or stretch the skin are pulled back toward
+    each other (position-based constraints), so the rest of the motion keeps its full size.
+    Fixed handles (the feet) never move."""
+    disp = (dst - src).astype(float)
+    inv = np.ones(len(src)) if fixed is None else (~fixed).astype(float)
+    finite = np.isfinite(pair_dist)
+    ii, jj = np.nonzero(np.triu(finite, 1))
+    if not len(ii):
+        return dst
+    lim = MAX_STRAIN * pair_dist[ii, jj]
+    for _ in range(iters):
+        rel = disp[ii] - disp[jj]
+        n = np.linalg.norm(rel, axis=1)
+        over = n - lim
+        bad = over > 1e-3
+        if not bad.any():
+            break
+        w = inv[ii] + inv[jj]
+        ok = bad & (w > 0)
+        corr = (over[ok] / n[ok] / w[ok])[:, None] * rel[ok]
+        np.add.at(disp, ii[ok], -corr * inv[ii[ok]][:, None] * 0.5)
+        np.add.at(disp, jj[ok], corr * inv[jj[ok]][:, None] * 0.5)
+    # whatever is still over the limit after relaxing: scale the whole frame down (always safe)
+    rel = np.linalg.norm(disp[ii] - disp[jj], axis=1)
+    ratio = (rel / pair_dist[ii, jj]).max()
+    if ratio > MAX_STRAIN:
+        disp *= MAX_STRAIN / ratio
+    return src + disp
+
+
 class Rig:
+    """Handles of one figure, grouped into rigid parts: feet, hips, chest (+ shoulders), head, hands."""
+
     def __init__(self, im, rig):
         self.im = im
         self.r = rig
         x0, y0, x1, y1 = rig["bbox"]
-        self.h = float(y1 - y0)
+        self.h = h = float(y1 - y0)
         self.feet_y = rig["feet_y"]
         a = im[..., 3] > 128
 
@@ -195,23 +237,56 @@ class Rig:
         self.hip = np.array(rig["hip"], float)
         self.chest = np.array(rig["chest"], float)
         self.head = np.array(rig["head"], float)
-        self.neck = (self.chest * 0.45 + self.head * 0.55)
-        h = self.h
+        self.neck = self.chest * 0.45 + self.head * 0.55
         fl, fr = extent(self.feet_y)
         bl, br = extent(y1 - 2)
-        self.g_feet = np.array([[fl, self.feet_y], [(fl + fr) / 2, self.feet_y], [fr, self.feet_y],
-                                [bl, y1], [br, y1]], float)
+        self.g_feet = np.array([[fl, self.feet_y], [(fl + fr) / 2, self.feet_y], [fr, self.feet_y], [bl, y1], [br, y1]], float)
         hl, hr = extent(self.hip[1])
         self.g_hip = np.array([self.hip, [hl + 0.25 * (self.hip[0] - hl), self.hip[1]],
                                [hr - 0.25 * (hr - self.hip[0]), self.hip[1]]], float)
-        self.g_chest = np.array([self.chest, [self.chest[0] - 0.09 * h, self.chest[1]],
-                                 [self.chest[0] + 0.09 * h, self.chest[1]]], float)
+        self.g_chest = np.array([self.chest, [self.chest[0] - 0.08 * h, self.chest[1]],
+                                 [self.chest[0] + 0.08 * h, self.chest[1]]], float)
         hx, hy = self.head
         self.g_head = np.array([[hx, hy], [hx - 0.06 * h, hy], [hx + 0.06 * h, hy], [hx, hy - 0.08 * h]], float)
-        self.hands = [np.array(p, float) for p in rig.get("hands", [])]
-        # a hand touching the head (chin, ear, cap) moves with the head
-        self.hand_on_head = [np.linalg.norm(p - self.head) < 0.16 * h for p in self.hands]
-        self.src = np.vstack([self.g_feet, self.g_hip, self.g_chest, self.g_head] + [p[None] for p in self.hands])
+
+        hands = [np.array(p, float) for p in rig.get("hands", [])]
+        self.hands = hands
+        self.kind, self.side, self.shoulder, self.cluster = [], [], [], []
+        for q in hands:
+            dx = q[0] - self.chest[0]
+            side = 1.0 if dx >= 0 else -1.0
+            if np.linalg.norm(q - self.head) < 0.16 * h:
+                kind = "head"                       # chin, ear, cap: moves with the head
+            elif np.linalg.norm(q - self.hip) < 0.12 * h or np.linalg.norm(q - self.chest) < 0.07 * h:
+                kind = "rest"                       # pocket, belly
+            elif q[1] > self.hip[1] - 0.04 * h and abs(dx) < 0.2 * h:
+                kind = "hang"                       # arm hanging by the side
+            else:
+                kind = "free"
+            self.kind.append(kind)
+            self.side.append(side)
+            self.shoulder.append(np.array([self.chest[0] + side * 0.075 * h, self.chest[1] - 0.05 * h]))
+            r_ = 0.025 * h
+            self.cluster.append(np.array([q, q + [r_, 0], q + [-r_, 0], q + [0, -r_]]))
+        # two hands close together (counting, holding something) move as one
+        self.together = len(hands) == 2 and np.linalg.norm(hands[0] - hands[1]) < 0.2 * h
+        self.main = max(range(len(hands)), key=lambda i: np.linalg.norm(hands[i] - self.chest)) if hands else None
+        sh = [s_ for s_, k in zip(self.shoulder, self.kind) if k in ("free", "hang")]
+        self.g_sh = np.array(sh, float).reshape(-1, 2)
+        full = np.vstack([self.g_feet, self.g_hip, self.g_chest, self.g_head, self.g_sh] + self.cluster)
+        labels = (["feet"] * len(self.g_feet) + ["hip"] * 3 + ["chest"] * 3 + ["head"] * 4 + ["sh"] * len(self.g_sh)
+                  + sum([[f"hand{k}"] * 4 for k in range(len(self.cluster))], []))
+        # a body handle sitting right next to a hand would pin the skin under it and squeeze it: drop it
+        moving = [c for c, k in zip(self.cluster, self.kind) if k in ("free", "hang")]
+        keep = np.ones(len(full), bool)
+        for i, (pt, lb) in enumerate(zip(full, labels)):
+            if lb in ("hip", "chest", "sh") and any(np.linalg.norm(c - pt, axis=1).min() < 0.06 * h for c in moving):
+                keep[i] = False
+        self.keep = keep
+        self.labels = np.array(labels)[keep]
+        self.src = full[keep]
+        d = np.linalg.norm(self.src[:, None] - self.src[None], axis=2)
+        self.pair_dist = np.where(self.labels[:, None] != self.labels[None], d, np.inf)
 
     def targets(self, t, style, beats, seed=0):
         """Handle positions at time t (seconds since the layer appeared)."""
@@ -219,101 +294,95 @@ class Rig:
         h = self.h
         ph = (seed * 0.37) % 1 * 2 * math.pi
         slow = 0.6 if S.get("slow") else 1.0
+        p = pulses(t, beats)
+        facing = self.side[self.main] if self.main is not None else 1.0
         # base life: breathing, weight shift, head drift
         breath = 0.5 - 0.5 * math.cos(2 * math.pi * t / 3.2 + ph)
         sway = math.sin(2 * math.pi * t / (4.4 / slow) + ph)
-        hip_d = np.array([0.008 * h * sway, 0.0])
-        chest_d = np.array([0.014 * h * sway, -0.009 * h * breath])
-        head_deg = 2.0 * math.sin(2 * math.pi * t / 5.1 + ph * 1.7) - 1.0 * sway
-        head_d = chest_d * 1.15
-        hand_d = [chest_d.copy() for _ in self.hands]
-        lift = np.zeros(2)  # whole figure (hop)
-        p = pulses(t, beats)
-        dirx = 1.0
-        if self.hands:
-            far = max(self.hands, key=lambda q: abs(q[0] - self.chest[0]))
-            dirx = 1.0 if far[0] >= self.chest[0] else -1.0
+        hip_d = np.array([0.007 * h * sway, 0.0])
+        chest_d = np.array([0.012 * h * sway, -0.008 * h * breath])
+        head_deg = 1.5 * math.sin(2 * math.pi * t / 5.1 + ph * 1.7) - 0.8 * sway
+        extra_head = np.zeros(2)
+        arm = [0.0] * len(self.hands)            # rotation of each hand around its shoulder
+        lift = np.zeros(2)
+
         if "nod" in S:
-            head_d = head_d + np.array([0, 0.022 * h * p * S["nod"]])
-        if "hands" in S:
-            for k in range(len(hand_d)):
-                pk = pulses(t, beats[k % 2::2] if len(self.hands) > 1 else beats)
-                hand_d[k] = hand_d[k] + np.array([0.012 * h * pk * dirx, -S["hands"] * h * pk])
-        if "pump" in S and self.hands:
-            k = max(range(len(self.hands)), key=lambda i: abs(self.hands[i][0] - self.chest[0]) + abs(self.hands[i][1] - self.chest[1]) * 0.3)
-            v = self.hands[k] - self.chest
-            v = v / (np.linalg.norm(v) + 1e-6)
-            hand_d[k] = hand_d[k] + v * S["pump"] * h * p
+            extra_head += [0, 0.012 * h * p * S["nod"]]
+            head_deg += facing * 2.0 * p * S["nod"]
+        if "arm" in S:
+            for k in range(len(self.hands)):
+                if self.kind[k] != "free" or (S.get("main_only") and k != self.main):
+                    continue
+                pk = p if (self.together or len(self.hands) < 2 or S.get("main_only")) else pulses(t, beats[k % 2::2])
+                arm[k] -= self.side[k] * S["arm"] * pk
         if "lean" in S:
             lean = S["lean"] * h * (0.6 + 0.4 * p)
-            chest_d = chest_d + np.array([lean * dirx, 0])
-            head_d = head_d + np.array([1.4 * lean * dirx, 0])
+            chest_d = chest_d + [lean * facing, 0]
+            extra_head += [0.5 * lean * facing, 0]
         if "tremble" in S:
-            tr = S["tremble"] * h
             jig = lambda f, o: math.sin(2 * math.pi * f * t + o) * 0.6 + math.sin(2 * math.pi * f * 1.37 * t + o * 2) * 0.4
-            for k in range(len(hand_d)):
-                hand_d[k] = hand_d[k] + np.array([tr * jig(9, k), tr * jig(8, k + 1)])
-            head_d = head_d + np.array([tr * 0.5 * jig(7, 3), 0])
+            for k in range(len(self.hands)):
+                arm[k] += S["tremble"] * jig(9, k)
+            extra_head += [0.002 * h * jig(7, 3), 0]
             rec = S["recoil"] * h * float(alpha_fn(np.array(t - 0.05), 0.18))
-            chest_d = chest_d + np.array([-rec * dirx * 0.6, -rec * 0.3])
-            head_d = head_d + np.array([-rec * dirx, -rec * 0.4])
+            chest_d = chest_d + [-rec * facing * 0.6, -rec * 0.3]
+            extra_head += [-rec * facing * 0.3, -rec * 0.1]
         if "laugh" in S:
             env = min(1.0, p * 1.5 + 0.35)
             b = S["laugh"] * h * env * abs(math.sin(2 * math.pi * 3.5 * t))
-            chest_d = chest_d + np.array([0, -b])
-            head_d = head_d + np.array([0, -1.4 * b])
-            head_deg += -3.0 * env
-            for k in range(len(hand_d)):
-                hand_d[k] = hand_d[k] + np.array([0, -b * 0.8])
+            chest_d = chest_d + [0, -b]
+            extra_head += [0, -0.25 * b]
+            head_deg += -3.0 * env * facing
         if "tilt" in S:
             head_deg += S["tilt"] * math.sin(2 * math.pi * t / 3.6 + ph)
         if "scan" in S:
             sc = S["scan"] * h * math.sin(2 * math.pi * t / 2.4 + ph)
-            head_d = head_d + np.array([sc, 0])
-            chest_d = chest_d + np.array([sc * 0.35, 0])
-            for k in range(len(hand_d)):
-                if np.linalg.norm(self.hands[k] - self.head) < 0.3 * h:
-                    hand_d[k] = hand_d[k] + np.array([sc, 0])
+            chest_d = chest_d + [sc * 0.45, 0]
+            extra_head += [sc * 0.55, 0]
         if "shake" in S:
             env = min(1.0, p * 1.2 + 0.25)
             head_deg += S["shake"] * env * math.sin(2 * math.pi * 2.6 * t)
         if "bounce" in S:
             b = S["bounce"] * h * p
-            chest_d = chest_d + np.array([0, -b])
-            head_d = head_d + np.array([0, -b * 1.2])
+            chest_d = chest_d + [0, -b]
         if "shrug" in S:
-            s_ = S["shrug"] * h * (0.4 * breath + 0.8 * p)
-            for k in range(len(hand_d)):
-                hand_d[k] = hand_d[k] + np.array([0, -s_])
-            chest_d = chest_d + np.array([0, -s_ * 0.2])
+            for k in range(len(self.hands)):
+                if self.kind[k] == "free":
+                    arm[k] -= self.side[k] * S["shrug"] * (0.4 * breath + 0.8 * min(p, 1.0))
         if "hop" in S:
             tau = t - 0.12
             if 0 < tau < 0.36:
                 lift = np.array([0, -S["hop"] * h * math.sin(math.pi * tau / 0.36)])
-            squash = 0.012 * h * float(alpha_fn(np.array(t - 0.48), 0.07))
-            chest_d = chest_d + np.array([0, squash])
-            head_d = head_d + np.array([0, squash * 1.3])
+            squash = 0.008 * h * float(alpha_fn(np.array(t - 0.48), 0.07))
+            chest_d = chest_d + [0, squash]
         if "walk" in S:
             step = 2 * math.pi * 1.9 * t
-            bob = 0.025 * h * abs(math.sin(step))
-            chest_d = chest_d + np.array([0, -bob])
-            hip_d = hip_d + np.array([0, -bob * 0.6])
-            head_d = head_d + np.array([0, -bob * 1.05])
-            head_deg += 2.5 * math.sin(step)
-            for k in range(len(hand_d)):
-                hand_d[k] = hand_d[k] + np.array([0.04 * h * math.sin(step / 2 + k * math.pi), -bob])
+            bob = 0.014 * h * abs(math.sin(step))
+            chest_d = chest_d + [0, -bob]
+            hip_d = hip_d + [0, -bob * 0.7]
+            head_deg += 2.0 * math.sin(step)
+            for k in range(len(self.hands)):
+                if self.kind[k] in ("hang", "free"):
+                    arm[k] += 5.0 * math.sin(step / 2 + k * math.pi)
 
-        # head handles: rotate about the neck, then translate
+        head_d = chest_d + extra_head
         head_pts = rot(self.g_head, self.neck, head_deg) + head_d
-        hands = []
-        for k, q in enumerate(self.hands):
-            if self.hand_on_head[k]:
-                hands.append(rot(q[None], self.neck, head_deg)[0] + head_d + (hand_d[k] - chest_d) * 0.5)
+        sh_pts = self.g_sh + chest_d
+        moved = []
+        for k, cl in enumerate(self.cluster):
+            if self.kind[k] == "head":
+                moved.append(rot(cl, self.neck, head_deg) + head_d)
+            elif self.kind[k] == "rest":
+                near_hip = np.linalg.norm(self.hands[k] - self.hip) < np.linalg.norm(self.hands[k] - self.chest)
+                moved.append(cl + (hip_d if near_hip else chest_d))
             else:
-                hands.append(q + hand_d[k])
-        dst = np.vstack([self.g_feet, self.g_hip + hip_d, self.g_chest + chest_d, head_pts]
-                        + [p_[None] for p_ in hands])
-        return dst + lift
+                moved.append(rot(cl, self.shoulder[k], arm[k]) + chest_d)
+        if self.together and all(k in ("free", "hang") for k in self.kind):
+            # same displacement for both hands: nothing squeezes between them
+            d = (moved[0] - self.cluster[0]).mean(0)
+            moved = [cl + d for cl in self.cluster]
+        dst = np.vstack([self.g_feet, self.g_hip + hip_d, self.g_chest + chest_d, head_pts, sh_pts] + moved)[self.keep]
+        return limit_strain(self.src, dst, self.pair_dist, fixed=self.labels == "feet") + lift
 
 
 def pad_image(im, m):
@@ -348,7 +417,9 @@ class GroupRig:
             sl = slice(4 * k, 4 * k + 4)
             dst[sl, 1] -= bob
             dst[sl.start:sl.start + 2, 0] += lean
-        return dst
+        lab = np.repeat(np.arange(len(self.figs)), 4)
+        d = np.linalg.norm(self.src[:, None] - self.src[None], axis=2)
+        return limit_strain(self.src, dst, np.where(lab[:, None] != lab[None], d, np.inf))
 
 
 # ---------------------------------------------------------------------------- styles per pose
@@ -538,3 +609,67 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# ---------------------------------------------------------------------------- safety check (Firas: the body must never come apart)
+def _components(alpha, min_area=60):
+    n, _, st, _ = cv2.connectedComponentsWithStats((alpha > 128).astype(np.uint8), 8)
+    return int(sum(1 for k in range(1, n) if st[k, cv2.CC_STAT_AREA] >= min_area))
+
+
+def check_spec(spec, every=2):
+    """Worst case over the clip: extra pieces (tear), area change, clipping at the canvas edge,
+    folding or strong local stretch (Jacobian of the warp inside the figure)."""
+    fps = spec.get("fps", FPS)
+    segs = spec["segments"]
+    ims = [load_rgba(s["src"]) for s in segs]
+    rigs = spec.get("rigs") or [rig_for(s["src"]) for s in segs]
+    Wc, Hc, m, W, H = canvas_geometry(spec)
+    base = []
+    for im, rig, sg in zip(ims, rigs, segs):
+        ox, oy = m + (W - im.shape[1]) // 2, m + (H - im.shape[0])
+        canvas = np.zeros((Hc, Wc, 4), np.uint8)
+        canvas[oy:oy + im.shape[0], ox:ox + im.shape[1]] = im
+        R = GroupRig(im, rig) if "figures" in rig else Rig(im, rig)
+        a0 = canvas[..., 3]
+        base.append((canvas, R, R.src + [ox, oy], [ox, oy], sg.get("style") or spec["style"],
+                     _components(a0), float((a0 > 128).sum())))
+    starts = [s["t"] for s in segs]
+    worst = {"extra_pieces": 0, "area_min": 1.0, "area_max": 1.0, "edge_px": 0, "jac_min": 9.0, "jac_max": 0.0}
+    n = max(1, int(round(spec["duration"] * fps)))
+    for f in range(0, n, every):
+        t = f / fps
+        k = max(i for i, s in enumerate(starts) if s <= t + 1e-6)
+        canvas, R, src, off, st, comps0, area0 = base[k]
+        beats = [b - starts[k] for b in spec["beats"] if b >= starts[k] - 0.05]
+        dst = R.targets(t - starts[k], st, beats, spec.get("seed", 0)) + off
+        mx, my = mls_rigid_inverse(src, dst, canvas.shape[:2], step=spec.get("step", 6))
+        a = cv2.remap(canvas[..., 3], mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT, borderValue=0)
+        inside = a > 128
+        worst["extra_pieces"] = max(worst["extra_pieces"], _components(a) - comps0)
+        r = float(inside.sum()) / area0
+        worst["area_min"], worst["area_max"] = min(worst["area_min"], r), max(worst["area_max"], r)
+        edge = int((a[0] > 16).sum() + (a[-1] > 16).sum() + (a[:, 0] > 16).sum() + (a[:, -1] > 16).sum())
+        worst["edge_px"] = max(worst["edge_px"], edge)
+        dxx, dxy = np.gradient(mx, axis=1), np.gradient(mx, axis=0)
+        dyx, dyy = np.gradient(my, axis=1), np.gradient(my, axis=0)
+        det = (dxx * dyy - dxy * dyx)[inside]
+        if det.size:
+            worst["jac_min"] = min(worst["jac_min"], float(np.percentile(det, 0.1)))
+            worst["jac_max"] = max(worst["jac_max"], float(np.percentile(det, 99.9)))
+    worst["ok"] = (worst["extra_pieces"] <= 0 and 0.95 <= worst["area_min"] and worst["area_max"] <= 1.05
+                   and worst["edge_px"] == 0 and worst["jac_min"] > 0.75 and worst["jac_max"] < 1.33)
+    return worst
+
+
+def _check_job(job):
+    spec, out = job
+    return str(out), check_spec(spec, every=2)
+
+
+def check_all(jobs, workers=4):
+    """Run check_spec on every clip; returns [(out_path, worst)] for the clips that fail."""
+    from multiprocessing import Pool
+    with Pool(workers) as pool:
+        res = pool.map(_check_job, jobs, chunksize=1)
+    return [(o, w) for o, w in res if not w["ok"]]
