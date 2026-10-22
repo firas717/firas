@@ -32,14 +32,42 @@ NARRATOR_SCALE = 0.48   # standing narrator pose (~920px) -> ~440px, 65% of the 
 CHAR_SCALE = 0.41       # secondary characters are drawn taller than the narrator
 STILL = ("dead-officer",)  # bodies stay still; every other pose/character is brought to life (alive.py)
 
+# Puppets (puppet.js): articulated characters like episode 1. A Gemini pose name in a narr()/char() layer
+# maps to a puppet action (+ props in the hands) so episode shot lists keep working unchanged.
+PUP_SCALE = 0.88            # puppet units -> card px (standing puppet ~500 units -> ~440 px)
+NARR_ACT = {
+    "point-right": ("point", {}), "point-right-2": ("point", {}), "point-right-3": ("point", {}), "point-left": ("point", {}),
+    "explain-point-right": ("point", {}), "point-down-right": ("pointDown", {}), "count-on-fingers": ("count", {}),
+    "magnifying-glass": ("search", {"F": "magnifier"}), "thumbs-up": ("thumbsUp", {}), "thumbs-up-2": ("thumbsUp", {}),
+    "stress-hands-on-cap": ("handsOnHead", {}), "panic-hands-on-head": ("handsOnHead", {}), "warning-sign": ("refuse", {}),
+    "think-chin": ("think", {}), "think-chin-2": ("think", {}), "shocked-hands-up": ("shocked", {}), "recoil-scared": ("shocked", {}),
+    "refuse-x-arms": ("refuse", {}), "present-right-pocket": ("present", {}), "present-right-2": ("present", {}),
+    "listen-ear": ("listen", {}), "laugh-hand-on-belly": ("laugh", {}), "idea-lightbulb": ("idea", {}), "finger-up": ("fingerUp", {}),
+    "finger-raise-talk": ("talk", {}), "arms-wide-open": ("wide", {}), "wave": ("wave", {}), "sad-head-down": ("sad", {}),
+    "walk-right": ("walk", {}), "run-right": ("run", {}), "crawl-right": ("crawl", {}), "jump-joy": ("cheer", {}),
+    "read-book": ("read", {"F": "paper"}), "stand-pockets": ("idle", {}), "salute": ("salute", {}),
+}
+CHAR_PUP = {   # name -> (costume, action, props, image width/height in px at scale 1 for size matching)
+    "fisherman-pointing-shocked": ("fisherman", "pointDown", {}),
+    "dead-officer-lifejacket-briefcase": ("dead-officer", "lie", {}),
+    "spanish-official-briefcase": ("spanish-official", "idle", {"B": "briefcase"}),
+    "german-officer-reading": ("german-officer", "read", {"F": "paper"}),
+    "german-officer-pointing": ("german-officer", "point", {}),
+    "uk-intel-officer-photo-letters": ("uk-officer", "read", {"F": "photo", "B": "letters"}),
+    "uk-naval-officer-salute": ("uk-naval", "salute", {}),
+    "uk-intel-officer-worried-telegram": ("uk-officer", "worried", {"F": "telegram"}),
+    "german-soldiers-running": ("german-soldier", "run", {}),
+}
+
 
 def esc(s):
     return html.escape(str(s), quote=True)
 
 
 class Video:
-    def __init__(self, project_dir, duration, topic, title, voice_end, alive=True):
+    def __init__(self, project_dir, duration, topic, title, voice_end, alive=True, puppets=True):
         self.dir = Path(project_dir)
+        self.puppets = puppets    # articulated puppets (puppet.js) instead of pose images
         self.alive = alive        # living poses: each pose layer becomes a warped video clip
         self.alive_jobs = []
         self.words = []
@@ -220,6 +248,82 @@ class Video:
         return (f'<video id="{vid}" class="clip" data-start="{a:.3f}" data-duration="{dur:.3f}" src="{esc(rel)}" muted playsinline '
                 f'style="left:{left:.1f}px;bottom:{bottom:.1f}px;width:{Wc * sc:.1f}px;height:{Hc * sc:.1f}px"></video>')
 
+    def r_pup(self, L, t0, t1):
+        """An articulated puppet (puppet.js) acting the pose/character named in a narr()/char() layer."""
+        i = self.uid("pc")
+        a = t0 + L.get("at", 0)
+        dur = t1 - a
+        mv = L.get("move")
+        if L["type"] == "narr":
+            pose = L["pose"]
+            act, props = NARR_ACT.get(pose, ("talk", {}))
+            if pose not in NARR_ACT:
+                print(f"  puppet: no action for pose {pose!r}, using talk")
+            costume, scale, count = "narrator", PUP_SCALE * L.get("scale", NARRATOR_SCALE) / NARRATOR_SCALE, 1
+        else:
+            name = L["name"]
+            costume, act, props = CHAR_PUP.get(name, ("uk-officer", "idle", {}))
+            if name not in CHAR_PUP:
+                print(f"  puppet: no costume for character {name!r}")
+            w_img, h_img = self.size(f"assets/chars/{name}.png")
+            sc_img = L.get("scale", CHAR_SCALE)
+            count = 3 if "soldiers" in name else 1
+            if act in ("lie", "float"):
+                scale = w_img * sc_img / 520.0          # lying length matches the old picture's width
+            else:
+                scale = h_img * sc_img / 500.0          # standing height matches the old picture
+            if L.get("bob") and act == "lie":
+                act = "float"
+        beats = alive.pick_beats(self.words, a, t1)
+        cx, by = L.get("x", 220), L.get("y", 660)
+        facing_left = (mv and mv.get("dx", 0) < 0) or (not mv and L.get("flip")) or (not mv and cx > 720 and L["type"] == "char" and act not in ("lie", "float"))
+        segs = []
+        if mv and act not in ("lie", "float"):
+            loco = "run" if act == "run" else "walk"
+            ms = max(0.0, mv.get("at", 0) - L.get("at", 0))
+            mdur = min(mv.get("dur", dur - ms), dur - ms)
+            speed = abs(mv.get("dx", 0)) / max(mdur, 0.1) / scale
+            if ms > 0.05:
+                segs.append({"t": 0, "act": act if act != "run" else "idle", "opt": {"beats": beats}})
+            segs.append({"t": round(ms, 3), "act": loco, "opt": {"speed": round(speed, 1)}})
+            if ms + mdur < dur - 0.25:
+                segs.append({"t": round(ms + mdur, 3), "act": "idle" if act in ("run", "walk", "idle") else act, "opt": {"beats": beats}})
+        else:
+            segs.append({"t": 0, "act": act, "opt": {"beats": beats}})
+        for t_sw, pose in L.get("swap", []):
+            act2, _ = NARR_ACT.get(pose, ("talk", {}))
+            segs.append({"t": round(t_sw - L.get("at", 0), 3), "act": act2, "opt": {"beats": beats}})
+        segs.sort(key=lambda g: g["t"])
+        hosts = []
+        spacing = 192 / scale
+        for k in range(count):
+            dxk = (k - (count - 1) / 2) * spacing
+            hosts.append(f'<g class="pp-host" data-k="{k}" transform="scale({scale:.4f}) translate({dxk:.1f},0)"></g>')
+        flip = ' style="transform:scaleX(-1)"' if facing_left else ""
+        out = (f'<div id="{i}" class="pup" style="left:{cx:.0f}px;top:{by:.0f}px;z-index:{L.get("z", 3)};opacity:{L.get("opacity", 1)}">'
+               f'<div class="flip"{flip}><svg width="1" height="1" overflow="visible">{"".join(hosts)}</svg></div></div>')
+        for k in range(count):
+            sg = [dict(g, opt=dict(g.get("opt", {}), seed=self._n % 7 + k, phase=1.9 * k)) for g in segs]
+            self.js.append(f'PUP("#{i} .pp-host[data-k=\\"{k}\\"]",{json.dumps(costume)},{json.dumps(props)},{json.dumps(sg)},{a:.3f},{dur:.3f});')
+        enter = L.get("enter", "fade")
+        frm = {"left": "{x:-260,opacity:0}", "right": "{x:260,opacity:0}", "up": "{y:120,opacity:0}",
+               "pop": "{scale:0.6,opacity:0}", "fade": "{opacity:0}", "drop": "{y:-200,opacity:0}", "none": None}[enter]
+        if frm:
+            to = {"left": "x:0,opacity:1", "right": "x:0,opacity:1", "up": "y:0,opacity:1", "pop": "scale:1,opacity:1",
+                  "fade": "opacity:1", "drop": "y:0,opacity:1"}[enter]
+            ease = "back.out(1.6)" if enter == "pop" else "power3.out"
+            self.js.append(f'tl.fromTo("#{i}",{frm},{{{to},duration:0.35,ease:"{ease}"}},{self.at(a)});')
+        if mv:
+            ms = max(t0 + mv.get("at", 0), a + (0.36 if frm else 0))
+            mdur = min(mv.get("dur", t1 - ms), t1 - ms - 0.02)
+            self.js.append(f'tl.to("#{i}",{{x:{mv.get("dx", 0)},y:{mv.get("dy", 0)},duration:{mdur:.3f},ease:"none"}},{self.at(ms)});')
+        if L.get("shake_at") is not None:
+            ts = t0 + L["shake_at"]
+            self.js.append(f'tl.fromTo("#{i} .flip",{{x:-8}},{{x:8,duration:0.05,yoyo:true,repeat:5,ease:"none"}},{self.at(ts)});tl.set("#{i} .flip",{{x:0}},{self.at(ts + 0.32)});')
+        if L.get("fade_to") is not None:
+            self.js.append(f'tl.to("#{i}",{{opacity:{L["fade_to"]},duration:0.6}},{self.at(t0 + L.get("fade_at", 0.5))});')
+        return out
+
     def r_text(self, L, t0, t1):
         i = self.uid("tx")
         style = L.get("style", "big")
@@ -385,6 +489,8 @@ class Video:
         k = L["type"]
         if k == "photo":
             return self.r_photo(L, t0, t1)
+        if k in ("narr", "char") and self.puppets:
+            return self.r_pup(L, t0, t1)
         if k == "narr":
             L = dict(L)
             L["src"] = f"assets/poses/{L.pop('pose')}.png"
@@ -455,6 +561,9 @@ class Video:
             end_start=f"{end_t0:.3f}", end_dur=f"{self.duration - end_t0:.3f}",
             js="\n".join(self.js), mapsvg=self.map_svg or "")
         (self.dir / out).write_text(doc)
+        vend = self.dir / "assets/vendor"
+        vend.mkdir(parents=True, exist_ok=True)
+        (vend / "puppet.js").write_text((Path(__file__).parent / "puppet.js").read_text())
         if self.alive_jobs:
             (self.dir / "assets/alive").mkdir(parents=True, exist_ok=True)
             made = alive.render_all(self.alive_jobs)
@@ -563,6 +672,9 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#191917}
 .pic .flip{position:absolute;inset:0}
 .pic img{position:absolute;bottom:0}
 .pic video{position:absolute;display:block}
+.pup{position:absolute;width:0;height:0}
+.pup .flip{position:absolute;left:0;top:0;width:0;height:0}
+.pup svg{position:absolute;left:0;top:0;overflow:visible}
 .ov{position:absolute;inset:0;width:1080px;height:680px;overflow:visible;pointer-events:none}
 .t-anchor{position:absolute;width:0;height:0;display:flex;align-items:center;justify-content:center}
 .t-anchor>div{position:absolute;white-space:nowrap;direction:rtl}
@@ -606,6 +718,7 @@ TEMPLATE = """<!doctype html>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=1080, height=1920" />
 <script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/puppet.js"></script>
 <style>{css}</style>
 </head>
 <body>
@@ -634,6 +747,15 @@ TEMPLATE = """<!doctype html>
 </div>
 <script>
 const tl = gsap.timeline({{ paused: true }});
+// articulated puppet: pose(t) is applied on every render of its clock tween (seeks included)
+function PUP(sel, costume, props, segs, start, dur) {{
+  const host = document.querySelector(sel);
+  const pp = NerdPuppet.build(host, costume, {{ props: props }});
+  const r0 = NerdPuppet.poseAt(segs, 0); NerdPuppet.apply(pp, r0.P, r0.ground);
+  const clk = {{ p: 0 }};
+  tl.fromTo(clk, {{ p: 0 }}, {{ p: dur, duration: dur, ease: "none", modifiers: {{ p: function (v) {{
+    v = +v; const r = NerdPuppet.poseAt(segs, v); NerdPuppet.apply(pp, r.P, r.ground); return v; }} }} }}, start);
+}}
 {js}
 tl.fromTo("#endlogo",{{scale:0.7,opacity:0}},{{scale:1,opacity:1,duration:0.4,ease:"back.out(1.6)"}},{end_start});
 window.__timelines["main"] = tl;
