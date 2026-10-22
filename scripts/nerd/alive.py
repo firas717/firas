@@ -538,3 +538,54 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# ---------------------------------------------------------------------------- safety check (Firas: the body must never come apart)
+def _components(alpha, min_area=60):
+    n, _, st, _ = cv2.connectedComponentsWithStats((alpha > 128).astype(np.uint8), 8)
+    return int(sum(1 for k in range(1, n) if st[k, cv2.CC_STAT_AREA] >= min_area))
+
+
+def check_spec(spec, every=2):
+    """Worst case over the clip: extra pieces (tear), area change, clipping at the canvas edge,
+    folding or strong local stretch (Jacobian of the warp inside the figure)."""
+    fps = spec.get("fps", FPS)
+    segs = spec["segments"]
+    ims = [load_rgba(s["src"]) for s in segs]
+    rigs = spec.get("rigs") or [rig_for(s["src"]) for s in segs]
+    Wc, Hc, m, W, H = canvas_geometry(spec)
+    base = []
+    for im, rig, sg in zip(ims, rigs, segs):
+        ox, oy = m + (W - im.shape[1]) // 2, m + (H - im.shape[0])
+        canvas = np.zeros((Hc, Wc, 4), np.uint8)
+        canvas[oy:oy + im.shape[0], ox:ox + im.shape[1]] = im
+        R = GroupRig(im, rig) if "figures" in rig else Rig(im, rig)
+        a0 = canvas[..., 3]
+        base.append((canvas, R, R.src + [ox, oy], [ox, oy], sg.get("style") or spec["style"],
+                     _components(a0), float((a0 > 128).sum())))
+    starts = [s["t"] for s in segs]
+    worst = {"extra_pieces": 0, "area_min": 1.0, "area_max": 1.0, "edge_px": 0, "jac_min": 9.0, "jac_max": 0.0}
+    n = max(1, int(round(spec["duration"] * fps)))
+    for f in range(0, n, every):
+        t = f / fps
+        k = max(i for i, s in enumerate(starts) if s <= t + 1e-6)
+        canvas, R, src, off, st, comps0, area0 = base[k]
+        beats = [b - starts[k] for b in spec["beats"] if b >= starts[k] - 0.05]
+        dst = R.targets(t - starts[k], st, beats, spec.get("seed", 0)) + off
+        mx, my = mls_rigid_inverse(src, dst, canvas.shape[:2], step=spec.get("step", 6))
+        a = cv2.remap(canvas[..., 3], mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT, borderValue=0)
+        inside = a > 128
+        worst["extra_pieces"] = max(worst["extra_pieces"], _components(a) - comps0)
+        r = float(inside.sum()) / area0
+        worst["area_min"], worst["area_max"] = min(worst["area_min"], r), max(worst["area_max"], r)
+        edge = int((a[0] > 16).sum() + (a[-1] > 16).sum() + (a[:, 0] > 16).sum() + (a[:, -1] > 16).sum())
+        worst["edge_px"] = max(worst["edge_px"], edge)
+        dxx, dxy = np.gradient(mx, axis=1), np.gradient(mx, axis=0)
+        dyx, dyy = np.gradient(my, axis=1), np.gradient(my, axis=0)
+        det = (dxx * dyy - dxy * dyx)[inside]
+        if det.size:
+            worst["jac_min"] = min(worst["jac_min"], float(np.percentile(det, 0.1)))
+            worst["jac_max"] = max(worst["jac_max"], float(np.percentile(det, 99.9)))
+    worst["ok"] = (worst["extra_pieces"] <= 0 and 0.95 <= worst["area_min"] and worst["area_max"] <= 1.05
+                   and worst["edge_px"] == 0 and worst["jac_min"] > 0.6 and worst["jac_max"] < 1.6)
+    return worst
