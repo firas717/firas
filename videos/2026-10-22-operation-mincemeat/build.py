@@ -16,6 +16,7 @@ EDIT = Path(sys.argv[1] if len(sys.argv) > 1 else "work/2026-10-22-operation-min
 V = Video(EDIT, duration=164.2, topic="war", title="كيف خدعت جثة\nجيش هتلر؟", voice_end=162.64)
 V.audio("assets/audio/mix.wav")
 V.use_map("assets/map.svg")
+V.set_words(json.loads((Path(__file__).parent / "words_corrected.json").read_text()))
 V.set_captions(json.loads((EDIT / "captions.json").read_text()), keywords=[(40.5, "خدعة"), (160.5, "حقيقية")])
 
 P = V.map_proj
