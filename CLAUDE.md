@@ -13,7 +13,7 @@
 
 - **مجلد المونتاج العام (OneDrive):** https://1drv.ms/f/c/47011C22D1F65DFA/IgBgx05lSRIFT5_zKnyyXE5AAbyYfeKlwt6CnQ9b6-W4ixI
   - فيه 9,196 ملفاً (6.2GB).
-  - **فهرسه وكتالوجه الموصوف بالمحتوى في `docs/assets-catalog/`.** اقرأ الكتالوج أولاً، ثم حمّل منه فقط ما تحتاجه الحلقة:
+  - **كتالوجه الموصوف بالمحتوى في `docs/assets-catalog/`.** ابدأ بـ `docs/assets-catalog/CATALOG.md`: فيه الخريطة، وطريقة البحث، و"الاختيارات الجاهزة" لكل غرض (whoosh، وضربة كشف، وتوتر، وموسيقى لكل موضوع، وطبقات، وأسهم...). وكل ملف موصوف سطراً سطراً في `all-assets.tsv`. حمّل فقط ما تحتاجه الحلقة:
     `python3 scripts/fetch_onedrive.py get "<الرابط>" assets "<بادئة المسار>" ... --index docs/assets-catalog/index.json`
 - **الهوية البصرية محفوظة داخل المستودع في `brand/`،** فلا تحتاج تحميلها:
   - `brand/docs/01..05`: ملفات الهوية التي كتبها فراس، وهي المرجع.
