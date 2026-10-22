@@ -6,6 +6,11 @@ adds), split the sheet into one image per character with connected components, a
 white outer stroke (the channel identity composites the narrator with one), and save
 transparent PNGs plus a numbered preview sheet for naming.
 
+All poses share one scale: a standing pose comes out ~900px tall, and a crouching or
+lying pose keeps its true size relative to that. The scale of each sheet is derived
+from the size of the character's white face (Gemini draws every pose on a sheet at
+the same scale), so poses from different sheets also match each other.
+
 Usage:
   python3 scripts/poses/extract_poses.py <out_dir> <sheet.jpg> [<sheet.jpg> ...]
 Then rename the numbered files (NNN.png) to pose names, e.g. point-left.png.
@@ -17,9 +22,16 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 from scipy import ndimage
 
-TARGET_H = 900      # output height of the character (px), before stroke padding
-STROKE = 7          # white outer stroke at TARGET_H
-MIN_AREA = 0.004    # components smaller than this share of the sheet are props/marks
+FACE_AREA_REF = 9700  # face area (px) of a pose scaled so a standing pose is ~900px tall
+STROKE = 7            # white outer stroke width (px)
+MIN_AREA = 0.004      # components smaller than this share of the sheet are props/marks
+
+
+def face_area(rgb: np.ndarray, alpha: np.ndarray, member: np.ndarray) -> int:
+    """Area of the largest solid-white region (the blank face) inside one pose."""
+    white = (rgb.min(axis=2) > 225) & (alpha > 0.5) & member
+    labels, n = ndimage.label(white)
+    return int(np.bincount(labels.ravel())[1:].max()) if n else 0
 
 
 def key_magenta(rgb: np.ndarray) -> np.ndarray:
@@ -109,15 +121,18 @@ def main() -> None:
     for sheet_path in sys.argv[2:]:
         rgb = np.array(Image.open(sheet_path).convert("RGB"))
         alpha = key_magenta(rgb)
+        comps = components(alpha, rgb.shape[0] * rgb.shape[1])
+        faces = [face_area(rgb[sl], alpha[sl], member) for sl, member in comps]
+        # Median is robust to poses whose face is hidden (camera, back view, facepalm).
+        scale = (FACE_AREA_REF / max(np.median(faces), 1)) ** 0.5
         rgb = despill(rgb, alpha)
         rgba = np.dstack([rgb, (alpha * 255).astype(np.uint8)])
-        for sl, member in components(alpha, rgb.shape[0] * rgb.shape[1]):
+        for sl, member in comps:
             crop = rgba[sl].copy()
             crop[..., 3] = np.where(member, crop[..., 3], 0)
             img = Image.fromarray(crop, "RGBA")
             img = img.crop(img.getbbox())
-            scale = TARGET_H / img.height
-            img = img.resize((max(1, round(img.width * scale)), TARGET_H), Image.LANCZOS)
+            img = img.resize((max(1, round(img.width * scale)), max(1, round(img.height * scale))), Image.LANCZOS)
             img = add_stroke(img, STROKE)
             n += 1
             img.save(out / f"{n:03d}.png", optimize=True)

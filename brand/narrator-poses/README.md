@@ -2,11 +2,12 @@
 
 فراس يولّد وضعيات الراوي بـ Gemini من صورة المرجع `brand/narrator-reference.jpg`، ثم تُقصّ وتُحفظ هنا مرة واحدة وتُستخدم في كل الحلقات.
 
-- **المكتبة الحالية: 108 وضعيات.** انظر `_index.jpg` لترى كل وضعية مع اسمها.
-- كل ملف PNG شفاف، بارتفاع ~900px، بحدّ أبيض خارجي جاهز للتركيب على الخلفيات الداكنة.
+- **المكتبة الحالية: 120 وضعية.** انظر `_index.jpg` لترى كل وضعية مع اسمها، وكلها بنفس المقياس.
+- كل ملف PNG شفاف بحدّ أبيض خارجي جاهز للتركيب على الخلفيات الداكنة.
+- **كل الوضعيات بمقياس واحد:** الوقوف ارتفاعه ~900px، والجلوس والزحف والاستلقاء أقصر بحجمها الحقيقي. عند التركيب استخدم **معامل تكبير واحداً لكل المشهد** (مثلاً 0.55 ليصير طول الوقوف ~500px)، ولا تجعل كل وضعية بنفس الارتفاع، وإلا كبر رأس الراوي في وضعيات الجلوس.
 - الاتجاه في الأسماء (right/left) هو اتجاه الصورة كما يراها المشاهد.
 - بعض الوضعيات فيها أغراض (لابتوب، كاميرا، مكبّرة، خريطة، كتاب، صندوق، جوال، مفتاح، لافتة تحذير...). **فراس ولّدها بنفسه فهي معتمدة**، رغم أن ملف `02-الشخصيات.md` يقول إن الراوي لا يحمل شيئاً.
-- `panic-hands-on-head.png` كان فيه فم مرسوم، فمُسح لأن الوجه يجب أن يبقى بلا ملامح. افحص كل دفعة جديدة لهذا الخطأ.
+- `panic-hands-on-head.png` كان فيه فم، و`panic-run-arms-up.png` كان فيه ظل يشبه الفم. مُسحا لأن الوجه يجب أن يبقى بلا ملامح. افحص كل دفعة جديدة لهذا الخطأ.
 
 ## الفهرس حسب الاستخدام
 | الغرض | الوضعيات |
@@ -23,18 +24,27 @@
 | موافقة أو فرح أو نجاح | `thumbs-up` `thumbs-up-2` `clap` `clap-2` `fist-pump` `kneel-celebrate` `jump-joy` `peace-sign` `laugh-hand-on-belly` |
 | تحيّة (بداية أو نهاية) | `wave` `wave-2` `hello-both-hands` |
 | ثقة أو وقوف هادئ | `stand-pockets` `stand-pockets-2..4` `hands-on-hips` `hands-on-hips-2..4` `hands-on-hips-stride` `arms-crossed` `arms-crossed-2` `arms-crossed-3` `lean-casual` |
-| حركة في المكان | `walk-right` `walk-right-2` `walk-right-3` `walk-toward-camera` `walk-away` `run-right` `crouch` `sit` |
+| مشي | `walk-right` `walk-right-2` `walk-right-3` `walk-toward-camera` `walk-away` |
+| ركض وهروب | `run-right` `run-right-2` (إطاران لدورة ركض) `panic-run-arms-up` (هروب مذعور) |
+| زحف وتسلّل | `crawl-right` `crawl-right-2` (إطاران لدورة زحف) `sneak` `lean-forward-peek` `crouch` |
+| سقوط وانهيار | `stumble` `fall-backward` `fall-on-knees` `lying-down` `sit-floor-sad` |
+| تسلّق وجلوس | `climb-back-view` (من الخلف) `sit` `sit-crosslegged-shrug` |
 | تحقيق أو بحث | `magnifying-glass` `binoculars` `look-far` `read-map` `check-watch` |
 | أغراض | `laptop` `look-phone` `look-phone-2` `look-phone-3` `read-book` `read-book-2` `read-book-3` `write-notepad` `write-clipboard` `photo-camera` `hold-box` `hold-box-2` `hold-key` |
 
 ## الشخصيات تمثّل الحدث (ما أعجب فراس في الحلقة الأولى)
 في الحلقة الأولى **كانت الشخصيات تتحرك وتتفاعل مع الموقف**: تركض، وتزحف، وتقف، وتنهار، وتهرب. وكانت النتيجة جميلة. لذلك لا تكتفِ بصورة ثابتة تقف في المشهد، بل اجعل الشخصية **تمثّل** ما يُقال:
-- **التنقّل:** حرّك الصورة كاملة عبر البطاقة (من خارج الإطار إلى داخله، أو عبره). بدّل بين إطارات المشي `walk-right` و`walk-right-2` و`walk-right-3` بمعدل 6–8 تبديلات في الثانية، مع اهتزاز رأسي خفيف (2–4px) يحاكي الخطوة. للركض استخدم `run-right` مع حركة أسرع وخطوط سرعة خلفه.
+- **التنقّل:** حرّك الصورة كاملة عبر البطاقة (من خارج الإطار إلى داخله، أو عبره). بدّل بين إطارات المشي `walk-right` و`walk-right-2` و`walk-right-3` بمعدل 6–8 تبديلات في الثانية، مع اهتزاز رأسي خفيف (2–4px) يحاكي الخطوة. للركض بدّل بين `run-right` و`run-right-2` (8–10 تبديلات في الثانية) مع حركة أسرع وخطوط سرعة خلفه. وللزحف بدّل بين `crawl-right` و`crawl-right-2` ببطء (3–4 في الثانية).
 - **الاتجاه المعاكس:** اقلب الصورة أفقياً (`scaleX(-1)`)، إلا الوضعيات التي فيها كتابة أو شعار (`laptop` و`warning-sign` و`point-chart`).
 - **الانفعال:** انتقل بين وضعيتين بقطع حاد في لحظة الكلمة. أمثلة: `stand-pockets` ← `shocked-hands-up` عند المفاجأة، و`recoil-scared` ← `run-right` عند الهروب، و`tired-bent-over` ← `sad-head-down` عند الانهيار. أضف "ارتداداً" صغيراً (scale 0.96→1.02→1 خلال 6 فريمات) عند كل تبديل.
 - **التأكيد:** هزّة خفيفة، أو قفزة صغيرة، أو علامة `!` أو `?` ليمونية فوق الرأس.
 - **ممنوع:** تقطيع الصورة إلى أطراف وتحريكها منفصلة. هذا ما جعل أجزاء الجسم تنفصل في الحلقة الأولى.
-- إن احتاج الحدث حركة لا توجد لها وضعية (زحف، سقوط، استلقاء، تسلّق...)، فاطلبها من فراس (انظر "الدفعة القادمة"). وأثناء الانتظار استخدم أقرب بديل: `crouch` بدل الزحف، و`tired-bent-over` ثم `sad-head-down` بدل الانهيار.
+- **أمثلة لسلاسل جاهزة:**
+  - الانهيار: `stumble` ← `fall-on-knees` ← `lying-down`.
+  - الهروب: `recoil-scared` ← `panic-run-arms-up` ← `run-right`/`run-right-2` مع خروج من الإطار.
+  - التسلّل: `sneak` ← `lean-forward-peek`.
+  - الإغماء: `shocked-hands-up` ← `fall-backward` ← `lying-down`.
+- إن احتاج الحدث حركة غير موجودة، فاطلبها من فراس بالبرومبت أدناه.
 
 ## كيف تُطلب الوضعيات في كل حلقة
 1. بعد قراءة السكربت، حدّد الوضعيات والحركات التي يحتاجها الستوري بورد.
@@ -75,20 +85,6 @@ Poses: [POSE LIST]
 Full body, not cropped. No text, no logo. Background: solid flat pure magenta (#FF00FF).
 ```
 تُحفظ في `brand/characters/<اسم-الشخصية>/` إن تكررت في حلقات أخرى، وإلا في مجلد الحلقة.
-
-## الدفعة القادمة المقترحة (حركات ناقصة)
-| الملف | [POSE] |
-|---|---|
-| `crawl-right.png` و`crawl-right-2.png` | `crawling on hands and knees to the right` (frame 1 and frame 2 of the crawl) |
-| `run-right-2.png` | `running to the right, opposite leg forward than the first run pose` |
-| `run-away-looking-back.png` | `running to the right in panic while looking back over his shoulder` |
-| `stumble.png` | `stumbling forward, losing balance, arms flailing` |
-| `fall-on-knees.png` | `collapsed on his knees, hands on the ground, head down` |
-| `lying-down.png` | `lying flat on the ground on his back, exhausted` |
-| `sneak.png` | `sneaking on tiptoes to the right, crouched, careful` |
-| `hide-peek.png` | `hiding and peeking out from the side, half body visible` |
-| `climb.png` | `climbing up, both arms reaching above his head` |
-| `sit-floor-sad.png` | `sitting on the floor hugging his knees, sad` |
 
 ## إزالة الخلفية يدوياً (لصورة واحدة)
 ```bash
