@@ -90,7 +90,8 @@ S(15.52, 19.36, "انتباه السلطات", layers=[
     icon("qmark", 380, 190, 170, at=2.0, float=True)])
 # ---- 2. The briefcase ------------------------------------------------------------------------
 S(19.36, 21.72, "حقيبة مربوطة بيده", layers=[
-    char(DEAD, 480, 483, scale=1.0, enter="fade", breathe=False), ring(370, 240, 380, 280, at=0.6)])
+    char(DEAD, 520, 460, scale=0.62, enter="fade", breathe=False), icon("briefcase", 640, 560, 150, at=0.3),
+    ring(520, 470, 240, 180, at=0.8)])
 S(21.72, 25.68, "وثائق سرية", layers=[
     icon("doc", 600, 330, 430, enter="drop"), narr("magnifying-glass", 190, enter="left", at=0.3),
     text("سري للغاية", 610, 360, style="stamp", rot=-12, size=72, enter="slam", at=1.85)])
