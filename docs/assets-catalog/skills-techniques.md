@@ -28,7 +28,7 @@
 | 5 | **هلوسات whisper العربية** | `VA/scripts/18_long_transcribe.py` | يقطّع الملف عند السكتات (~20ث)، ويحذف "اشتركوا في القناة" و"ترجمة نانسي قنقر"، ويعيد تفريغ الفجوات الأطول من 7ث | whisper, numpy | الفكرة والقائمة صالحتان لخطوة 5.4 |
 | 6 | **كابشن عربي** | `SK/captions.md`، `SK/captions(1).py`، `VA/scripts/02_captions.py` | قواعد RTL: الكلمة تتحرك كاملة، و`<bdi>` للأسماء اللاتينية والأرقام، وتباعد أسطر أكبر، وتقديم النص 0.13ث على الصوت. التقسيم يكسر العبارة عند فجوة ≥250ms أو علامة ترقيم (منها ؟). و`02_captions.py` يبقي توقيت whisper ويستبدل النص المصحّح، وهي قاعدتنا نفسها | python3 | **صالح.** نأخذ القواعد وخوارزمية التقسيم، أما الحرق فنعمله بـ HyperFrames لا ASS |
 | 7 | **SRT ليوتيوب** | `VA/scripts/09_srt.py` | يحوّل الكابشن إلى SRT (سطران، 42 حرفاً) ونص كامل للوصف | python3 | صالح بتحويل بسيط |
-| 8 | **معايرة العلو والدكينغ** (الخطوة 5.3، والموسيقى) | `SK/mix_audio.py`، `VA/scripts/06b_master.sh`، `VA/scripts/06c_loudfix.sh` | loudnorm بمرورين (قياس ثم linear)، وتخفيض الموسيقى بـ sidechaincompress أثناء الكلام، وalimiter بـ level=false، والفيديو يُنسخ دون إعادة ترميز. و`06c` يضغط ضغطاً خفيفاً إن علق العلو تحت الهدف | python3/bash, ffmpeg | **صالح** مع `--target -16 --tp -1 --duck`، والموسيقى عند نحو ‎-28 LUFS. افتراضيهم ‎-14 فلا تأخذه |
+| 8 | **معايرة العلو والدكينغ** (الخطوة 5.3، والموسيقى) | `SK/mix_audio.py`، `VA/scripts/06b_master.sh`، `VA/scripts/06c_loudfix.sh` | loudnorm بمرورين (قياس ثم linear)، وتخفيض الموسيقى بـ sidechaincompress أثناء الكلام، وalimiter بـ level=false، والفيديو يُنسخ دون إعادة ترميز. و`06c` يضغط ضغطاً خفيفاً إن علق العلو تحت الهدف | python3/bash, ffmpeg | **صالح** مع `--target -16 --tp -1 --duck`، والموسيقى عند نحو ‎-28 LUFS. انتبه للافتراضيات المخالفة: `mix_audio` يبدأ بـ ‎-14 LUFS وتلاشٍ 2ث، و`06b` ذروته ثابتة ‎-1.5 وتلاشيه 1.4ث، و`06c` كتب ‎-14 و‎-1.5 داخل الكود فيلزم تعديله يدوياً |
 | 9 | **تنظيف صوت محافظ** | `VA/scripts/02c_denoise.py` (المسار الاحتياطي) | highpass 80Hz، ثم afftdn nf=-28، ثم ضغط خفيف. وDeepFilterNet3 اختياري | ffmpeg (+deep-filter) | سلسلة ffmpeg صالحة |
 | 10 | **ورقة لقطات** (التسليم وفحص snapshot) | `VA/scripts/07_contact_sheet.sh`، `VA/scripts/32_midframes.py`، `SK/contact_sheet.py` | ورقة 3×2 عليها التوقيتات بـ PIL، ولقطة من **منتصف كل مشهد**، وورقة 12 إطاراً تقيس عدد القطعات في الدقيقة والعلو | ffmpeg, PIL | **صالح.** لقطة منتصف كل مشهد في STORYBOARD أفضل من لقطات عشوائية |
 | 11 | **فحص ملف التصدير** | `SK/qc.py` | يفحص المقاس وfps والترميز وfaststart والعلو، ويطبع PASS/WARN/FAIL | ffmpeg | صالح على final.mp4 وfinal_send.mp4 |
@@ -36,7 +36,7 @@
 | 13 | **صور حرّة من ويكيميديا** (المصدر B) | `VA/scripts/13_assets.py` | يبحث في Commons ويقبل PD وCC0 وCC BY وCC BY-SA فقط، ويكتب JSON بالرابط والمؤلف والرخصة، ويقصّ الخلفية بـ rembg اختيارياً | python3 (+rembg) | **صالح.** يملأ SOURCES.md تلقائياً |
 | 14 | **بحث بالمعنى داخل فيديوهات الحلقة** | `VA/scripts/26_find_shots.py` | SigLIP2 محلي: تكتب وصفاً بالإنجليزية فيرجع أقرب اللقطات مع ورقة نتائج | torch, transformers (~1.5GB) | مفيد مع مجلد حلقة كبير، لكنه ثقيل التنزيل |
 | 15 | **الصورة المصغّرة على الجوال** | `VA/scripts/34_phone_preview.py` + `VA/references/thumbnails.md` | يعاين الصورة بحجمها الحقيقي على شاشة الجوال. أحجام مقاسة: الكفر يُعرض بنحو 12%، وأصغر نص مقروء 81-91px | PIL فقط | **صالح مباشرة** |
-| 16 | **تركيبة HyperFrames جاهزة** | `SK/composition.py`، `SK/motion.js`، `SK/stage.css` | يولّد index.html لـ HyperFrames: `@font-face` محلي، وكابشن `clip` بـ data-start وdata-duration وdir، وخط زمني GSAP واحد متوقف وقابل للبحث، وشريط تقدّم scaleX | python3, GSAP | **أقرب كود لمشروعنا** (CC0). بُني على 0.8.58 فتحقّق من التوافق مع 0.8.183. GSAP رخصته منفصلة |
+| 16 | **تركيبة HyperFrames جاهزة** | `SK/composition.py`، `SK/motion.js`، `SK/stage.css` | يولّد index.html لـ HyperFrames: `@font-face` محلي، وكابشن `clip` بـ data-start وdata-duration وdir، و`<bdi dir="ltr">` للكلمات اللاتينية، وخط زمني GSAP واحد متوقف وقابل للبحث، وشريط تقدّم scaleX. أسلوبه `signal` (خلفية ‎#11151d ولمسة ليمونية ‎#c4ff70) هو الأقرب بصرياً لهوية النيرد | python3, GSAP | **أقرب كود لمشروعنا** (CC0). يستعمل خط Noto Sans Arabic فاستبدله بـ IBM Plex. بُني على 0.8.58 فتحقّق من التوافق مع 0.8.183. GSAP رخصته منفصلة |
 | 17 | **أخطاء HyperFrames المعروفة** | `SK/albert-reel/SKILL.md` (جدول الأخطاء) | npx ETARGET، والإيموجي في الكروم بلا واجهة، والإخراج yuv420p بلا ألفا | — | مرجع مفيد |
 | 18 | **قواعد الحركة** | `VA/references/motion-rules.md`، `SK/motion-design.md` | ease-out للدخول خلال 0.15-0.30ث، ولا تكبير من صفر، وتتابع 30-80ms، وأرقام tabular في العدّادات. ممنوع: حرف بحرف، والتوهج، والارتداد. ولكل رقم مصدر في facts.md. و3 عناصر كحد أقصى على الشاشة | — | **متوافقة مع هويتنا** |
 | 19 | **مؤثرات بلا حقوق** | `VA/scripts/05_sfx.py` | يولّد whoosh وthud وtap وriser وsub وتكات عدّاد رياضياً بـ numpy | numpy | بديل طوارئ فقط، فمكتبة Motion Pro أفضل |
@@ -89,7 +89,7 @@
 - `SK/refine_cuts.py`: يمدّ القطعة حتى لا يُؤكل آخر الكلمة.
 - `SK/verify_cut.py`: فحص التكرار والفجوات ومطابقة السكربت.
 - `VA/scripts/19_seam_check.py`: يعيد تفريغ ±4ث حول كل وصلة.
-- `SK/said_twice_check.py`: يكشف الجملة المعادة بإعادة صياغة (يحتاج تعديل المسارات).
+- `SK/said_twice_check.py`: يكشف الجملة المعادة بإعادة صياغة، لكن هذا الجزء يرسل النص إلى خدمة typesafe.ai (`TYPESAFE_API_KEY`)، وبدون المفتاح يتخطّى. نأخذ فكرة "آخر محاولة تفوز" فقط.
 - `VA/scripts/10_script_edit.py`: دالة كشف الجمل المعادة مع تطبيع عربي (الهمزات والتاء المربوطة).
 
 ### arabic-captions / transcription
@@ -107,6 +107,7 @@
 - `SK/engineering.md`: alimiter بـ level=false، وamix بـ normalize=0، وzscale لصور HDR.
 - `VA/scripts/02c_denoise.py`: سلسلة ffmpeg محافظة.
 - `SK/mix_section.py`: قواعد مستوى المؤثر (whoosh عند ≈‎-31dBFS، ولا مؤثر في أول ثانية ولا آخرها).
+- `SK/layout.md`: درس مسجّل من عميل حقيقي: الموسيقى عند ‎-26 LUFS كانت عالية، فبدأوا بنحو ‎-30 LUFS قبل الدكينغ، وفي الأقسام ‎-34 LUFS أو بلا موسيقى. أي أن ‎-28 عندنا حدّ أعلى لا هدف.
 - `VA/scripts/05_sfx.py`: مؤثرات مولّدة بلا حقوق (للطوارئ).
 
 ### qc-contact-sheet / safe-zone / thumbnail-cover
@@ -174,9 +175,9 @@
   - 100 معاينة حركة: 4ث، 540×960، 60fps، صامتة.
   - 6 عيّنات من Community Reels: 8ث، 1080×1920، اصطناعية وبرخصة CC0.
 - **صوت:**
-  - `tap.wav` و`thud.wav` و`whoosh_up.wav` و`whoosh_down.wav`: من 0.09 إلى 0.34ث، مولّدة بالكود فهي حرّة الحقوق.
-  - `caption-mouse-down.wav` و`first-click.wav` و`whoosh-snap.mp3`: رخصتها غير مؤكدة.
-  - `bg-music.m4a`: نحو 5:03، وهو **placeholder** حسب README، ورخصته مجهولة.
+  - `tap.wav` و`thud.wav` و`whoosh_up.wav` و`whoosh_down.wav` (في `VA/studio/sfx_prev/`): من 0.09 إلى 0.34ث، أحادية 48kHz، وقممها بين ‎-1.9 و‎-8.7dBFS. مدتها ومواصفاتها تطابق دوال المولّد `05_sfx.py`، فهي على الأرجح مولّدة بالكود وحرّة الحقوق.
+  - `caption-mouse-down.wav` (قمة ‎-0.9) و`first-click.wav` (خافتة جداً، قمة ‎-22dBFS) و`whoosh-snap.mp3` (0.84ث): من youtube-clean، و`SK/SETUP(1).md` نفسه يقول "تحقّق من رخصتها".
+  - `bg-music.m4a`: نحو 5:03، وهو **placeholder** حسب README، ورخصته مجهولة. ماسترها صاخب جداً (‎-7.5 LUFS، وقمم +2.4dBFS مقصوصة)، أي عكس "الموسيقى الخافتة الهادئة" تماماً.
 - **أرشيف:** `video-ad-editor.skill` حزمة zip للسكل. لا تثبّتها ولا تفكّها.
 
 ## ما يحتاج مفاتيح API أو حسابات خارجية
@@ -185,7 +186,8 @@
 |---|---|
 | ElevenLabs Scribe | `SK/albert-reel/scripts/transcribe.py`، و`SK/transcribe(1).py` (يرجع إلى faster-whisper المحلي إن لم يجد المفتاح)، وسكل youtube-clean (`SK/SKILL (11).md`) |
 | Groq | `SK/transcribe_groq.py` |
-| Google Gemini (`GEMINI_API_KEY`) | `SK/gemini.py`، و`SK/.env.example`، وسكلا community-eye وcommunity-decode، وبرومبتات `analyze.md` و`review.md` و`decode.md` |
+| typesafe.ai (`TYPESAFE_API_KEY`، اختياري) | `SK/said_twice_check.py`، ومذكور في `SK/cutting (2).md` و`SK/SETUP(1).md` |
+| Google Gemini (`GEMINI_API_KEY`) | `SK/gemini.py`، و`SK/.env.example`، و`SK/reel.py` (اختياري، والعرض التجريبي يعمل بدونه)، وسكلا community-eye وcommunity-decode، وبرومبتات `analyze.md` و`review.md` و`decode.md` |
 | fal.ai (`FAL_KEY`، مدفوع) | `VA/scripts/17_gen_scenes.py`، و`VA/scripts/21_avatar_scene.py` |
 | Higgsfield MCP | famous-reel-editor، وalbert-reel وalbert-reel-white وalbert-reel-white-screen (لقطات B-roll)، وyoutube-broll-maker، وyoutube-popup-graphic، وyoutube-clipper |
 | حساب VEED | open-edit (`SK/SKILL(1).md`، و`CUT.md`، و`GENERATION.md`، و`TRANSCRIPTION.md`، و`DESIGN.md`، و`STYLE(1).md`، و`preflight.sh`) |
@@ -219,7 +221,8 @@
 
 ## حدود الفحص
 
-- لم أشغّل أي سكربت، فالأوصاف مأخوذة من رؤوس الملفات ومن الكود والتوثيق.
-- لم أستمع إلى الصوتيات: الأوصاف من مولّد الكود (`05_sfx.py`) ومن أسماء الملفات ومدتها.
-- لكل معاينة حركة نظرت إلى إطار واحد، وطابقته مع `catalog.json`.
-- ملفات SVG الأربعة لم تُرسم في ورقة اللقطات، وتعرّفتها من أسمائها ومسارها `albert-reel/assets/logos`.
+- لم أشغّل أي سكربت، فالأوصاف مأخوذة من رؤوس الملفات ومن الكود والتوثيق. تحقّقت من الأرقام المهمة في الكود نفسه (العتبات، وأهداف العلو، والمفاتيح).
+- لا توجد أوراق لقطات لهذه المجموعة في `sheets/`، فصنعت أوراقاً مؤقتة للصور السبعين الفريدة والفيديوهات الـ106 (3 إطارات لكل فيديو) ونظرت إليها.
+- لم أستمع إلى الصوتيات: الأوصاف من مولّد الكود (`05_sfx.py`)، ومن المدة، ومن قياس القمة والعلو بـ ffmpeg. لا توجد لها وسوم AudioSet في `data/audio.jsonl`.
+- ملفات SVG الأربعة لم تُرسم، وتعرّفتها من نصّها (وسم `<title>` ومسار الشكل) ومن مسارها `albert-reel/assets/logos`.
+- معاينات الحركات كلها بأسلوب صاحب السكل: خلفية كريمية، وظلال أشخاص داكنة، ولمسة برتقالية، وخط عربي عريض. الحركة هي المرجع، أما الألوان والخط فلا.
