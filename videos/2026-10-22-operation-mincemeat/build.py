@@ -189,7 +189,8 @@ S(112.92, 115.92, "برقية عاجلة", bg="dark", layers=[
 S(115.92, 119.98, "تمثيلية", layers=[
     narr("stress-hands-on-cap", 280, enter="left"), icon("doc", 760, 330, 300, rot=8, at=0.6), ring(590, 160, 340, 360, at=2.0)])
 S(119.98, 124.08, "عاد كل شيء", layers=[
-    char(DEAD, 540, 300, scale=0.36, enter="pop", at=1.85), icon("briefcase", 330, 500, 200, at=2.6),
+    char(DEAD, 540, 300, scale=0.36, enter="pop", at=0.1), ring(290, 90, 500, 250, at=1.85),
+    icon("briefcase", 330, 500, 200, at=2.6),
     icon("doc", 760, 500, 200, rot=6, at=3.4)])
 S(124.08, 126.82, "لم تُفتح", layers=[
     narr("magnifying-glass", 220, enter="left"), icon("briefcase", 690, 360, 420), ring(560, 260, 270, 180, at=1.2)])

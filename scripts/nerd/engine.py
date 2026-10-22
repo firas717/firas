@@ -224,7 +224,9 @@ class Video:
             self.js.append(f'tl.fromTo("#{i}",{{opacity:0}},{{opacity:1,duration:0.15}},{self.at(t)});')
             self.js.append(f'tl.fromTo("#{i}",{{attr:{{"stroke-dashoffset":200}}}},{{attr:{{"stroke-dashoffset":0}},duration:{dur:.3f},ease:"none"}},{self.at(t)});')
         else:
+            # hidden until drawn: the round linecap otherwise shows a dot at the start point
             self.js.append(f'(function(){{var p=document.getElementById("{i}");var l=p.getTotalLength();'
+                           f'tl.fromTo(p,{{opacity:0}},{{opacity:1,duration:0.01}},{self.at(t)});'
                            f'tl.fromTo(p,{{strokeDasharray:l,strokeDashoffset:l}},{{strokeDashoffset:0,duration:{dur:.3f},ease:"power2.inOut"}},{self.at(t)});}})();')
         return out
 
